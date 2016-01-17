@@ -17,7 +17,9 @@ $(document).ready(function(){
     vertical: true,
     dots: true,
     arrows: false,
-    swipeToSlide: true
+    draggable: true,
+    swipe: true,
+    verticalSwiping: true
   });
 
   $('.questions').slick({
