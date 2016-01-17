@@ -1,0 +1,512 @@
+#index {
+
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+
+    .page {
+      height: 100vh;
+      width: 100vw !important;
+      background-color: #11141d;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      .page-content {
+        display: table;
+        width: 100vw;
+        height: 100vh;
+
+        h1, h2 {
+          color: white;
+        }
+
+        h2 {
+          font-size: 2.688rem;
+
+          @media only screen and (max-width: 40em) {
+            font-size: 1.5rem;
+          }
+        }
+
+        hgroup {
+          margin-bottom: 4rem;
+
+          @media only screen and (max-width: 40em) {
+            margin-bottom: 1rem;
+          }
+
+          span {
+            color: rgba(white,.5);
+            font-size: 2rem;
+
+            @media only screen and (max-width: 64em) {
+              font-size: 1.75rem;
+              margin-bottom: 2rem;
+            }
+
+            @media only screen and (max-width: 40em) {
+              font-size: 1rem;
+              margin-bottom: 1rem;
+            }
+          }
+        }
+      }
+
+      &.page-1 {
+        background-image: url(../img/bg1.jpg);
+
+        .page-content {
+          hgroup {
+            h1 {
+              font-size: 3.313rem;
+              margin-bottom: 2rem;
+
+              @media only screen and (max-width: 64em) {
+                font-size: 2.5rem;
+              }
+
+              @media only screen and (max-width: 40em) {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+              }
+            }
+          }
+
+          .btn-box {
+            display: table;
+            padding: 0 1rem;
+
+            .win {
+              color: white;
+              margin: 1.5rem 0 15vh;
+              display: inline-block;
+
+              @media only screen and (max-width: 40em) {
+                font-size: 0.75rem;
+                margin: 1rem 0 2rem;
+              }
+
+              .fa {
+                opacity: .5;
+                font-size: 1.75rem;
+                margin-right: .5rem;
+                vertical-align: sub;
+
+                @media only screen and (max-width: 40em) {
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+
+          ul {
+            @media only screen and (max-width: 64em) {
+              padding: 0 3rem;
+            }
+
+            @media only screen and (max-width: 40em) {
+              padding: 0 1rem;
+            }
+
+            li {
+              height: 3rem;
+              color: white;
+              display: table;
+              padding: 0;
+              font-size: 1.25rem;
+              margin-bottom: 1.5rem;
+
+              @media only screen and (max-width: 64em) {
+                font-size: 1rem;
+                height: 2rem;
+                margin-bottom: 0.75rem;
+              }
+
+              p {
+                text-align: left;
+
+                @media only screen and (max-width: 40em) {
+                  text-align: center;
+                }
+
+                img {
+                  display: inline-block;
+                  vertical-align: middle;
+                  margin-right: 0.5rem;
+
+                  @media only screen and (max-width: 40em) {
+                    height: 2rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &.page-2, &.page-3, &.page-4 {
+        .page-content {
+          .screen, .features {
+            padding: 0;
+            display: table;
+            height: 100vh;
+
+            @media only screen and (max-width: 40em) {
+              height: auto;
+            }
+          }
+
+          .screen {
+            float: right;
+
+            img {
+              display: inline-block;
+              box-shadow: 0 0 2rem rgba(black,.3);
+              margin-bottom: 4rem;
+              width: auto;
+
+              @media only screen and (max-width: 93em) {
+                width: calc(100% - 7.5rem);
+              }
+
+              @media only screen and (max-width: 40em) {
+                width: calc(100% - 2rem);
+                margin-bottom: 1.5rem;
+              }
+            }
+
+            p {
+              text-align: left;
+              color: white;
+              padding: 0 3.75rem;
+              line-height: 1.5;
+
+              @media only screen and (max-width: 40em) {
+                font-size: 0.875rem;
+                padding: 0 1rem;
+              }
+            }
+          }
+
+          .features {
+            background: #0e1016;
+            height: 100vh;       
+            float: right;
+
+            @media only screen and (max-width: 40em) {
+              height: auto;
+              padding-left: 0;
+              margin-top: 3.5rem;
+              background: none;
+            }
+
+            h2 {
+              padding: 0 2rem;
+              margin-bottom: 4rem;
+              left: 8rem;
+
+              @media only screen and (max-width: 64em) {
+                left: 1.5rem;
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+              }
+
+              @media only screen and (max-width: 40em) {
+                display: none;
+              }
+            }
+
+            .feature-list {
+              left: 8rem;
+
+              @media only screen and (max-width: 64em) {
+                left: 2rem;
+              }
+
+              li {
+                @media only screen and (max-width: 40em) {
+                  text-align: center;
+                }
+
+                span {
+                  display: inline-block;
+                  font-size: 1.5rem;
+                  color: #717171;
+                  padding: 1rem 2rem;
+                  margin-bottom: 1.8rem;
+                  cursor: pointer;
+                  transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+
+                  @media only screen and (max-width: 93em) {
+                    font-size: 1.25rem;
+                  }
+
+                  @media only screen and (max-width: 64em) {
+                    font-size: 1rem;
+                    line-height: 1.25;
+                    padding: 0.75rem 1.5rem;
+                    margin-bottom: 1rem;
+                  }
+
+                  @media only screen and (max-width: 40em) {
+                    display: none;
+                  }
+
+                  &:hover {
+                    color: white;
+                  }
+
+                  &.active {
+                    color: white;
+                    border: 1px solid rgba(white,.25);
+                    border-radius: 100rem;
+
+                    @media only screen and (max-width: 40em) {
+                      display: inline-block;
+                      font-size: 1.15rem;
+                      border: none;
+                      margin-bottom: 0rem;
+                      padding: 1rem;
+                    }
+
+                    &:before {
+                      content: " ";
+                      background: url(../img/arrow.png) no-repeat center left;
+                      width: 66px;
+                      height: 58px;
+                      display: inline-block;
+                      position: absolute;
+                      top: 50%;
+                      left: -6rem;
+                      margin-top: -29px;
+
+                      @media only screen and (max-width: 64em) {
+                        width: 17px;
+                        left: -1.5rem;
+                      }
+
+                      @media only screen and (max-width: 40em) {
+                        display: none;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &.page-5, &.page-6 {
+        .page-content {
+          hgroup {
+            h2 {
+              margin-bottom: 2rem;
+
+              @media only screen and (max-width: 40em) {
+                margin-bottom: 0.75rem;
+              }
+            }
+          }
+        }
+      }
+
+      &.page-5 {
+        background-image: url(../img/bg5.jpg);
+
+        ul {
+          li {
+            display: table;
+            height: 5.3rem;
+            margin: 0.4rem 0;
+            outline: none;
+
+            @media only screen and (max-width: 40em) {
+              height: 4rem;
+              margin: 0.25rem 0;
+            }
+
+            p {
+              color: #2d2d2d;
+              font-size: 1.188rem;
+              cursor: pointer;
+              background: white;
+              transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+
+              @media only screen and (max-width: 40em) {
+                font-size: 1rem;
+              }
+
+              &:hover {
+                background: #466fd9;
+                color: white;
+              }
+            }
+          }
+        }
+
+        .ask {
+          position: absolute;
+          bottom: 2.72rem;
+          padding: 1.282rem 4rem;
+          left: 50%;
+          margin-left: -150px;
+          z-index: 100;
+
+          @media only screen and (max-width: 64em) {
+            position: relative;
+            bottom: auto;
+            left: auto;
+            margin-left: 0;
+          }
+
+          @media only screen and (max-width: 40em) {
+            display: none;
+          }
+        }
+
+        .slick-arrow {
+          font-size: 0px;
+          padding: 0;
+          background: none;
+          transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+
+          &:hover {
+            opacity: .4;
+          }
+
+          &:before {
+            font-family: FontAwesome;
+            font-size: 2rem;
+            display: block;
+          }
+
+          &.slick-prev {
+            margin-bottom: 2rem;
+
+            @media only screen and (max-width: 40em) {
+              margin-bottom: 0;
+            }
+
+            &:before {
+              content: "\f106";
+            }
+          }
+
+          &.slick-next {
+            margin-top: 1.5rem;
+
+            @media only screen and (max-width: 40em) {
+              margin-top: 0;
+            }
+
+            &:before {
+              content: "\f107";
+            }
+          }
+        }
+      }
+
+      &.page-6 {
+        background-image: url(../img/bg6.jpg); 
+
+        .page-content {
+          ul {
+            display: inline-block;
+            margin-bottom: 4rem;
+
+            @media only screen and (max-width: 40em) {
+              margin-bottom: 1rem;
+            }
+
+            li {
+              display: inline-block;
+              height: 38px;
+              margin-bottom: 1rem;
+
+              span {
+                @media only screen and (max-width: 40em) {
+                  width: 45%;
+                  display: inline-block;
+                }
+              }
+
+              img {
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 0.5rem;
+              }
+
+              .fa {
+                vertical-align: middle;
+
+                &.empty {
+                  opacity: .3;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .slick-dots {
+      position: absolute;
+      list-style: none;
+      right: 3.75rem;
+      top: 50%;
+      margin-top: -76px;
+
+      @media only screen and (max-width: 25em) {
+        // display: none !important;
+      }
+
+      li {
+        position: relative;
+        display: block;
+        cursor: pointer;
+        margin-bottom: 1rem;
+        text-align: center;
+        width: 12px;
+        height: 12px;
+
+        &.slick-active {
+          button {
+            border: 2px solid #FFF;
+            background: transparent;
+            width: 12px;
+            height: 12px;
+
+            &:hover {
+              background: transparent;
+            }
+          }
+        }
+
+        button {
+          display: inline-block;
+          border: 0;
+          padding: 0;
+          margin: 0;
+          line-height: 0;
+          font-size: larger;
+          outline: none;
+          color: transparent;
+          cursor: pointer;
+          width: 8px;
+          height: 8px;
+          background: rgba(white,.4);
+          border-radius: 50%;
+          transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+
+          &:hover {
+            background: white;
+          }
+        }
+      }
+    }
+  }
+}

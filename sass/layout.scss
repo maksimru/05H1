@@ -1,0 +1,579 @@
+html, body {
+  font-family: 'Geometria-Light';
+  min-width: 20rem;
+
+  #preloader { 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    z-index: 10000; 
+    width: 100%; 
+    height: 100%; 
+    overflow: visible;
+    background: url(../img/preloader.gif) no-repeat center center white;
+  }
+
+  .fa {
+    color: white;
+    transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+  }
+
+  .inner-wrap {
+    height: 100vh;
+  }
+
+  .centered {
+    text-align: center;
+  }
+
+  .vertical-centered {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .x-template {
+    display: none;
+  }
+
+  button, select, input {
+    outline: none;
+
+    &:hover {
+      outline: none;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:before {
+      display: none;
+    }
+  }
+
+  .right-off-canvas-menu {
+    background: #121318;
+    width: 27rem;
+
+    &.off-canvas-feedback {
+      width: 41rem;
+    }
+
+    &.off-canvas-question {
+      width: 48.5rem;
+    }
+
+    @media only screen and (max-width: 64em) {
+      &.off-canvas-feedback, &.off-canvas-question {
+        width: 31rem;
+      }
+    }
+
+    @media only screen and (max-width: 40em) {
+      width: 15.625rem;
+
+      &.off-canvas-feedback, &.off-canvas-question {
+        width: 15.625rem;
+      }
+    }
+
+    hgroup {
+      padding: 3.75rem 3rem 0;
+
+      @media only screen and (max-width: 40em) {
+        padding: 1.75rem 1.25rem 0;
+      }
+
+      h2 {
+        font-size: 2.688rem;
+        color: white;
+        margin-bottom: 1rem;
+
+        @media only screen and (max-width: 40em) {
+          font-size: 1.5rem;
+        }
+      }
+
+      p {
+        color: white;
+        opacity: .45;
+
+        @media only screen and (max-width: 40em) {
+          font-size: 0.875rem;
+        }
+      }
+    }
+
+    form {
+      input[type="submit"] {
+        padding: 1.157rem 3rem;
+
+        @media only screen and (max-width: 40em) {
+          padding: 0.754rem 2rem;
+          margin-top: 0.5rem;
+        }
+      }
+    }
+
+    .feedback-form {
+      padding: 2rem 2rem 0;
+
+      @media only screen and (max-width: 40em) {
+        padding: 1rem 0.25rem 0;
+      }
+
+      input[type="text"], input[type="email"], textarea, select {
+        border: 1px solid #2a2b30;
+        background: transparent;
+        color: white;
+        margin-bottom: 1.5rem;
+
+        @media only screen and (max-width: 40em) {
+          margin-bottom: 0.5rem; 
+        }
+
+        &::-webkit-input-placeholder {color:#ccc;opacity: .45;text-overflow:ellipsis;}
+        &::-moz-placeholder          {color:#ccc;opacity: .45;text-overflow:ellipsis;}
+        &:-moz-placeholder           {color:#ccc;opacity: .45;text-overflow:ellipsis;}
+        &:-ms-input-placeholder      {color:#ccc;opacity: .45;text-overflow:ellipsis;}
+      }
+
+      input[type="text"], input[type="email"], select {
+        height: 3.5rem;
+        padding: 0 1rem;
+
+        @media only screen and (max-width: 40em) {
+          height: 2rem;
+          padding: 0 0.5rem;  
+        }
+      }
+
+      textarea {
+        padding: 1rem;
+        resize: vertical;
+
+        @media only screen and (max-width: 40em) {
+          padding: 0.5rem;  
+        }
+      }
+
+      select {
+        color:rgba(white,.45);
+      }
+    }
+
+    .faq {
+      margin-top: 3.75rem;
+
+      @media only screen and (max-width: 40em) {
+        margin-top: 1.75rem;
+      }
+
+      .quest-label {
+        background: #404145;
+        border-radius: 100rem;
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+        color: white;
+        display: inline-block;
+        margin-left: 3rem;
+
+        @media only screen and (max-width: 40em) {
+          margin-left: 1.25rem;
+          padding: 0.25rem 1rem;
+          font-size: 0.875rem;
+        }
+      }
+
+      .question {
+        p {
+          font-size: 1.75rem;
+          color: white;
+          line-height: 1.5;
+          margin: 2rem 3rem;
+
+          @media only screen and (max-width: 40em) {
+            font-size: 1.25rem;
+            margin: 1rem 1.25rem;
+          }
+        }
+      }
+
+      .answer {
+        background: #191a21;
+        padding: 3rem;
+        margin-bottom: 2rem;
+
+        @media only screen and (max-width: 40em) {
+          padding: 1rem 1.25rem;
+          margin-bottom: 1rem;
+        }
+
+        p {
+          line-height: 1.5;
+          color: white;
+          margin-bottom: 1.5rem;
+
+          @media only screen and (max-width: 40em) {
+            margin-bottom: 0.75rem;
+          }
+        }
+      }
+
+      .helpful-form {
+        margin-bottom: 1.25rem;
+
+        span {
+          font-size: 1.75rem;
+          margin-bottom: 2rem;
+          display: inline-block;
+          color: white;
+          line-height: 1.5;
+
+          @media only screen and (max-width: 40em) {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+            padding: 0 1rem;
+          }
+        }
+
+        .btn-box {
+          @media only screen and (max-width: 40em) {
+            padding: 0;
+          }
+        }
+      }
+    }
+
+    .off-canvas-list {
+      padding: 3.1rem 2.33rem 0;
+
+      @media only screen and (max-width: 40em) {
+        padding: 1.25rem 1rem;
+      }
+
+      li {
+        margin-bottom: 0.67rem;
+
+        a {
+          border: none;
+          font-size: 2rem;
+          color: white;
+          transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+
+          @media only screen and (max-width: 40em) {
+            font-size: 1.25rem;
+          }
+
+          &:hover {
+            background: none;
+            color: #466fd9;
+
+            .fa {
+              color: #466fd9;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .move-left>.inner-wrap {
+    transform: translate3d(-27rem, 0, 0);
+
+    &.off-canvas-feedback {
+      transform: translate3d(-41rem, 0, 0);
+    }
+
+    &.off-canvas-question {
+      transform: translate3d(-48.5rem, 0, 0);
+    }
+
+    @media only screen and (max-width: 64em) {
+      &.off-canvas-feedback, &.off-canvas-question {
+        transform: translate3d(-31rem, 0, 0);
+      }
+    }
+
+    @media only screen and (max-width: 40em) {
+      transform: translate3d(-15.625rem, 0, 0);
+
+      &.off-canvas-feedback, &.off-canvas-question {
+        transform: translate3d(-15.625rem, 0, 0);
+      }
+    }
+  }
+
+  .move-left .exit-off-canvas {
+    background: rgba(black,.8);
+    box-shadow: none;
+
+    &:hover {
+      background: rgba(black,.75);
+    }
+  }
+
+  .move-left .wrapper header a .fa-bars:before {
+    font-family: FontAwesome;
+    content: "\f00d" !important;
+  }
+
+  .btn {
+    font-family: 'Geometria-Medium';
+    text-transform: uppercase;
+    font-size: .9375rem;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 100rem;
+    outline: none;
+    transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+    cursor: pointer;
+    display: inline-block;
+
+    @media only screen and (max-width: 40em) {
+      font-size: .8rem;
+    }
+
+    &.blue {
+      border: 1px solid #466fd9;
+      background: #466fd9;
+      padding: 1.5rem;
+      width: 100%;
+      max-width: 22.5rem;
+
+      @media only screen and (max-width: 40em) {
+        width: auto;
+        padding: 0.969rem 2rem;        
+      }
+
+      &:hover {
+        border: 1px solid #517ef0;
+        background: #517ef0;
+      }
+    }
+
+    &.transparent {
+      border: 1px solid rgba(white,.25);
+      padding: 0.344rem 2.7rem;
+      background: transparent;
+      display: inline-block;
+
+      .fa {
+        font-size: 1.5rem;
+        vertical-align: middle;
+        margin-right: 0.25rem;
+      }
+
+      &:hover {
+        border: 1px solid white;
+      }
+    }
+  }
+
+  .wrapper {
+    padding: 3rem 3.75rem 0;
+    height: 100%;
+
+    @media only screen and (max-width: 40em) {
+      padding: 1rem 1.25rem 0;
+    }
+
+    @media only screen and (max-height: 40em) {
+      padding: 1rem 1.25rem 0;   
+    }
+
+    header {
+      background: none;
+      z-index: 100;
+      height: auto;
+
+      .name {
+        display: inline-block;
+        background: url(../img/logo.png) no-repeat 0 50%;
+        background-size: contain;
+
+        @media only screen and (min-width: 40.063em) {
+          height: 3.625rem;
+        }
+
+        @media only screen and (max-width: 40em) {
+          background-size: auto;
+        }
+
+        @media only screen and (max-width: 25em) {
+          background-size: contain;
+        }
+      }
+
+      .right {
+        height: 3.625rem;
+
+        a {
+          transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+
+          @media only screen and (max-width: 40em) {
+            &.btn {
+              display: none;
+            }
+          }
+
+          &.toggle {
+            position: relative;
+            z-index: 1003;
+            margin-left: 2rem;
+
+            @media only screen and (max-width: 40em) {
+              margin-left: 0;
+            }
+
+            &:hover {
+              opacity: .4;
+            }
+
+            .fa-bars {
+              font-size: 2.5rem;
+              vertical-align: middle;
+            }
+          }
+        }
+      } 
+    }
+  }
+
+  footer {
+    padding: 0 3.75rem;
+    margin-top: -5.875rem;
+
+    @media only screen and (max-width: 40em) {
+      margin-top: -4.875rem;
+    }
+
+    @media only screen and (max-height: 40em) {
+      padding: 0 1.25rem;
+      margin-top: -4.875rem;
+    }
+
+    .copyright {
+      color: white;
+      opacity: .45;
+      padding: 0.813rem 0;
+      float: right;
+
+      @media only screen and (max-width: 40em) {
+        text-align: center;
+        float: none;
+        font-size: 0.75rem;
+      }
+    }
+
+    .bottom-panel {
+      padding: 0;
+      text-align: right;
+      float: right;
+
+      @media only screen and (max-width: 40em) {
+        text-align: center;
+        float: none;
+      }
+
+      ul {
+        display: inline-block;
+
+        li {
+          float: left;
+          margin-right: 1rem;
+
+          #topDrop {
+            width: 10rem !important;
+            top: -13rem !important;
+            left: -3.75rem !important;
+
+            @media only screen and (max-width: 40em) {
+              left: -4.25rem !important;
+            }
+
+            &:before {
+              left: 50%;
+              margin-left: -4px;
+              bottom: -12px;
+              top: auto;
+              border: inset 6px;
+              border-color: #fff transparent transparent transparent;
+              border-top-style: solid;
+              right: auto;
+              z-index: 89;
+            }
+
+            &:after {
+              left: 50%;
+              margin-left: -5px;
+              bottom: -14px;
+              top: auto;
+              border: inset 7px;
+              border-color: #ccc transparent transparent transparent;
+              border-top-style: solid;
+              right: auto;
+              z-index: 88;
+            }
+
+            a, label {
+              height: 3rem;
+              padding: 0;
+              display: table;
+              font-size: 1rem;
+
+              &.fb {
+                background: #4f69a2;
+              }
+
+              &.tw {
+                background: #66b4ef;
+              }
+
+              &.gp {
+                background: #e05d4d;
+              }
+
+              &.pn {
+                background: #d1373d;
+              }
+            }
+          }
+
+          &:last-of-type {
+            margin-right: 0;
+          }     
+
+          .panel-element {
+            vertical-align: middle;
+            height: 2.625rem;
+            width: 2.625rem;
+            background: rgba(white,.15);
+            border-radius: 50%;
+            text-align: center;
+            display: inline-block;
+            transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+
+            @media only screen and (max-width: 40em) {
+              height: 2rem;
+              width: 2rem;
+            }
+
+            &:hover {
+              background: rgba(white,.30);
+            }
+            
+            .fa {
+              line-height: 1.7;
+              font-size: 1.5rem;
+
+              @media only screen and (max-width: 40em) {
+                font-size: 1.15rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
