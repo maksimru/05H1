@@ -5,6 +5,8 @@ $(document).foundation();
 
 window.sr = new scrollReveal();
 
+window.location = "#"
+
 function safeString(obj) {
   return obj ? obj+'' : '';
 }
@@ -31,11 +33,6 @@ $(document).ready(function(){
     vertical: true,
     slidesToShow: 3,
     slidesToScroll: 1
-  });
-
-  $(".feature-list li").click(function(e){
-    var slideIndex = $(this).index();
-    $( ".content" ).slick('slickGoTo', parseInt(slideIndex));
   });
 
   $('a[data-template], p[data-template]').click(function() {

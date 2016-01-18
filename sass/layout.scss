@@ -1,6 +1,7 @@
 html, body {
   font-family: 'Geometria-Light';
   min-width: 20rem;
+  overflow: hidden !important;
 
   #preloader { 
     position: fixed; 
@@ -20,6 +21,10 @@ html, body {
 
   .centered {
     text-align: center;
+  }
+
+  .inline {
+    display: inline-block;
   }
 
   .vertical-centered {
