@@ -5,13 +5,17 @@ $(document).foundation();
 
 window.sr = new scrollReveal();
 
+window.location = "#"
+
 function safeString(obj) {
   return obj ? obj+'' : '';
 }
 
 $(document).ready(function(){
 
-  $(window).resize(function(){location.reload();});
+  $(window).resize(function(){
+    location.reload();
+  });
 
   $('#fullpage').fullpage({
     'verticalCentered': false,
@@ -24,18 +28,12 @@ $(document).ready(function(){
       }
   });
 
-
   $("#fp-nav").prependTo(".wrapper");
 
   $('.questions').slick({
     vertical: true,
     slidesToShow: 3,
     slidesToScroll: 1
-  });
-
-  $(".feature-list li").click(function(e){
-    var slideIndex = $(this).index();
-    $( ".content" ).slick('slickGoTo', parseInt(slideIndex));
   });
 
   $('a[data-template], p[data-template]').click(function() {
