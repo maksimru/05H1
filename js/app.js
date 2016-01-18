@@ -3,7 +3,7 @@ $(document).foundation('dropdown', 'reflow');
 
 $(document).foundation();
 
-window.sr = new scrollReveal();
+window.sr = new scrollReveal({ mobile: false });
 
 window.location = "#"
 
@@ -28,8 +28,6 @@ $(document).ready(function(){
       }
   });
 
-  $("#fp-nav").prependTo(".wrapper");
-
   $('.questions').slick({
     vertical: true,
     slidesToShow: 3,
@@ -41,6 +39,12 @@ $(document).ready(function(){
     var templateName = $(this).data( "template" );
     var  $template = $('#' + templateName);
     var cssClass = safeString($template.data( "wrap-class" ));
+
+    // $.fn.fullpage({
+    //   normalScrollElements: true
+    // });
+
+    // $('#fn-nav').hide();
 
     // Replace aside html with  template
     $('.right-off-canvas-menu').html($template.html());
