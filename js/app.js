@@ -13,7 +13,9 @@ function safeString(obj) {
 
 $(document).ready(function(){
 
-  $(window).resize(function(){location.reload();});
+  $(window).resize(function(){
+    location.reload();
+  });
 
   $('#fullpage').fullpage({
     'verticalCentered': false,
@@ -25,7 +27,6 @@ $(document).ready(function(){
           $('aside').css('top', windowHeight + leavingSlide.offset().top);
       }
   });
-
 
   $("#fp-nav").prependTo(".wrapper");
 
