@@ -228,6 +228,10 @@
                 left: 2rem;
               }
 
+              @media only screen and (max-width: 40em) {
+                left: 0;
+              }
+
               li {
                 @media only screen and (max-width: 40em) {
                   text-align: center;
@@ -458,6 +462,10 @@
   }
 
   #fp-nav {
+    @media only screen and (max-width: 40em) {
+      display: none;
+    }
+
     &.right {
       right: 3.75rem;
     }
