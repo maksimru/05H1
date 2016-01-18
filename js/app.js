@@ -28,6 +28,8 @@ $(document).ready(function(){
       }
   });
 
+  $("#fp-nav").prependTo(".wrapper");
+
   $('.questions').slick({
     vertical: true,
     slidesToShow: 3,
