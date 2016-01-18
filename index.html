@@ -30,9 +30,9 @@
             </section>
           </header>
 
-          <div class="content">
+          <div id="fullpage">
 
-            <div class="page page-1 centered">
+            <div class="section page-1 centered" data-anchor="firstPage">
               <a name="top"></a>
               <div class="page-content">
                 <div class="vertical-centered">
@@ -72,20 +72,20 @@
               </div>
             </div>
 
-            <div class="page page-2">
+            <div class="section page-2" data-anchor="secondPage">
               <div class="page-content">
-                <div class="large-6 medium-6 small-12 columns features">
+                <div class="large-6 medium-6 small-12 columns features" data-sr="wait 0.2s, over 1s, enter top and move 1000px">
                   <div class="vertical-centered">
                     <h2>Features</h2>
                     <ul class="feature-list">
                       <li class="hide"></li>
-                      <li><span class="active">1. Simple and friendly interface</span></li>
-                      <li><span>2. External access protection</span></li>
-                      <li><span>3. Fully secured browser</span></li>
+                      <li data-menuanchor="secondPage"><a href="#secondPage" class="active">1. Simple and friendly interface</a></li>
+                      <li data-menuanchor="3rdPage"><a href="#3rdPage">2. External access protection</a></li>
+                      <li data-menuanchor="4thpage"><a href="#4thPage">3. Fully secured browser</a></li>
                     </ul>
                   </div>
                 </div>
-                <div class="large-6 medium-6 small-12 columns centered screen">
+                <div class="large-6 medium-6 small-12 columns centered screen" data-sr="wait 0.2s, over 1s, enter bottom and move 1000px">
                   <div class="vertical-centered">
                     <img src="img/screen1.jpg">
                     <p>OSHI Defender is an anti-malware application that scans and cleans your computer automatically. Just set up your preferred scanning schedule and let OSHI Defender protect your PC from malware threats. OSHI Defender is an anti-malware application that scans and cleans. Set up your preferred scanning schedule and let OSHI Defender protect your PC.</p>
@@ -94,20 +94,20 @@
               </div>
             </div>
 
-            <div class="page page-3">
+            <div class="section page-3" data-anchor="3rdPage">
               <div class="page-content">
-                <div class="large-6 medium-6 small-12 columns features">
+                <div class="large-6 medium-6 small-12 columns features" data-sr="wait 0.2s, over 1s, enter top and move 1000px">
                   <div class="vertical-centered">
                     <h2>Features</h2>
                     <ul class="feature-list">
                       <li class="hide"></li>
-                      <li><span>1. Simple and friendly interface</span></li>
-                      <li><span class="active">2. External access protection</span></li>
-                      <li><span>3. Fully secured browser</span></li>
+                      <li data-menuanchor="secondPage"><a href="#secondPage">1. Simple and friendly interface</a></li>
+                      <li data-menuanchor="3rdPage"><a href="#3rdPage" class="active">2. External access protection</a></li>
+                      <li data-menuanchor="4thpage"><a href="#4thPage">3. Fully secured browser</a></li>
                     </ul>
                   </div>
                 </div>
-                <div class="large-6 medium-6 small-12 columns centered screen">
+                <div class="large-6 medium-6 small-12 columns centered screen" data-sr="wait 0.2s, over 1s, enter bottom and move 1000px">
                   <div class="vertical-centered">
                     <img src="img/screen2.jpg">
                     <p>OSHI Defender is an anti-malware application that scans and cleans your computer automatically. Just set up your preferred scanning schedule and let OSHI Defender protect your PC from malware threats. OSHI Defender is an anti-malware application that scans and cleans. Set up your preferred scanning schedule and let OSHI Defender protect your PC.</p>
@@ -116,20 +116,20 @@
               </div>
             </div>
 
-            <div class="page page-4">
+            <div class="section page-4" data-anchor="4thPage">
               <div class="page-content">
-                <div class="large-6 medium-6 small-12 columns features">
+                <div class="large-6 medium-6 small-12 columns features" data-sr="wait 0.2s, over 1s, enter top and move 1000px">
                   <div class="vertical-centered">
                     <h2>Features</h2>
                     <ul class="feature-list">
                       <li class="hide"></li>
-                      <li><span>1. Simple and friendly interface</span></li>
-                      <li><span>2. External access protection</span></li>
-                      <li><span class="active">3. Fully secured browser</span></li>
+                      <li data-menuanchor="secondPage"><a href="#secondPage">1. Simple and friendly interface</a></li>
+                      <li data-menuanchor="3rdPage"><a href="#3rdPage">2. External access protection</a></li>
+                      <li data-menuanchor="4thpage"><a href="#4thPage" class="active">3. Fully secured browser</a></li>
                     </ul>
                   </div>
                 </div>
-                <div class="large-6 medium-6 small-12 columns centered screen">
+                <div class="large-6 medium-6 small-12 columns centered screen" data-sr="wait 0.2s, over 1s, enter bottom and move 1000px">
                   <div class="vertical-centered">
                     <img src="img/screen3.jpg">
                     <p>OSHI Defender is an anti-malware application that scans and cleans your computer automatically. Just set up your preferred scanning schedule and let OSHI Defender protect your PC from malware threats. OSHI Defender is an anti-malware application that scans and cleans. Set up your preferred scanning schedule and let OSHI Defender protect your PC.</p>
@@ -138,15 +138,15 @@
               </div>
             </div>
 
-            <div class="page page-5 centered">
+            <div class="section page-5 centered" data-anchor="5thPage">
               <div class="page-content">
                 <div class="vertical-centered">
-                  <hgroup>
+                  <hgroup data-sr="over 1s, enter bottom and move 200px">
                     <h2>Do you have a question?</h2>
                     <span>We have an answer</span>
                   </hgroup>
 
-                  <div class="row">
+                  <div class="row" data-sr="wait 0.2s, over 1s, enter bottom and move 200px">
                     <ul class="questions large-10 medium-8 large-centered medium-centered columns">
                       <li><p class="vertical-centered" data-template="off-canvas-question-1">OSHI Defender has scanned my PC and has found some problems?</p></li>
                       <li><p class="vertical-centered" data-template="off-canvas-question-2">What should I do?</p></li>
@@ -157,19 +157,19 @@
                     </ul>
                   </div>
 
-                  <a class="btn transparent ask" href="#" data-template="off-canvas-feedback">I have a question</a>
+                  <a class="btn transparent ask" href="javascript:void(0)" data-template="off-canvas-feedback" data-sr="wait 0.4s, over 1s, enter bottom and move 200px">I have a question</a>
                 </div>
               </div>
             </div>
 
-            <div class="page page-6 centered">
+            <div class="section page-6 centered" data-anchor="6thPage">
               <div class="page-content">
                 <div class="vertical-centered">
-                  <hgroup>
+                  <hgroup data-sr="over 1s, enter bottom and move 200px">
                     <h2>Antimalware solution №1</h2>
                     <span>Scan and Protect Your PC</span>
                   </hgroup>
-                  <ul class="large-6 large-centered columns">
+                  <ul class="large-6 large-centered columns" data-sr="wait 0.2s, over 1s, enter bottom and move 200px">
                     <li class="large-4 columns">
                       <span>
                         <img src="img/brand1.png">
@@ -207,7 +207,7 @@
                       </span>
                     </li>
                   </ul>
-                  <div class="row btn-box">
+                  <div class="row btn-box" data-sr="wait 0.4s, over 1s, enter bottom and move 200px">
                     <a class="large-3 medium-6 small-12 columns centered large-centered medium-centered small-centered btn blue" href="#">Free download now</a>
                   </div>
                 </div>
@@ -220,7 +220,7 @@
           <div class="large-3 medium-6 columns bottom-panel">
             <ul>
               <li>
-                <a class="panel-element" href="#" data-template="off-canvas-feedback">
+                <a class="panel-element" href="javascript: void(0)" data-template="off-canvas-feedback" >
                   <i class="fa fa-commenting-o"></i>
                 </a>
               </li>
@@ -432,6 +432,7 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/foundation/foundation.dropdown.js"></script>
     <script src="js/foundation/foundation.offcanvas.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/scrollReveal.min.js"></script>
     <script src="js/app.js"></script>

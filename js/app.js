@@ -13,14 +13,19 @@ $(document).ready(function(){
 
   $(window).resize(function(){location.reload();});
 
-  $('.content').slick({
-    vertical: true,
-    dots: true,
-    arrows: false,
-    draggable: true,
-    swipe: true,
-    verticalSwiping: true
+  $('#fullpage').fullpage({
+    'verticalCentered': false,
+    navigation: true,
+    scrollBar: true,
+    onLeave: function( anchorLink, index, slideIndex, direction, nextSlideIndex){
+          var leavingSlide = $(this);
+          var windowHeight = $(window).height();
+          $('aside').css('top', windowHeight + leavingSlide.offset().top);
+      }
   });
+
+
+  $("#fp-nav").prependTo(".wrapper");
 
   $('.questions').slick({
     vertical: true,
