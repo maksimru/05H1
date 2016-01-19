@@ -1,9 +1,9 @@
+window.sr = new scrollReveal({mobile: false});
+
 $(document).foundation('offcanvas', 'reflow');
 $(document).foundation('dropdown', 'reflow');
 
 $(document).foundation();
-
-window.sr = new scrollReveal({ mobile: false });
 
 window.location = "#"
 
