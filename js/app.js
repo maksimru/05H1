@@ -30,6 +30,21 @@ $(document).ready(function(){
 
   $("#fp-nav").prependTo(".wrapper");
 
+  $('.screen-slider').slick({
+    vertical: true,
+    arrows: false
+  });
+
+  $(".feature-list li").click(function(e){
+    var slideIndex = $(this).index();
+    $(".screen-slider").slick('slickGoTo', parseInt(slideIndex));
+    $('.screen-slider').on('setPosition', function(){
+      var currentSlide = $('.screen-slider').slick('slickCurrentSlide') + 1;
+      $(".feature-list li span").removeClass("active");
+      $(".feature-list li:nth-child("+currentSlide+") span").addClass("active");
+    });
+  });
+
   $('.questions').slick({
     vertical: true,
     slidesToShow: 3,

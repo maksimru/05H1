@@ -148,12 +148,11 @@
         }
       }
 
-      &.page-2, &.page-3, &.page-4 {
+      &.page-2 {
         z-index: 80;
         .page-content {
           .screen, .features {
             padding: 0;
-            display: table;
             height: 100vh;
 
             @media only screen and (max-width: 40em) {
@@ -163,6 +162,15 @@
 
           .screen {
             float: right;
+
+            .screen-slider {
+              height: 100vh;
+
+              .screen-1, .screen-2, .screen-3 {
+                height: 100vh;
+                display: table;
+              }
+            }
 
             img {
               display: inline-block;
@@ -195,7 +203,8 @@
 
           .features {
             background: #0e1016;
-            height: 100vh;       
+            height: 100vh;
+            display: table;    
             float: right;
 
             @media only screen and (max-width: 40em) {
@@ -237,7 +246,7 @@
                   text-align: center;
                 }
 
-                a {
+                span {
                   display: inline-block;
                   font-size: 1.5rem;
                   color: #717171;
@@ -245,6 +254,28 @@
                   margin-bottom: 1.8rem;
                   cursor: pointer;
                   transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+
+                  &:before {
+                    content: " ";
+                    background: url(../img/arrow.png) no-repeat center left;
+                    width: 66px;
+                    height: 58px;
+                    display: none;
+                    position: absolute;
+                    top: 50%;
+                    left: -6rem;
+                    margin-top: -29px;
+                    transition: display 300ms ease-out;
+
+                    @media only screen and (max-width: 64em) {
+                      width: 17px;
+                      left: -1.5rem;
+                    }
+
+                    @media only screen and (max-width: 40em) {
+                      display: none;
+                    }
+                  }
 
                   @media only screen and (max-width: 93em) {
                     font-size: 1.25rem;
@@ -269,6 +300,7 @@
                     color: white;
                     border: 1px solid rgba(white,.25);
                     border-radius: 100rem;
+                    transition: display 300ms ease-out;
 
                     @media only screen and (max-width: 40em) {
                       display: inline-block;
@@ -279,20 +311,8 @@
                     }
 
                     &:before {
-                      content: " ";
-                      background: url(../img/arrow.png) no-repeat center left;
-                      width: 66px;
-                      height: 58px;
                       display: inline-block;
-                      position: absolute;
-                      top: 50%;
-                      left: -6rem;
-                      margin-top: -29px;
-
-                      @media only screen and (max-width: 64em) {
-                        width: 17px;
-                        left: -1.5rem;
-                      }
+                      transition: display 300ms ease-out;
 
                       @media only screen and (max-width: 40em) {
                         display: none;
@@ -306,7 +326,7 @@
         }
       }
 
-      &.page-5, &.page-6 {
+      &.page-3, &.page-4 {
         z-index: 90;
         .page-content {
           hgroup {
@@ -321,7 +341,7 @@
         }
       }
 
-      &.page-5 {
+      &.page-3 {
         background-image: url(../img/bg5.jpg);
 
         ul {
@@ -417,7 +437,7 @@
         }
       }
 
-      &.page-6 {
+      &.page-4 {
         background-image: url(../img/bg6.jpg); 
 
         .page-content {
