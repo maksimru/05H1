@@ -82,7 +82,7 @@ $(document).ready(function(){
 
 jQuery(document).on('open.fndtn.offcanvas', '[data-offcanvas]', function () {
     var active_section = $("#fullpage").find("div.section.active");
-    $('aside').css('top', (active_section.prev().length > 0 ? $(window).height() + active_section.prev().offset().top : 0));
+    $('aside, .exit-off-canvas' ).css('top', (active_section.prev().length > 0 ? $(window).height() + active_section.prev().offset().top : 0));
 });
 
 jQuery(document).ready(function($) {
