@@ -786,13 +786,13 @@ html footer .bottom-panel ul li #topDrop, body footer .bottom-panel ul li #topDr
 @media only screen and (max-width: 40em) {
   /* line 646, ../sass/layout.scss */
   html footer .bottom-panel ul li #topDrop, body footer .bottom-panel ul li #topDrop {
-    left: -4.25rem !important;
+    left: -4.1rem !important;
   }
 }
 @media only screen and (max-height: 40em) {
   /* line 646, ../sass/layout.scss */
   html footer .bottom-panel ul li #topDrop, body footer .bottom-panel ul li #topDrop {
-    left: -4.25rem !important;
+    left: -4.1rem !important;
   }
 }
 /* line 659, ../sass/layout.scss */
@@ -878,35 +878,36 @@ html footer .bottom-panel ul li .panel-element:hover, body footer .bottom-panel 
 /* line 735, ../sass/layout.scss */
 html footer .bottom-panel ul li .panel-element img, body footer .bottom-panel ul li .panel-element img {
   height: 1.5rem;
+  top: 0.5rem;
 }
 @media only screen and (max-width: 40em) {
   /* line 735, ../sass/layout.scss */
   html footer .bottom-panel ul li .panel-element img, body footer .bottom-panel ul li .panel-element img {
     height: 1.15rem;
-    top: 0.4rem;
+    top: 0.35rem;
   }
 }
 @media only screen and (max-height: 40em) {
   /* line 735, ../sass/layout.scss */
   html footer .bottom-panel ul li .panel-element img, body footer .bottom-panel ul li .panel-element img {
     height: 1.15rem;
-    top: 0.4rem;
+    top: 0.35rem;
   }
 }
-/* line 749, ../sass/layout.scss */
+/* line 750, ../sass/layout.scss */
 html footer .bottom-panel ul li .panel-element .fa, body footer .bottom-panel ul li .panel-element .fa {
   font-size: 1.5rem;
   line-height: 1.7;
 }
 @media only screen and (max-width: 40em) {
-  /* line 749, ../sass/layout.scss */
+  /* line 750, ../sass/layout.scss */
   html footer .bottom-panel ul li .panel-element .fa, body footer .bottom-panel ul li .panel-element .fa {
     font-size: 1.2rem;
     line-height: 1.8;
   }
 }
 @media only screen and (max-height: 40em) {
-  /* line 749, ../sass/layout.scss */
+  /* line 750, ../sass/layout.scss */
   html footer .bottom-panel ul li .panel-element .fa, body footer .bottom-panel ul li .panel-element .fa {
     font-size: 1.2rem;
     line-height: 1.8;
