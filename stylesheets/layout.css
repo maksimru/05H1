@@ -427,9 +427,9 @@ html .btn.transparent, body .btn.transparent {
 }
 /* line 370, ../sass/layout.scss */
 html .btn.transparent .fa, body .btn.transparent .fa {
-  font-size: 1.5rem;
+  font-size: 1.375rem;
   vertical-align: middle;
-  margin-right: 0.25rem;
+  margin-right: 0.75rem;
 }
 /* line 376, ../sass/layout.scss */
 html .btn.transparent:hover, body .btn.transparent:hover {
