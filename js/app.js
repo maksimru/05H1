@@ -81,13 +81,8 @@ $(document).ready(function(){
 });
 
 jQuery(document).on('open.fndtn.offcanvas', '[data-offcanvas]', function () {
-    $("#fp-nav").hide();
     var active_section = $("#fullpage").find("div.section.active");
     $('aside').css('top', (active_section.prev().length > 0 ? $(window).height() + active_section.prev().offset().top : 0));
-});
-
-jQuery(document).on('close.fndtn.offcanvas', '[data-offcanvas]', function () {
-    $("#fp-nav").show();
 });
 
 jQuery(document).ready(function($) {

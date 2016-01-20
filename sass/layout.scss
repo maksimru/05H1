@@ -309,6 +309,10 @@ html, body {
     }
   }
 
+  .move-left #fp-nav {
+    display: none;
+  }
+
   .move-left .exit-off-canvas {
     background: rgba(black,.8);
     box-shadow: none;

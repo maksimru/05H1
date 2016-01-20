@@ -362,20 +362,24 @@ html .move-left > .inner-wrap.off-canvas-question, body .move-left > .inner-wrap
   }
 }
 /* line 312, ../sass/layout.scss */
+html .move-left #fp-nav, body .move-left #fp-nav {
+  display: none;
+}
+/* line 316, ../sass/layout.scss */
 html .move-left .exit-off-canvas, body .move-left .exit-off-canvas {
   background: rgba(0, 0, 0, 0.8);
   box-shadow: none;
 }
-/* line 316, ../sass/layout.scss */
+/* line 320, ../sass/layout.scss */
 html .move-left .exit-off-canvas:hover, body .move-left .exit-off-canvas:hover {
   background: rgba(0, 0, 0, 0.75);
 }
-/* line 321, ../sass/layout.scss */
+/* line 325, ../sass/layout.scss */
 html .move-left .wrapper header a .fa-bars:before, body .move-left .wrapper header a .fa-bars:before {
   font-family: FontAwesome;
   content: "\f00d" !important;
 }
-/* line 326, ../sass/layout.scss */
+/* line 330, ../sass/layout.scss */
 html .btn, body .btn {
   font-family: 'Geometria-Medium';
   text-transform: uppercase;
@@ -389,12 +393,12 @@ html .btn, body .btn {
   display: inline-block;
 }
 @media only screen and (max-width: 40em) {
-  /* line 326, ../sass/layout.scss */
+  /* line 330, ../sass/layout.scss */
   html .btn, body .btn {
     font-size: .8rem;
   }
 }
-/* line 342, ../sass/layout.scss */
+/* line 346, ../sass/layout.scss */
 html .btn.blue, body .btn.blue {
   border: 1px solid #466fd9;
   background: #466fd9;
@@ -403,39 +407,39 @@ html .btn.blue, body .btn.blue {
   max-width: 22.5rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 342, ../sass/layout.scss */
+  /* line 346, ../sass/layout.scss */
   html .btn.blue, body .btn.blue {
     width: auto;
     padding: 0.969rem 2rem;
   }
 }
-/* line 354, ../sass/layout.scss */
+/* line 358, ../sass/layout.scss */
 html .btn.blue:hover, body .btn.blue:hover {
   border: 1px solid #517ef0;
   background: #517ef0;
 }
-/* line 360, ../sass/layout.scss */
+/* line 364, ../sass/layout.scss */
 html .btn.transparent, body .btn.transparent {
   border: 1px solid rgba(255, 255, 255, 0.25);
   padding: 0.344rem 2.7rem;
   background: transparent;
   display: inline-block;
 }
-/* line 366, ../sass/layout.scss */
+/* line 370, ../sass/layout.scss */
 html .btn.transparent .fa, body .btn.transparent .fa {
   font-size: 1.5rem;
   vertical-align: middle;
   margin-right: 0.25rem;
 }
-/* line 372, ../sass/layout.scss */
+/* line 376, ../sass/layout.scss */
 html .btn.transparent:hover, body .btn.transparent:hover {
   border: 1px solid white;
 }
-/* line 378, ../sass/layout.scss */
+/* line 382, ../sass/layout.scss */
 html .wrapper, body .wrapper {
   height: 100%;
 }
-/* line 383, ../sass/layout.scss */
+/* line 387, ../sass/layout.scss */
 html .wrapper header, body .wrapper header {
   padding: 3rem 3.75rem 0;
   background: none;
@@ -445,77 +449,77 @@ html .wrapper header, body .wrapper header {
   width: 100%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 383, ../sass/layout.scss */
+  /* line 387, ../sass/layout.scss */
   html .wrapper header, body .wrapper header {
     padding: 1rem 1.25rem 0;
   }
 }
 @media only screen and (max-height: 40em) {
-  /* line 383, ../sass/layout.scss */
+  /* line 387, ../sass/layout.scss */
   html .wrapper header, body .wrapper header {
     padding: 1rem 1.25rem 0;
   }
 }
-/* line 399, ../sass/layout.scss */
+/* line 403, ../sass/layout.scss */
 html .wrapper header .name, body .wrapper header .name {
   display: inline-block;
   background: url(../img/logo.png) no-repeat 0 50%;
   background-size: contain;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 399, ../sass/layout.scss */
+  /* line 403, ../sass/layout.scss */
   html .wrapper header .name, body .wrapper header .name {
     height: 3.625rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 399, ../sass/layout.scss */
+  /* line 403, ../sass/layout.scss */
   html .wrapper header .name, body .wrapper header .name {
     background-size: auto;
   }
 }
 @media only screen and (max-width: 25em) {
-  /* line 399, ../sass/layout.scss */
+  /* line 403, ../sass/layout.scss */
   html .wrapper header .name, body .wrapper header .name {
     background-size: contain;
   }
 }
-/* line 417, ../sass/layout.scss */
+/* line 421, ../sass/layout.scss */
 html .wrapper header .right, body .wrapper header .right {
   height: 3.625rem;
 }
-/* line 420, ../sass/layout.scss */
+/* line 424, ../sass/layout.scss */
 html .wrapper header .right a, body .wrapper header .right a {
   transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
 }
 @media only screen and (max-width: 40em) {
-  /* line 424, ../sass/layout.scss */
+  /* line 428, ../sass/layout.scss */
   html .wrapper header .right a.btn, body .wrapper header .right a.btn {
     display: none;
   }
 }
-/* line 429, ../sass/layout.scss */
+/* line 433, ../sass/layout.scss */
 html .wrapper header .right a.toggle, body .wrapper header .right a.toggle {
   position: relative;
   z-index: 1003;
   margin-left: 2rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 429, ../sass/layout.scss */
+  /* line 433, ../sass/layout.scss */
   html .wrapper header .right a.toggle, body .wrapper header .right a.toggle {
     margin-left: 0;
   }
 }
-/* line 438, ../sass/layout.scss */
+/* line 442, ../sass/layout.scss */
 html .wrapper header .right a.toggle:hover, body .wrapper header .right a.toggle:hover {
   opacity: .4;
 }
-/* line 442, ../sass/layout.scss */
+/* line 446, ../sass/layout.scss */
 html .wrapper header .right a.toggle .fa-bars, body .wrapper header .right a.toggle .fa-bars {
   font-size: 2.5rem;
   vertical-align: middle;
 }
-/* line 452, ../sass/layout.scss */
+/* line 456, ../sass/layout.scss */
 html footer, body footer {
   padding: 0 3.75rem 3rem;
   bottom: 0;
@@ -524,18 +528,18 @@ html footer, body footer {
   z-index: 100;
 }
 @media only screen and (max-width: 40em) {
-  /* line 452, ../sass/layout.scss */
+  /* line 456, ../sass/layout.scss */
   html footer, body footer {
     padding: 0 1.25rem 1rem;
   }
 }
 @media only screen and (max-height: 40em) {
-  /* line 452, ../sass/layout.scss */
+  /* line 456, ../sass/layout.scss */
   html footer, body footer {
     padding: 0 1.25rem 1rem;
   }
 }
-/* line 467, ../sass/layout.scss */
+/* line 471, ../sass/layout.scss */
 html footer .copyright, body footer .copyright {
   color: white;
   opacity: .45;
@@ -543,48 +547,48 @@ html footer .copyright, body footer .copyright {
   float: right;
 }
 @media only screen and (max-width: 40em) {
-  /* line 467, ../sass/layout.scss */
+  /* line 471, ../sass/layout.scss */
   html footer .copyright, body footer .copyright {
     text-align: center;
     float: none;
     font-size: 0.75rem;
   }
 }
-/* line 480, ../sass/layout.scss */
+/* line 484, ../sass/layout.scss */
 html footer .bottom-panel, body footer .bottom-panel {
   padding: 0;
   text-align: right;
   float: right;
 }
 @media only screen and (max-width: 40em) {
-  /* line 480, ../sass/layout.scss */
+  /* line 484, ../sass/layout.scss */
   html footer .bottom-panel, body footer .bottom-panel {
     text-align: center;
     float: none;
   }
 }
-/* line 490, ../sass/layout.scss */
+/* line 494, ../sass/layout.scss */
 html footer .bottom-panel ul, body footer .bottom-panel ul {
   display: inline-block;
 }
-/* line 493, ../sass/layout.scss */
+/* line 497, ../sass/layout.scss */
 html footer .bottom-panel ul li, body footer .bottom-panel ul li {
   float: left;
   margin-right: 1rem;
 }
-/* line 497, ../sass/layout.scss */
+/* line 501, ../sass/layout.scss */
 html footer .bottom-panel ul li #topDrop, body footer .bottom-panel ul li #topDrop {
   width: 10rem !important;
   top: -13rem !important;
   left: -3.75rem !important;
 }
 @media only screen and (max-width: 40em) {
-  /* line 497, ../sass/layout.scss */
+  /* line 501, ../sass/layout.scss */
   html footer .bottom-panel ul li #topDrop, body footer .bottom-panel ul li #topDrop {
     left: -4.25rem !important;
   }
 }
-/* line 506, ../sass/layout.scss */
+/* line 510, ../sass/layout.scss */
 html footer .bottom-panel ul li #topDrop:before, body footer .bottom-panel ul li #topDrop:before {
   left: 50%;
   margin-left: -4px;
@@ -596,7 +600,7 @@ html footer .bottom-panel ul li #topDrop:before, body footer .bottom-panel ul li
   right: auto;
   z-index: 89;
 }
-/* line 518, ../sass/layout.scss */
+/* line 522, ../sass/layout.scss */
 html footer .bottom-panel ul li #topDrop:after, body footer .bottom-panel ul li #topDrop:after {
   left: 50%;
   margin-left: -5px;
@@ -608,34 +612,34 @@ html footer .bottom-panel ul li #topDrop:after, body footer .bottom-panel ul li 
   right: auto;
   z-index: 88;
 }
-/* line 530, ../sass/layout.scss */
+/* line 534, ../sass/layout.scss */
 html footer .bottom-panel ul li #topDrop a, html footer .bottom-panel ul li #topDrop label, body footer .bottom-panel ul li #topDrop a, body footer .bottom-panel ul li #topDrop label {
   height: 3rem;
   padding: 0;
   display: table;
   font-size: 1rem;
 }
-/* line 536, ../sass/layout.scss */
+/* line 540, ../sass/layout.scss */
 html footer .bottom-panel ul li #topDrop a.fb, html footer .bottom-panel ul li #topDrop label.fb, body footer .bottom-panel ul li #topDrop a.fb, body footer .bottom-panel ul li #topDrop label.fb {
   background: #4f69a2;
 }
-/* line 540, ../sass/layout.scss */
+/* line 544, ../sass/layout.scss */
 html footer .bottom-panel ul li #topDrop a.tw, html footer .bottom-panel ul li #topDrop label.tw, body footer .bottom-panel ul li #topDrop a.tw, body footer .bottom-panel ul li #topDrop label.tw {
   background: #66b4ef;
 }
-/* line 544, ../sass/layout.scss */
+/* line 548, ../sass/layout.scss */
 html footer .bottom-panel ul li #topDrop a.gp, html footer .bottom-panel ul li #topDrop label.gp, body footer .bottom-panel ul li #topDrop a.gp, body footer .bottom-panel ul li #topDrop label.gp {
   background: #e05d4d;
 }
-/* line 548, ../sass/layout.scss */
+/* line 552, ../sass/layout.scss */
 html footer .bottom-panel ul li #topDrop a.pn, html footer .bottom-panel ul li #topDrop label.pn, body footer .bottom-panel ul li #topDrop a.pn, body footer .bottom-panel ul li #topDrop label.pn {
   background: #d1373d;
 }
-/* line 554, ../sass/layout.scss */
+/* line 558, ../sass/layout.scss */
 html footer .bottom-panel ul li:last-of-type, body footer .bottom-panel ul li:last-of-type {
   margin-right: 0;
 }
-/* line 558, ../sass/layout.scss */
+/* line 562, ../sass/layout.scss */
 html footer .bottom-panel ul li .panel-element, body footer .bottom-panel ul li .panel-element {
   vertical-align: middle;
   height: 2.625rem;
@@ -647,23 +651,23 @@ html footer .bottom-panel ul li .panel-element, body footer .bottom-panel ul li 
   transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
 }
 @media only screen and (max-width: 40em) {
-  /* line 558, ../sass/layout.scss */
+  /* line 562, ../sass/layout.scss */
   html footer .bottom-panel ul li .panel-element, body footer .bottom-panel ul li .panel-element {
     height: 2rem;
     width: 2rem;
   }
 }
-/* line 573, ../sass/layout.scss */
+/* line 577, ../sass/layout.scss */
 html footer .bottom-panel ul li .panel-element:hover, body footer .bottom-panel ul li .panel-element:hover {
   background: rgba(255, 255, 255, 0.3);
 }
-/* line 577, ../sass/layout.scss */
+/* line 581, ../sass/layout.scss */
 html footer .bottom-panel ul li .panel-element .fa, body footer .bottom-panel ul li .panel-element .fa {
   line-height: 1.7;
   font-size: 1.5rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 577, ../sass/layout.scss */
+  /* line 581, ../sass/layout.scss */
   html footer .bottom-panel ul li .panel-element .fa, body footer .bottom-panel ul li .panel-element .fa {
     font-size: 1.15rem;
   }
