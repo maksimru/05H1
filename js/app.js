@@ -83,8 +83,16 @@ $(document).ready(function(){
 jQuery(document).on('open.fndtn.offcanvas', '[data-offcanvas]', function () {
     var active_section = $("#fullpage").find("div.section.active");
     var wrapper_position = $(".inner-wrap").getAbsolute();
-    $("header,footer,#fp-nav").each(function (i, o) {
+    //top positioned
+    $("header,#fp-nav").each(function (i, o) {
         $(o).data('old_top', $(o).position().top);
+        $(o).data('old_left', $(o).position().left);
+        $(o).css('top', $(o).position().top + wrapper_position.top + 'px');
+        $(o).css('left', $(o).position().left + wrapper_position.left + 'px');
+    });
+    //bottom positioned
+    $("footer").each(function (i, o) {
+        $(o).data('old_bottom', $(o).css('bottom'));
         $(o).data('old_left', $(o).position().left);
         $(o).css('top', $(o).position().top + wrapper_position.top + 'px');
         $(o).css('left', $(o).position().left + wrapper_position.left + 'px');
@@ -94,8 +102,15 @@ jQuery(document).on('open.fndtn.offcanvas', '[data-offcanvas]', function () {
 });
 
 jQuery(document).on('close.fndtn.offcanvas', '[data-offcanvas]', function () {
-    $("header,footer,#fp-nav").each(function (i, o) {
+    //top positioned
+    $("header,#fp-nav").each(function (i, o) {
         $(o).css('top', $(o).data('old_top') + 'px');
+        $(o).css('left', $(o).data('old_left') + 'px');
+    });
+    //bottom positioned
+    $("footer").each(function (i, o) {
+        $(o).css('top', 'auto');
+        $(o).css('bottom', $(o).data('old_bottom') + 'px');
         $(o).css('left', $(o).data('old_left') + 'px');
     });
     $("#fp-nav").show();
