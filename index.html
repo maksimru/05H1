@@ -10,31 +10,33 @@
   </head>
   <body id="index">
     <div id="preloader"></div>
+    
+    <header class="sticky">
+      <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: [large, medium, small]">
+      <a class="name large-2 medium-4 small-10 columns" href="#"></a>
+        <section class="top-bar-section">
+          <div class="right">
+            <a class="btn transparent" href="">
+              <img src="img/icon_3.svg">
+              Free Download
+            </a>
+            <a href="javascript:void(0)" data-template="off-canvas-menu" class="toggle">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </section>
+      </nav>
+    </header>
+
     <div class="off-canvas-wrap" data-offcanvas>
       <div class="inner-wrap">
         <aside class="right-off-canvas-menu"></aside>
 
         <div class="wrapper">
 
-          <header class="top-bar">
-            <a class="name large-2 medium-4 small-10 columns" href="#"></a>
-            <section class="top-bar-section">
-              <div class="right">
-                <a class="btn transparent" href="">
-                  <img src="img/icon_3.svg">
-                  Free Download
-                </a>
-                <a href="javascript:void(0)" data-template="off-canvas-menu" class="toggle">
-                  <i class="fa fa-bars"></i>
-                </a>
-              </div>
-            </section>
-          </header>
-
           <div id="fullpage">
 
             <div class="section page-1 centered" data-anchor="firstPage">
-              <a name="top"></a>
               <div class="page-content">
                 <div class="vertical-centered">
                   <hgroup data-sr="wait 1s, over 1s, enter bottom and move 200px">
@@ -154,44 +156,46 @@
                     <h2>Antimalware solution №1</h2>
                     <span>Scan and Protect Your PC</span>
                   </hgroup>
-                  <ul class="large-6 large-centered columns" data-sr="wait 0.2s, over 1s, enter bottom and move 200px">
-                    <li class="large-4 columns">
-                      <span>
-                        <img src="img/brand1.png">
-                      </span>
-                      <span>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star empty"></i>
-                      </span>
-                    </li>
-                    <li class="large-4 columns">
-                      <span>
-                        <img src="img/brand2.png">
-                      </span>
-                      <span>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                      </span>
-                    </li>
-                    <li class="large-4 columns">
-                      <span>
-                        <img src="img/brand3.png">
-                      </span>
-                      <span>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                      </span>
-                    </li>
-                  </ul>
+                  <div class="row">
+                    <ul class="large-10 large-centered columns" data-sr="wait 0.2s, over 1s, enter bottom and move 200px">
+                      <li class="large-4 columns">
+                        <span>
+                          <img src="img/brand1.png">
+                        </span>
+                        <span>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star empty"></i>
+                        </span>
+                      </li>
+                      <li class="large-4 columns">
+                        <span>
+                          <img src="img/brand2.png">
+                        </span>
+                        <span>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </span>
+                      </li>
+                      <li class="large-4 columns">
+                        <span>
+                          <img src="img/brand3.png">
+                        </span>
+                        <span>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
                   <div class="row btn-box" data-sr="wait 0.4s, over 1s, enter bottom and move 200px">
                     <a class="large-3 medium-6 small-12 columns centered large-centered medium-centered small-centered btn blue" href="#">Free download now</a>
                   </div>
@@ -200,57 +204,57 @@
             </div>
           </div>
         </div>
-
-        <footer>
-          <div class="large-3 medium-6 columns bottom-panel">
-            <ul>
-              <li>
-                <a class="panel-element" href="javascript:void(0)" data-template="off-canvas-feedback" >
-                  <img src="img/icon_1.svg">
-                </a>
-              </li>
-              <li>
-                <a class="panel-element" aria-expanded="true" href="#" class="open" data-dropdown="topDrop" data-options="align: top">
-                  <img src="img/icon_2.svg">
-                </a>
-                <div id="topDrop" class="f-dropdown centered" data-dropdown-content="">
-                  <label class="small-12 columns">
-                    <span class="vertical-centered">Share</span>
-                  </label class="small-12">
-                  <a href="" class="small-6 columns fb">
-                    <i class="fa fa-facebook vertical-centered"></i>
-                  </a>
-                  <a href="" class="small-6 columns tw">
-                    <i class="fa fa-twitter vertical-centered"></i>
-                  </a>
-                  <a href="" class="small-6 columns gp">
-                    <i class="fa fa-google-plus vertical-centered"></i>
-                  </a>
-                  <a href="" class="small-6 columns pn">
-                    <i class="fa fa-pinterest-p vertical-centered"></i>
-                  </a>
-                  <a href="" class="small-12 columns">
-                    <span class="vertical-centered">Send email</span>
-                  </a>
-                </div>
-              </li>
-              <li>
-                <a class="panel-element" href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <p class="large-3 medium-6 columns end copyright">&copy; 2009-<script type="text/javascript">document.write(new Date().getFullYear())</script> OSHI Defender</p>
-        </footer>
-
-        <a class="exit-off-canvas">
-          <i class="fa fa-times"></i>
-        </a>
       </div>
     </div>
 
-    <div class="x-template" id="off-canvas-menu">
+    <footer>
+      <div class="large-3 medium-6 columns bottom-panel">
+        <ul>
+          <li>
+            <a class="panel-element" href="javascript:void(0)" data-template="off-canvas-feedback" >
+              <img src="img/icon_1.svg">
+            </a>
+          </li>
+          <li>
+            <a class="panel-element" aria-expanded="true" href="#" class="open" data-dropdown="topDrop" data-options="align: top">
+              <img src="img/icon_2.svg">
+            </a>
+            <div id="topDrop" class="f-dropdown centered" data-dropdown-content="">
+              <label class="small-12 columns">
+                <span class="vertical-centered">Share</span>
+              </label class="small-12">
+              <a href="" class="small-6 columns fb">
+                <i class="fa fa-facebook vertical-centered"></i>
+              </a>
+              <a href="" class="small-6 columns tw">
+                <i class="fa fa-twitter vertical-centered"></i>
+              </a>
+              <a href="" class="small-6 columns gp">
+                <i class="fa fa-google-plus vertical-centered"></i>
+              </a>
+              <a href="" class="small-6 columns pn">
+                <i class="fa fa-pinterest-p vertical-centered"></i>
+              </a>
+              <a href="" class="small-12 columns">
+                <span class="vertical-centered">Send email</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a class="panel-element" href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="large-3 medium-6 columns end copyright">&copy; 2009-<script type="text/javascript">document.write(new Date().getFullYear())</script> OSHI Defender</p>
+    </footer>
+
+    <a class="exit-off-canvas">
+      <i class="fa fa-times"></i>
+    </a>
+
+    <div class="x-template" id="off-canvas-menu" data-wrap-class="off-canvas-sidemenu">
       <ul class="off-canvas-list">
         <li><a href="#">Main</a></li>
         <li><a href="#">Buy</a></li>
@@ -418,6 +422,7 @@
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/foundation/foundation.dropdown.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
     <script src="js/foundation/foundation.offcanvas.js"></script>
     <script src="js/foundation/foundation.abide.js"></script>
     <script src="js/jquery.fullPage.min.js"></script>

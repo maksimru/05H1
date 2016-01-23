@@ -11,11 +11,40 @@ function safeString(obj) {
   return obj ? obj+'' : '';
 }
 
+function ownClasses(el) {
+  var classes = $(el).attr('class').match(/(^|[^-\w])(?:off-canvas-\w*)/g);
+
+  // Remove extra spaces
+  if (!!classes) {
+    classes = classes.map(function(el){ return el.replace(/\s+/g, '');})
+  }
+  return classes;
+}
+
+function ownClassesAsString(el) {
+  classes = ownClasses(el);
+  if (classes && classes.constructor === Array) {
+    return classes.join(' ');
+  }
+  return classes;
+}
+
+function diffArray(a, b) {
+  var seen = [], diff = [];
+  for ( var i = 0; i < b.length; i++)
+      seen[b[i]] = true;
+  for ( var i = 0; i < a.length; i++)
+      if (!seen[a[i]])
+          diff.push(a[i]);
+  return diff;
+}
+
+
 $(document).ready(function(){
 
-  $(window).resize(function(){
-    location.reload();
-  });
+  // $(window).resize(function(){
+  //   location.reload();
+  // });
 
   $('#fullpage').fullpage({
     verticalCentered: false,
@@ -27,8 +56,6 @@ $(document).ready(function(){
               return false;
       }
   });
-
-  $("#fp-nav").prependTo(".wrapper");
 
   $('.screen-slider').slick({
     vertical: true,
@@ -52,37 +79,44 @@ $(document).ready(function(){
   });
 
   $('a[data-template], p[data-template]').click(function() {
+    $('.exit-off-canvas').addClass('width');
     // Replace aside html with  template
     var templateName = $(this).data( "template" );
     var  $template = $('#' + templateName);
-    var cssClass = safeString($template.data( "wrap-class" ));
-
-    // $.fn.fullpage({
-    //   normalScrollElements: true
-    // });
+    var wrapClass = safeString($template.data( "wrap-class" ));
 
     // Replace aside html with  template
     $('.right-off-canvas-menu').html($template.html());
 
-    // Cleanup previous css classes and add new
+    // Cleanup previous wrap classes and add new
     $('.right-off-canvas-menu, .inner-wrap').each(function(_, el) {
       var $el = $(el),
-        classes = $(el).attr('class').match(/(^|[^-\w])(?:off-canvas-\w*)/g);
+        classes = ownClassesAsString(el);
 
-      if (!!classes) {
-        classes = classes.join(' ');
-      }
-      $el.toggleClass(safeString(classes) + ' ' + cssClass);
+      $el.toggleClass(safeString(classes) + ' ' + wrapClass);
+    });
+
+    $('header, footer, .exit-off-canvas, #fp-nav').each(function(_, el){
+      $(el).toggleClass(wrapClass);
     });
 
     // Show offside menu
     $('.off-canvas-wrap').foundation('offcanvas', 'toggle', 'move-left');
   });
+
+  $('.exit-off-canvas').click(function(){
+    selfClasses = ownClasses(this);
+    allClasses = $(this).attr('class').split(' ');
+    origClasses = diffArray(allClasses, selfClasses);
+    offClasses = diffArray(allClasses, origClasses).join(' ')
+    $('.exit-off-canvas').removeClass('width');
+    $('header, footer, .exit-off-canvas, #fp-nav').toggleClass(offClasses);
+  });
 });
 
 jQuery(document).on('open.fndtn.offcanvas', '[data-offcanvas]', function () {
-    var active_section = $("#fullpage").find("div.section.active");
-    $('aside, .exit-off-canvas' ).css('top', (active_section.prev().length > 0 ? $(window).height() + active_section.prev().offset().top : 0));
+    var active_section = $('#fullpage').find('div.section.active');
+    $('aside' ).css('top', (active_section.prev().length > 0 ? $(window).height() + active_section.prev().offset().top : 0));
 });
 
 jQuery(document).ready(function($) {

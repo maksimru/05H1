@@ -1,0 +1,492 @@
+#buy {
+  #fullpage {
+    .section {
+      &.page-1 {
+        background: #11141d;
+        z-index: 80;
+
+        .page-content {
+
+          .content-wrap {
+            @media only screen and (max-width: 64em) {
+              display: table-cell;
+              vertical-align: middle;
+            }
+
+            @media only screen and (max-height: 50em) {
+              display: table-cell;
+              vertical-align: middle;
+            }
+          }
+
+          .box, .buy {
+            height: 100vh;
+            padding: 0;
+            display: table;
+          }
+
+          .box {
+            @media only screen and (max-width: 64em) {
+              display: none;
+            }
+
+            img {
+              display: inline-block;
+              margin-bottom: 4rem;
+              width: 100%;
+              max-width: calc(100% - 7.5rem);
+
+              @media only screen and (max-height: 50em) {
+                max-width: calc(100% - 2rem);
+                margin-bottom: 0;
+                max-height: calc(100% - 20rem);
+              }
+            }
+          }
+
+          .buy {
+            background: #0e1016;
+            padding: 3rem 3.75rem;
+
+            @media only screen and (max-width: 93em) {
+              text-align: center;
+            }
+
+            @media only screen and (max-width: 64em) {
+              background: none;
+            }
+
+            @media only screen and (max-width: 40em) {
+              padding: 1rem;
+            }
+
+            hgroup {
+              @media only screen and (max-height: 50em) {
+                margin-bottom: 2rem;
+              }
+
+              @media only screen and (max-width: 64em) {
+                margin-bottom: 1rem;
+              }
+
+              h2 {
+                margin-bottom: 2rem;
+
+                @media only screen and (max-height: 50em) {
+                  margin-bottom: 1rem;
+                }
+
+                @media only screen and (max-width: 64em) {
+                  margin-bottom: 1rem;
+                }
+              }
+
+              span {
+                display: block;
+              }
+            }
+
+            .price {
+              color: white;
+              padding: 0;
+
+              &.old {
+                opacity: .25;
+                max-width: 9rem;
+
+                @media only screen and (max-width: 93em) {
+                  max-width: 100%;
+                  text-align: right;
+                  padding: 0 0.5rem;
+                }
+
+                p {
+                  text-decoration: none;
+                  font-size: 1rem;
+                  white-space: nowrap; 
+
+                  @media only screen and (max-height: 50em) {
+                    font-size: 0.875rem;
+                  }
+
+                  @media only screen and (max-width: 64em) {
+                    font-size: 0.75rem;
+                  }
+
+                  span {
+                    font-size: 2.25rem;
+                    text-decoration: line-through;
+                    display: block;
+
+                    @media only screen and (max-height: 50em) {
+                      font-size: 1.75rem;
+                    }
+
+                    @media only screen and (max-width: 64em) {
+                      font-size: 1.5rem;
+                    }
+                  }
+                }   
+              }
+
+              &.new {
+                margin-bottom: 3rem;
+
+                @media only screen and (max-width: 93em) {
+                  margin-bottom: 1.5rem;
+                  text-align: left;
+                  padding: 0 0.5rem;
+                }
+
+                @media only screen and (max-height: 50em) {
+                  margin-bottom: 1.5rem;
+                }
+
+                p {
+                  font-size: 3.813rem;
+
+                  @media only screen and (max-height: 50em) {
+                    font-size: 3rem;
+                  }
+
+                  @media only screen and (max-width: 64em) {
+                    font-size: 2.5rem;
+                  }
+                }
+              }
+            }
+
+            .button-box {
+              margin-bottom: 6rem;
+
+              @media only screen and (max-width: 93em) {
+                text-align: center;
+                margin-bottom: 3rem;
+
+                .btn, label {
+                  width: 100%;
+                  float: none;
+                }
+              }
+
+              @media only screen and (max-width: 64em) {
+                margin-bottom: 1rem;
+              }
+
+              @media only screen and (max-height: 50em) {
+                margin-bottom: 1rem;
+              }  
+
+              .btn {
+                max-width: 20rem;
+                padding: 1.282rem;
+                margin-right: 1rem;
+
+                @media only screen and (max-width: 64em) {
+                  margin-bottom: 1rem;
+                }
+
+                @media only screen and (max-height: 50em) {
+                  padding: 1.032rem;
+                  margin-bottom: 1rem;
+                }
+              }
+
+              label {
+                min-width: 15rem;
+                display: table;
+                height: 3.625rem;
+
+                @media only screen and (max-width: 64em) {
+                  height: 2rem;
+                }
+
+                .ps {
+                  padding: 0;
+                  margin-right: 0.25rem;
+
+                  &:first-of-type {
+                    text-align: right;
+                  }
+
+                  &:last-of-type {
+                    text-align: left;
+                  }
+                }
+
+                img {
+                  max-width: 3rem;
+                  margin-bottom: 0;
+                  display: inline;
+                  margin-right: 0.5rem;
+
+                  @media only screen and (max-height: 50em) {
+                    max-height: 2rem;
+                  }
+                }
+              }
+            }
+
+            ul {
+              li {
+                display: table;
+                height: 3rem;
+
+                @media only screen and (max-width: 93em) {
+                  width: 100%;
+                  float: none;
+                }
+
+                @media only screen and (max-width: 64em) {
+                  font-size: 1rem;
+                  height: 2rem;
+                  margin-bottom: 0.75rem;
+                }
+
+                @media only screen and (max-height: 50em) {
+                  font-size: 1rem;
+                  height: 2rem;
+                  margin-bottom: 0;
+                }
+
+                p {
+                  @media only screen and (max-width: 93em) {
+                    text-align: center;
+                  }
+                }
+
+                img.icon {
+                  margin: 0;
+                  max-width: 3rem;
+                  width: 100%;
+
+                  @media only screen and (max-height: 50em) {
+                    max-height: 2rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &.page-2 {
+        background-image: url(../img/bg2.jpg);
+        z-index: 90;
+
+        .row {
+          @media only screen and (max-width: 64em) {
+            padding: 0 1rem;
+          }
+        }
+
+        .table-wrap {
+          padding: 0;
+          z-index: 90;
+
+          &:first-of-type, &:last-of-type {
+            top: 1.25rem;
+            z-index: 89;
+
+            @media only screen and (max-width: 64em) {
+              top: 1.2rem;
+            }
+
+            @media only screen and (max-height: 50em) {
+              top: 0.75rem;
+            }
+
+            @media only screen and (max-width: 40em) {
+              top: 0.75rem;
+            }
+          }
+
+          .pricing-table {
+            background: rgba(white,.1);
+            border: none;
+
+            &.recommended {
+              box-shadow: 0 0 2rem #30406b;
+              background: #3b5fbc;
+
+              li {
+                &.price, &.title, &.bullet-item {
+                  padding-left: 1rem;
+                  padding-right: 1rem;
+                }
+
+                &.title {
+                  font-size: 2rem;
+
+                  @media only screen and (max-width: 64em) {
+                    font-size: 1.35rem;
+                  }
+
+                  @media only screen and (max-height: 50em) {
+                    font-size: 1rem;
+                  }
+
+                  @media only screen and (max-width: 40em) {
+                    font-size: 1rem;
+                  }
+                }
+
+                &.price {
+                  font-size: 2.375rem;
+
+                  @media only screen and (max-width: 64em) {
+                    font-size: 2rem;
+                  }
+
+                  @media only screen and (max-height: 50em) {
+                    font-size: 1.5rem;
+                  }
+
+                  @media only screen and (max-width: 40em) {
+                    font-size: 1.5rem;
+                  }
+                }
+              }
+            }
+
+            li {
+              font-family: 'Geometria-Light';
+              color: white;
+              height: 3.625rem;
+              display: table;
+              width: 100%;
+
+              @media only screen and (max-width: 64em) {
+                height: 3rem;
+              }
+
+              @media only screen and (max-height: 50em) {
+                height: 2rem;
+              }
+
+              @media only screen and (max-width: 40em) {
+                height: 2rem;
+
+                span.hide-small {
+                  display: none;
+                }
+
+                span.show-small {
+                  display: inline;
+                }
+              }
+
+              &.title {
+                font-size: 1.375rem;
+                height: auto;
+                padding-left: 0;
+                padding-right: 0;
+                padding-top: 2rem;
+
+                @media only screen and (max-width: 64em) {
+                  font-size: 0.875rem;
+                }
+
+                @media only screen and (max-height: 50em) {
+                  font-size: 0.75rem;
+                }
+
+                @media only screen and (max-width: 40em) {
+                  font-size: 0.75rem;
+                }
+              }
+
+              &.price {
+                font-size: 1.75rem;
+                height: auto;
+                padding-left: 0;
+                padding-right: 0;
+
+                @media only screen and (max-width: 64em) {
+                  font-size: 1.25rem;
+                }
+
+                @media only screen and (max-height: 50em) {
+                  font-size: 1rem;
+                }
+
+                @media only screen and (max-width: 40em) {
+                  font-size: 1rem;
+                }
+              }
+
+              &.bullet-item {
+                padding: 1.313rem 0;
+                font-size: 1rem;
+                border: none;
+
+                @media only screen and (max-width: 64em) {
+                  font-size: 0.875rem;
+                  padding: 1rem 0;
+                }
+
+                @media only screen and (max-height: 50em) {
+                  font-size: 0.75rem;
+                  padding: 0.5rem 0;
+                }
+
+                @media only screen and (max-width: 40em) {
+                  font-size: 0.75rem;
+                  padding: 0.5rem 0;
+                }
+
+                i {
+                  font-size: 0.9rem;
+
+                  &.fa-times {
+                    color: #e33d3d;
+                  }
+                }
+              }
+
+              &:nth-of-type(even) {
+                background: none;
+              }
+
+              &:nth-of-type(odd) {
+                background: rgba(white,.1);
+              }
+
+              &.title {
+                background: none;
+              }
+            }
+          }
+        }
+      }
+
+      &.page-4 {
+        background-image: url(../img/bg3.jpg);
+        z-index: 90;
+
+        .page-content {
+          hgroup {
+            img {
+              margin-bottom: 2rem;
+
+              @media only screen and (max-width: 64em) {
+                width: 4rem;
+                margin-bottom: 1rem;
+              }
+
+              @media only screen and (max-height: 50em) {
+                width: 4rem;
+                margin-bottom: 1rem;
+              }
+
+              @media only screen and (max-width: 40em) {
+                width: 2rem;
+                margin-bottom: 0.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
