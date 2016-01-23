@@ -42,9 +42,9 @@ function diffArray(a, b) {
 
 $(document).ready(function(){
 
-  // $(window).resize(function(){
-  //   location.reload();
-  // });
+  $(window).resize(function(){
+    location.reload();
+  });
 
   $('#fullpage').fullpage({
     verticalCentered: false,
