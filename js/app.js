@@ -2,6 +2,7 @@ window.sr = new scrollReveal({mobile: false});
 
 $(document).foundation('offcanvas', 'reflow');
 $(document).foundation('dropdown', 'reflow');
+$(document).foundation('tab', 'reflow');
 
 $(document).foundation();
 
@@ -39,28 +40,32 @@ function diffArray(a, b) {
   return diff;
 }
 
-
 $(document).ready(function(){
 
   $(window).resize(function(){
     location.reload();
   });
 
-  $('#fullpage').fullpage({
-    verticalCentered: false,
-    navigation: true,
-    scrollBar: true,
-    onLeave: function( anchorLink, index, slideIndex, direction, nextSlideIndex){
-          //disable scroll slides with opened menu
-          if($("div.off-canvas-wrap").hasClass('move-left'))
-              return false;
-      }
-  });
+  if($('#fullpage').length>0) {
+    $('#fullpage').fullpage({
+      verticalCentered: false,
+      navigation: true,
+      scrollBar: true,
+      onLeave: function( anchorLink, index, slideIndex, direction, nextSlideIndex){
+            //disable scroll slides with opened menu
+            if($("div.off-canvas-wrap").hasClass('move-left'))
+                return false;
+        }
+    });
+  };
 
-  $('.screen-slider').slick({
-    vertical: true,
-    arrows: false
-  });
+  if($('.screen-slider').length>0) {
+    $('.screen-slider').slick({
+      vertical: true,
+      arrows: false
+    });
+  };
+  
 
   $(".feature-list li").click(function(e){
     var slideIndex = $(this).index();
@@ -72,11 +77,13 @@ $(document).ready(function(){
     });
   });
 
-  $('.questions').slick({
-    vertical: true,
-    slidesToShow: 3,
-    slidesToScroll: 1
-  });
+  if($('.questions').length>0) {
+    $('.questions').slick({
+      vertical: true,
+      slidesToShow: 3,
+      slidesToScroll: 1
+    });
+  };
 
   $('a[data-template], p[data-template]').click(function() {
     $('.exit-off-canvas').addClass('width');
@@ -115,8 +122,10 @@ $(document).ready(function(){
 });
 
 jQuery(document).on('open.fndtn.offcanvas', '[data-offcanvas]', function () {
+  if($('#fullpage').length>0) {
     var active_section = $('#fullpage').find('div.section.active');
     $('aside' ).css('top', (active_section.prev().length > 0 ? $(window).height() + active_section.prev().offset().top : 0));
+  };
 });
 
 jQuery(document).ready(function($) {

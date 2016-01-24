@@ -1,0 +1,343 @@
+#threats {
+  height: auto;
+  background: #0e1016;
+
+  header, footer {
+    position: absolute;
+  }
+
+  footer{
+    bottom: 0;
+  }
+
+  .search {
+    background: url(../img/bg.jpg) no-repeat top center;
+    padding-top: 12.5rem;
+
+    @media only screen and (max-height: 50em) {
+      padding-top: 8rem;
+    }
+
+    @media only screen and (max-width: 40em) {
+      padding-top: 6rem;
+    }
+
+    h3 {
+      font-size: 2.5rem;
+      color: white;
+      margin-bottom: 3rem;
+      line-height: 1.5;
+
+      @media only screen and (max-width: 40em) {
+        font-size: 1.8rem;
+      }
+    }
+
+    label {
+      margin-bottom: 5rem;
+
+      &:before {
+        font-family: FontAwesome;
+        content: "\f002";
+        text-align: center;
+        font-size: 1.75rem;
+        color: #cbcbcb;
+        width: 4rem;
+        height: 4rem;
+        display: inline-block;
+        position: absolute;
+        padding: 1.15rem;
+
+        @media only screen and (max-width: 40em) {
+          width: 3rem;
+          height: 3rem;
+          padding: 0.75rem;
+          font-size: 1.5rem;
+        }
+      }
+
+      input[type="text"] {
+        padding-left: 4rem;
+        height: 4rem;
+        border: none;
+        margin-bottom: 0;
+
+        @media only screen and (max-width: 40em) {
+          height: 3rem;
+          padding-left: 3rem;
+        }
+      }
+    }
+  }
+
+  .tab-box {
+    background: white;
+
+    .tabs {
+      li {
+        &:first-of-type {
+          padding-right: 0;
+
+          @media only screen and (max-width: 64em) {
+            padding: 0;
+          }
+        }
+
+        &:last-of-type {
+          padding-left: 0;
+
+          @media only screen and (max-width: 64em) {
+            padding: 0;
+          }
+        }
+
+        a {
+          padding: 2rem 0;
+          display: block;
+          background: white;
+          color: #4f72cc;
+          font-size: 1.75rem;
+          transition: background 300ms ease-out;
+          font-family: 'Geometria-Light';
+
+          @media only screen and (max-width: 40em) {
+            padding: 1rem 0;
+            font-size: 1.25rem;
+          }
+
+          &:hover {
+            background: darken(white, 5%);
+          }
+        }
+
+        &.active {
+          a {
+            color: white;
+            background: #4f72cc;
+            cursor: default;
+
+            &:hover {
+              background: #4f72cc;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .tabs-content {
+    margin-bottom: 0;
+
+    .files, .threats {
+      background: #e6eaf0;
+      margin-bottom: 9rem;
+
+      @media only screen and (max-height: 50em) {
+        margin-bottom: 6.5rem;
+      }
+
+      @media only screen and (max-width: 40em) {
+        margin-bottom: 7.5rem;
+      }
+
+      h4 {
+        margin: 5rem 0 3rem;
+        font-size: 2rem;
+        color: #2b2a2a;
+
+        @media only screen and (max-width: 64em) {
+          margin: 3rem 0 2rem;
+          font-size: 1.5rem;
+        }
+
+        @media only screen and (max-width: 40em) {
+          text-align: center;
+          margin: 2rem 0 1rem;
+          font-size: 1rem;
+        }
+      }
+
+      .left-list {
+        padding-left: 0;
+
+        @media only screen and (max-width: 40em) {
+         padding: 0;
+        }
+      }
+
+      .right-list {
+        padding-right: 0;
+
+        @media only screen and (max-width: 40em) {
+          padding: 0;
+        }
+      }
+
+      .left-list, .right-list {
+        ul {
+          li {
+            background: white;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 1.5rem;
+
+            @media only screen and (max-width: 40em) {
+              padding: 1rem 0.75rem;
+            }
+
+            &:last-of-type {
+              border: none;
+            }
+
+            .name {
+              color: #4f72cc;
+              font-size: 1.188rem;
+              margin-bottom: 1.5rem;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden;
+
+              @media only screen and (max-width: 40em) {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+
+      .top-files, .common-popular {
+        .left-list, .right-list {
+          ul {
+            li {
+              .comment {
+                position: absolute;
+                top: 1.5rem;
+                right: 1.5rem;
+                font-size: 0.875rem;
+                color: #2b2a2a;
+
+                @media only screen and (max-width: 40em) {
+                  top: 1rem;
+                  right: 0.75rem;
+                }
+
+                i {
+                  color: #c4c4c4;
+                  margin-right: 0.25rem;
+                }
+              }
+
+              .location, .infection, .type {
+                label, span {
+                  display: inline-block;
+
+                  @media only screen and (max-width: 40em) {
+                    font-size: 0.875rem;
+                  }
+                }
+
+                label {
+                  padding-top: 0.3125rem;
+                  padding-bottom: 0.3125rem;
+                }
+
+                span {
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                  border-radius: 100rem;
+                  border: 1px solid #e7ebf1;
+                  padding-top: 0.25rem;
+                  padding-bottom: 0.25rem;
+                  cursor: pointer;
+                }
+              }
+              .location {
+                margin-bottom: 0.5rem;
+                span {
+                  background: #e7ebf1;
+                }
+              }
+
+              .infection, .type {
+                span {
+                  color: #4f72cc;
+                }
+              }
+
+              .description {
+                p {
+                  color: #969696;
+                  line-height: 1.5;
+                  margin-bottom: 1rem;
+
+                  @media only screen and (max-width: 40em) {
+                    font-size: 0.875rem;
+                  }
+
+                  span {
+                    color: #242424;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .new-files, .recent {
+        &.new-files {
+          padding-bottom: 5rem;
+        }
+
+        .left-list, .right-list {
+          ul {
+            li {
+              .name {
+                margin-bottom: 0;
+              }
+
+              label {
+                display: table;
+                top: -0.125rem;
+
+                &:after {
+                  width: 100%;
+                  display: table-cell;
+                  vertical-align: middle;
+                  height: 1.5rem;
+                  color: white;
+                  border-radius: 100rem;
+                }
+
+                &.virus {
+                  &:after {
+                    content: 'Virus';
+                    background: #df4045;       
+                  }
+                }
+
+                &.clean {
+                  &:after {
+                    content: 'Clean';
+                    background: #48d4a5;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .infographics {
+        .geo {
+          img {
+            margin-bottom: 5rem;
+          }
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

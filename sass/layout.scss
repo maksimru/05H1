@@ -1,7 +1,6 @@
 html, body {
   font-family: 'Geometria-Light';
   min-width: 20rem;
-  overflow: hidden !important;
 
   #preloader { 
     position: fixed; 
@@ -57,7 +56,8 @@ html, body {
   }
 
   .right-off-canvas-menu {
-    background: #121318; 
+    background: #121318;
+    height: 100vh;
 
     &.off-canvas-sidemenu {
       width: 27rem;

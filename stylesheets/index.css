@@ -1,11 +1,15 @@
-/* line 3, ../sass/index.scss */
+/* line 1, ../sass/index.scss */
+#index, #buy {
+  overflow: hidden !important;
+}
+/* line 4, ../sass/index.scss */
 #index #fullpage, #buy #fullpage {
   position: absolute;
   top: 0;
   left: 0;
   height: 100vh;
 }
-/* line 9, ../sass/index.scss */
+/* line 10, ../sass/index.scss */
 #index #fullpage .section, #buy #fullpage .section {
   height: 100vh;
   width: 100vw !important;
@@ -14,130 +18,130 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 17, ../sass/index.scss */
+/* line 18, ../sass/index.scss */
 #index #fullpage .section .page-content, #buy #fullpage .section .page-content {
   display: table;
   width: 100vw;
   height: 100vh;
 }
-/* line 22, ../sass/index.scss */
+/* line 23, ../sass/index.scss */
 #index #fullpage .section .page-content h1, #index #fullpage .section .page-content h2, #buy #fullpage .section .page-content h1, #buy #fullpage .section .page-content h2 {
   color: white;
 }
-/* line 26, ../sass/index.scss */
+/* line 27, ../sass/index.scss */
 #index #fullpage .section .page-content h2, #buy #fullpage .section .page-content h2 {
   font-size: 2.688rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 26, ../sass/index.scss */
+  /* line 27, ../sass/index.scss */
   #index #fullpage .section .page-content h2, #buy #fullpage .section .page-content h2 {
     font-size: 1.5rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 26, ../sass/index.scss */
+  /* line 27, ../sass/index.scss */
   #index #fullpage .section .page-content h2, #buy #fullpage .section .page-content h2 {
     font-size: 1.5rem;
   }
 }
-/* line 38, ../sass/index.scss */
+/* line 39, ../sass/index.scss */
 #index #fullpage .section .page-content hgroup, #buy #fullpage .section .page-content hgroup {
   margin-bottom: 4rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 38, ../sass/index.scss */
+  /* line 39, ../sass/index.scss */
   #index #fullpage .section .page-content hgroup, #buy #fullpage .section .page-content hgroup {
     margin-bottom: 1rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 38, ../sass/index.scss */
+  /* line 39, ../sass/index.scss */
   #index #fullpage .section .page-content hgroup, #buy #fullpage .section .page-content hgroup {
     margin-bottom: 1rem;
   }
 }
-/* line 49, ../sass/index.scss */
+/* line 50, ../sass/index.scss */
 #index #fullpage .section .page-content hgroup span, #buy #fullpage .section .page-content hgroup span {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1.8rem;
 }
 @media only screen and (max-width: 64em) {
-  /* line 49, ../sass/index.scss */
+  /* line 50, ../sass/index.scss */
   #index #fullpage .section .page-content hgroup span, #buy #fullpage .section .page-content hgroup span {
     font-size: 1.5rem;
     margin-bottom: 2rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 49, ../sass/index.scss */
+  /* line 50, ../sass/index.scss */
   #index #fullpage .section .page-content hgroup span, #buy #fullpage .section .page-content hgroup span {
     font-size: 1rem;
     margin-bottom: 1rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 49, ../sass/index.scss */
+  /* line 50, ../sass/index.scss */
   #index #fullpage .section .page-content hgroup span, #buy #fullpage .section .page-content hgroup span {
     font-size: 1rem;
     margin-bottom: 1rem;
   }
 }
-/* line 71, ../sass/index.scss */
+/* line 72, ../sass/index.scss */
 #index #fullpage .section.page-1, #buy #fullpage .section.page-1 {
   background-image: url(../img/bg1.jpg);
   z-index: 90;
 }
-/* line 77, ../sass/index.scss */
+/* line 78, ../sass/index.scss */
 #index #fullpage .section.page-1 .page-content hgroup h1, #buy #fullpage .section.page-1 .page-content hgroup h1 {
   font-size: 3.313rem;
   margin-bottom: 2rem;
 }
 @media only screen and (max-width: 64em) {
-  /* line 77, ../sass/index.scss */
+  /* line 78, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content hgroup h1, #buy #fullpage .section.page-1 .page-content hgroup h1 {
     font-size: 2.5rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 77, ../sass/index.scss */
+  /* line 78, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content hgroup h1, #buy #fullpage .section.page-1 .page-content hgroup h1 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 77, ../sass/index.scss */
+  /* line 78, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content hgroup h1, #buy #fullpage .section.page-1 .page-content hgroup h1 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 }
-/* line 97, ../sass/index.scss */
+/* line 98, ../sass/index.scss */
 #index #fullpage .section.page-1 .page-content .btn-box, #buy #fullpage .section.page-1 .page-content .btn-box {
   display: table;
   padding: 0 1rem;
 }
-/* line 101, ../sass/index.scss */
+/* line 102, ../sass/index.scss */
 #index #fullpage .section.page-1 .page-content .btn-box .win, #buy #fullpage .section.page-1 .page-content .btn-box .win {
   color: white;
   margin: 1.5rem 0 15vh;
   display: inline-block;
 }
 @media only screen and (max-width: 40em) {
-  /* line 101, ../sass/index.scss */
+  /* line 102, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content .btn-box .win, #buy #fullpage .section.page-1 .page-content .btn-box .win {
     font-size: 0.75rem;
     margin: 1rem 0 2rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 101, ../sass/index.scss */
+  /* line 102, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content .btn-box .win, #buy #fullpage .section.page-1 .page-content .btn-box .win {
     font-size: 0.75rem;
     margin: 1rem 0 2rem;
   }
 }
-/* line 116, ../sass/index.scss */
+/* line 117, ../sass/index.scss */
 #index #fullpage .section.page-1 .page-content .btn-box .win .fa, #buy #fullpage .section.page-1 .page-content .btn-box .win .fa {
   opacity: .5;
   font-size: 1.75rem;
@@ -145,36 +149,36 @@
   vertical-align: sub;
 }
 @media only screen and (max-width: 40em) {
-  /* line 116, ../sass/index.scss */
+  /* line 117, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content .btn-box .win .fa, #buy #fullpage .section.page-1 .page-content .btn-box .win .fa {
     font-size: 1rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 116, ../sass/index.scss */
+  /* line 117, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content .btn-box .win .fa, #buy #fullpage .section.page-1 .page-content .btn-box .win .fa {
     font-size: 1rem;
   }
 }
 @media only screen and (max-width: 64em) {
-  /* line 133, ../sass/index.scss */
+  /* line 134, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content ul, #buy #fullpage .section.page-1 .page-content ul {
     padding: 0 3rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 133, ../sass/index.scss */
+  /* line 134, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content ul, #buy #fullpage .section.page-1 .page-content ul {
     padding: 0 1rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 133, ../sass/index.scss */
+  /* line 134, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content ul, #buy #fullpage .section.page-1 .page-content ul {
     padding: 0 1rem;
   }
 }
-/* line 146, ../sass/index.scss */
+/* line 147, ../sass/index.scss */
 #index #fullpage .section.page-1 .page-content ul li, #buy #fullpage .section.page-1 .page-content ul li {
   height: 3rem;
   color: white;
@@ -184,105 +188,105 @@
   margin-bottom: 1.5rem;
 }
 @media only screen and (max-width: 64em) {
-  /* line 146, ../sass/index.scss */
+  /* line 147, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content ul li, #buy #fullpage .section.page-1 .page-content ul li {
     font-size: 1rem;
     height: 2rem;
     margin-bottom: 0.75rem;
   }
 }
-/* line 160, ../sass/index.scss */
+/* line 161, ../sass/index.scss */
 #index #fullpage .section.page-1 .page-content ul li p, #buy #fullpage .section.page-1 .page-content ul li p {
   text-align: left;
 }
 @media only screen and (max-width: 64em) {
-  /* line 160, ../sass/index.scss */
+  /* line 161, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content ul li p, #buy #fullpage .section.page-1 .page-content ul li p {
     font-size: 0.875rem;
     text-align: center;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 160, ../sass/index.scss */
+  /* line 161, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content ul li p, #buy #fullpage .section.page-1 .page-content ul li p {
     font-size: 0.875rem;
     text-align: center;
   }
 }
-/* line 173, ../sass/index.scss */
+/* line 174, ../sass/index.scss */
 #index #fullpage .section.page-1 .page-content ul li p img, #buy #fullpage .section.page-1 .page-content ul li p img {
   display: inline-block;
   vertical-align: middle;
   margin-right: 0.5rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 173, ../sass/index.scss */
+  /* line 174, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content ul li p img, #buy #fullpage .section.page-1 .page-content ul li p img {
     height: 2rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 173, ../sass/index.scss */
+  /* line 174, ../sass/index.scss */
   #index #fullpage .section.page-1 .page-content ul li p img, #buy #fullpage .section.page-1 .page-content ul li p img {
     height: 2rem;
   }
 }
-/* line 192, ../sass/index.scss */
+/* line 193, ../sass/index.scss */
 #index #fullpage .section.page-2, #buy #fullpage .section.page-2 {
   z-index: 80;
 }
 @media only screen and (max-width: 40em) {
-  /* line 196, ../sass/index.scss */
+  /* line 197, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .content-wrap, #buy #fullpage .section.page-2 .page-content .content-wrap {
     display: table-cell;
     vertical-align: middle;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 196, ../sass/index.scss */
+  /* line 197, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .content-wrap, #buy #fullpage .section.page-2 .page-content .content-wrap {
     display: table-cell;
     vertical-align: middle;
   }
 }
-/* line 208, ../sass/index.scss */
+/* line 209, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .screen, #index #fullpage .section.page-2 .page-content .features, #buy #fullpage .section.page-2 .page-content .screen, #buy #fullpage .section.page-2 .page-content .features {
   padding: 0;
   height: 100vh;
 }
 @media only screen and (max-width: 40em) {
-  /* line 208, ../sass/index.scss */
+  /* line 209, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .screen, #index #fullpage .section.page-2 .page-content .features, #buy #fullpage .section.page-2 .page-content .screen, #buy #fullpage .section.page-2 .page-content .features {
     height: auto;
   }
 }
-/* line 217, ../sass/index.scss */
+/* line 218, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .screen, #buy #fullpage .section.page-2 .page-content .screen {
   float: right;
 }
-/* line 220, ../sass/index.scss */
+/* line 221, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .screen .screen-slider, #buy #fullpage .section.page-2 .page-content .screen .screen-slider {
   height: 100vh;
 }
 @media only screen and (max-width: 40em) {
-  /* line 220, ../sass/index.scss */
+  /* line 221, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .screen .screen-slider, #buy #fullpage .section.page-2 .page-content .screen .screen-slider {
     height: auto;
   }
 }
-/* line 227, ../sass/index.scss */
+/* line 228, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-1, #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-2, #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-3, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-1, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-2, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-3 {
   height: 100vh;
   display: table;
 }
 @media only screen and (max-width: 40em) {
-  /* line 227, ../sass/index.scss */
+  /* line 228, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-1, #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-2, #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-3, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-1, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-2, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-3 {
     width: 100vw !important;
     height: auto;
   }
 }
-/* line 236, ../sass/index.scss */
+/* line 237, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-1 img, #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-2 img, #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-3 img, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-1 img, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-2 img, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-3 img {
   display: inline-block;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
@@ -291,35 +295,35 @@
   max-width: calc(100% - 7.5rem);
 }
 @media only screen and (max-width: 64em) {
-  /* line 236, ../sass/index.scss */
+  /* line 237, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-1 img, #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-2 img, #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-3 img, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-1 img, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-2 img, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-3 img {
     max-width: calc(100% - 5rem);
     margin-bottom: 0;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 236, ../sass/index.scss */
+  /* line 237, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-1 img, #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-2 img, #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-3 img, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-1 img, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-2 img, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-3 img {
     max-width: calc(100% - 2rem);
     margin-bottom: 0;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 236, ../sass/index.scss */
+  /* line 237, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-1 img, #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-2 img, #index #fullpage .section.page-2 .page-content .screen .screen-slider .screen-3 img, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-1 img, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-2 img, #buy #fullpage .section.page-2 .page-content .screen .screen-slider .screen-3 img {
     max-width: calc(100% - 2rem);
     margin-bottom: 0;
     max-height: calc(100% - 20rem);
   }
 }
-/* line 263, ../sass/index.scss */
+/* line 264, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .features, #buy #fullpage .section.page-2 .page-content .features {
   background: #0e1016;
   display: table;
   float: right;
 }
 @media only screen and (max-width: 40em) {
-  /* line 263, ../sass/index.scss */
+  /* line 264, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features, #buy #fullpage .section.page-2 .page-content .features {
     padding-left: 0;
     margin-top: 3.5rem;
@@ -328,19 +332,19 @@
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 263, ../sass/index.scss */
+  /* line 264, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features, #buy #fullpage .section.page-2 .page-content .features {
     padding-left: 0;
   }
 }
-/* line 279, ../sass/index.scss */
+/* line 280, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .features h2, #buy #fullpage .section.page-2 .page-content .features h2 {
   padding: 0 2rem;
   margin-bottom: 4rem;
   left: 8rem;
 }
 @media only screen and (max-width: 64em) {
-  /* line 279, ../sass/index.scss */
+  /* line 280, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features h2, #buy #fullpage .section.page-2 .page-content .features h2 {
     left: 1.5rem;
     font-size: 1.5rem;
@@ -348,7 +352,7 @@
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 279, ../sass/index.scss */
+  /* line 280, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features h2, #buy #fullpage .section.page-2 .page-content .features h2 {
     left: 0;
     font-size: 1.5rem;
@@ -357,42 +361,42 @@
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 279, ../sass/index.scss */
+  /* line 280, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features h2, #buy #fullpage .section.page-2 .page-content .features h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 }
-/* line 303, ../sass/index.scss */
+/* line 304, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .features .feature-list, #buy #fullpage .section.page-2 .page-content .features .feature-list {
   left: 8rem;
 }
 @media only screen and (max-width: 64em) {
-  /* line 303, ../sass/index.scss */
+  /* line 304, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list, #buy #fullpage .section.page-2 .page-content .features .feature-list {
     left: 2rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 303, ../sass/index.scss */
+  /* line 304, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list, #buy #fullpage .section.page-2 .page-content .features .feature-list {
     left: 0;
     margin-bottom: 0.5rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 303, ../sass/index.scss */
+  /* line 304, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list, #buy #fullpage .section.page-2 .page-content .features .feature-list {
     margin-bottom: 0.5rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 319, ../sass/index.scss */
+  /* line 320, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list li, #buy #fullpage .section.page-2 .page-content .features .feature-list li {
     text-align: center;
   }
 }
-/* line 324, ../sass/index.scss */
+/* line 325, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .features .feature-list li span, #buy #fullpage .section.page-2 .page-content .features .feature-list li span {
   display: inline-block;
   font-size: 1.5rem;
@@ -402,7 +406,7 @@
   cursor: pointer;
   transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
 }
-/* line 333, ../sass/index.scss */
+/* line 334, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .features .feature-list li span:before, #buy #fullpage .section.page-2 .page-content .features .feature-list li span:before {
   content: " ";
   background: url(../img/arrow.png) no-repeat center left;
@@ -416,25 +420,25 @@
   transition: display 300ms ease-out;
 }
 @media only screen and (max-width: 64em) {
-  /* line 333, ../sass/index.scss */
+  /* line 334, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list li span:before, #buy #fullpage .section.page-2 .page-content .features .feature-list li span:before {
     display: none;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 333, ../sass/index.scss */
+  /* line 334, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list li span:before, #buy #fullpage .section.page-2 .page-content .features .feature-list li span:before {
     display: none;
   }
 }
 @media only screen and (max-width: 93em) {
-  /* line 324, ../sass/index.scss */
+  /* line 325, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list li span, #buy #fullpage .section.page-2 .page-content .features .feature-list li span {
     font-size: 1.25rem;
   }
 }
 @media only screen and (max-width: 64em) {
-  /* line 324, ../sass/index.scss */
+  /* line 325, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list li span, #buy #fullpage .section.page-2 .page-content .features .feature-list li span {
     font-size: 1rem;
     line-height: 1.25;
@@ -443,7 +447,7 @@
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 324, ../sass/index.scss */
+  /* line 325, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list li span, #buy #fullpage .section.page-2 .page-content .features .feature-list li span {
     display: block;
     font-size: 1rem;
@@ -452,48 +456,48 @@
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 324, ../sass/index.scss */
+  /* line 325, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list li span, #buy #fullpage .section.page-2 .page-content .features .feature-list li span {
     font-size: 1rem;
   }
 }
-/* line 376, ../sass/index.scss */
+/* line 377, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .features .feature-list li span:hover, #buy #fullpage .section.page-2 .page-content .features .feature-list li span:hover {
   color: white;
 }
-/* line 380, ../sass/index.scss */
+/* line 381, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .features .feature-list li span.active, #buy #fullpage .section.page-2 .page-content .features .feature-list li span.active {
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 100rem;
   transition: display 300ms ease-out;
 }
-/* line 386, ../sass/index.scss */
+/* line 387, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .features .feature-list li span.active:before, #buy #fullpage .section.page-2 .page-content .features .feature-list li span.active:before {
   display: inline-block;
   transition: display 300ms ease-out;
 }
 @media only screen and (max-width: 64em) {
-  /* line 386, ../sass/index.scss */
+  /* line 387, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list li span.active:before, #buy #fullpage .section.page-2 .page-content .features .feature-list li span.active:before {
     display: none;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 386, ../sass/index.scss */
+  /* line 387, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list li span.active:before, #buy #fullpage .section.page-2 .page-content .features .feature-list li span.active:before {
     display: none;
   }
 }
-/* line 401, ../sass/index.scss */
+/* line 402, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .features .feature-list li span + p, #buy #fullpage .section.page-2 .page-content .features .feature-list li span + p {
   display: none;
 }
-/* line 405, ../sass/index.scss */
+/* line 406, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .features .feature-list li span.active + p, #buy #fullpage .section.page-2 .page-content .features .feature-list li span.active + p {
   display: block;
 }
-/* line 409, ../sass/index.scss */
+/* line 410, ../sass/index.scss */
 #index #fullpage .section.page-2 .page-content .features .feature-list li p, #buy #fullpage .section.page-2 .page-content .features .feature-list li p {
   color: white;
   line-height: 1.5;
@@ -505,13 +509,13 @@
   margin-bottom: 1.5rem;
 }
 @media only screen and (max-width: 93em) {
-  /* line 409, ../sass/index.scss */
+  /* line 410, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list li p, #buy #fullpage .section.page-2 .page-content .features .feature-list li p {
     width: 50%;
   }
 }
 @media only screen and (max-width: 64em) {
-  /* line 409, ../sass/index.scss */
+  /* line 410, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list li p, #buy #fullpage .section.page-2 .page-content .features .feature-list li p {
     margin-top: 0rem;
     margin-left: 1.5rem;
@@ -520,42 +524,42 @@
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 409, ../sass/index.scss */
+  /* line 410, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list li p, #buy #fullpage .section.page-2 .page-content .features .feature-list li p {
     display: none !important;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 409, ../sass/index.scss */
+  /* line 410, ../sass/index.scss */
   #index #fullpage .section.page-2 .page-content .features .feature-list li p, #buy #fullpage .section.page-2 .page-content .features .feature-list li p {
     display: none !important;
   }
 }
-/* line 444, ../sass/index.scss */
+/* line 445, ../sass/index.scss */
 #index #fullpage .section.page-3, #index #fullpage .section.page-4, #buy #fullpage .section.page-3, #buy #fullpage .section.page-4 {
   z-index: 90;
 }
-/* line 448, ../sass/index.scss */
+/* line 449, ../sass/index.scss */
 #index #fullpage .section.page-3 .page-content hgroup h2, #index #fullpage .section.page-4 .page-content hgroup h2, #buy #fullpage .section.page-3 .page-content hgroup h2, #buy #fullpage .section.page-4 .page-content hgroup h2 {
   margin-bottom: 2rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 448, ../sass/index.scss */
+  /* line 449, ../sass/index.scss */
   #index #fullpage .section.page-3 .page-content hgroup h2, #index #fullpage .section.page-4 .page-content hgroup h2, #buy #fullpage .section.page-3 .page-content hgroup h2, #buy #fullpage .section.page-4 .page-content hgroup h2 {
     margin-bottom: 0.75rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 448, ../sass/index.scss */
+  /* line 449, ../sass/index.scss */
   #index #fullpage .section.page-3 .page-content hgroup h2, #index #fullpage .section.page-4 .page-content hgroup h2, #buy #fullpage .section.page-3 .page-content hgroup h2, #buy #fullpage .section.page-4 .page-content hgroup h2 {
     margin-bottom: 0.75rem;
   }
 }
-/* line 463, ../sass/index.scss */
+/* line 464, ../sass/index.scss */
 #index #fullpage .section.page-3, #buy #fullpage .section.page-3 {
   background-image: url(../img/bg4.jpg);
 }
-/* line 467, ../sass/index.scss */
+/* line 468, ../sass/index.scss */
 #index #fullpage .section.page-3 ul li, #buy #fullpage .section.page-3 ul li {
   display: table;
   height: 5.3rem;
@@ -563,20 +567,20 @@
   outline: none;
 }
 @media only screen and (max-width: 40em) {
-  /* line 467, ../sass/index.scss */
+  /* line 468, ../sass/index.scss */
   #index #fullpage .section.page-3 ul li, #buy #fullpage .section.page-3 ul li {
     height: 4rem;
     margin: 0.25rem 0;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 467, ../sass/index.scss */
+  /* line 468, ../sass/index.scss */
   #index #fullpage .section.page-3 ul li, #buy #fullpage .section.page-3 ul li {
     height: 4rem;
     margin: 0.25rem 0;
   }
 }
-/* line 483, ../sass/index.scss */
+/* line 484, ../sass/index.scss */
 #index #fullpage .section.page-3 ul li p, #buy #fullpage .section.page-3 ul li p {
   color: #2d2d2d;
   font-size: 1.188rem;
@@ -586,23 +590,23 @@
   padding: .5rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 483, ../sass/index.scss */
+  /* line 484, ../sass/index.scss */
   #index #fullpage .section.page-3 ul li p, #buy #fullpage .section.page-3 ul li p {
     font-size: 1rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 483, ../sass/index.scss */
+  /* line 484, ../sass/index.scss */
   #index #fullpage .section.page-3 ul li p, #buy #fullpage .section.page-3 ul li p {
     font-size: 1rem;
   }
 }
-/* line 499, ../sass/index.scss */
+/* line 500, ../sass/index.scss */
 #index #fullpage .section.page-3 ul li p:hover, #buy #fullpage .section.page-3 ul li p:hover {
   background: #466fd9;
   color: white;
 }
-/* line 507, ../sass/index.scss */
+/* line 508, ../sass/index.scss */
 #index #fullpage .section.page-3 .ask, #buy #fullpage .section.page-3 .ask {
   position: absolute;
   bottom: 2.72rem;
@@ -612,7 +616,7 @@
   z-index: 100;
 }
 @media only screen and (max-width: 64em) {
-  /* line 507, ../sass/index.scss */
+  /* line 508, ../sass/index.scss */
   #index #fullpage .section.page-3 .ask, #buy #fullpage .section.page-3 .ask {
     position: relative;
     bottom: auto;
@@ -621,155 +625,155 @@
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 507, ../sass/index.scss */
+  /* line 508, ../sass/index.scss */
   #index #fullpage .section.page-3 .ask, #buy #fullpage .section.page-3 .ask {
     display: none;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 507, ../sass/index.scss */
+  /* line 508, ../sass/index.scss */
   #index #fullpage .section.page-3 .ask, #buy #fullpage .section.page-3 .ask {
     display: none;
   }
 }
-/* line 531, ../sass/index.scss */
+/* line 532, ../sass/index.scss */
 #index #fullpage .section.page-3 .slick-arrow, #buy #fullpage .section.page-3 .slick-arrow {
   font-size: 0px;
   padding: 0;
   background: none;
   transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
 }
-/* line 537, ../sass/index.scss */
+/* line 538, ../sass/index.scss */
 #index #fullpage .section.page-3 .slick-arrow:hover, #buy #fullpage .section.page-3 .slick-arrow:hover {
   opacity: .4;
 }
-/* line 541, ../sass/index.scss */
+/* line 542, ../sass/index.scss */
 #index #fullpage .section.page-3 .slick-arrow:before, #buy #fullpage .section.page-3 .slick-arrow:before {
   font-family: FontAwesome;
   font-size: 2rem;
   display: block;
 }
-/* line 547, ../sass/index.scss */
+/* line 548, ../sass/index.scss */
 #index #fullpage .section.page-3 .slick-arrow.slick-prev, #buy #fullpage .section.page-3 .slick-arrow.slick-prev {
   margin-bottom: 2rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 547, ../sass/index.scss */
+  /* line 548, ../sass/index.scss */
   #index #fullpage .section.page-3 .slick-arrow.slick-prev, #buy #fullpage .section.page-3 .slick-arrow.slick-prev {
     margin-bottom: 0;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 547, ../sass/index.scss */
+  /* line 548, ../sass/index.scss */
   #index #fullpage .section.page-3 .slick-arrow.slick-prev, #buy #fullpage .section.page-3 .slick-arrow.slick-prev {
     margin-bottom: 0;
   }
 }
-/* line 558, ../sass/index.scss */
+/* line 559, ../sass/index.scss */
 #index #fullpage .section.page-3 .slick-arrow.slick-prev:before, #buy #fullpage .section.page-3 .slick-arrow.slick-prev:before {
   content: "\f106";
 }
-/* line 563, ../sass/index.scss */
+/* line 564, ../sass/index.scss */
 #index #fullpage .section.page-3 .slick-arrow.slick-next, #buy #fullpage .section.page-3 .slick-arrow.slick-next {
   margin-top: 1.5rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 563, ../sass/index.scss */
+  /* line 564, ../sass/index.scss */
   #index #fullpage .section.page-3 .slick-arrow.slick-next, #buy #fullpage .section.page-3 .slick-arrow.slick-next {
     margin-top: 0;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 563, ../sass/index.scss */
+  /* line 564, ../sass/index.scss */
   #index #fullpage .section.page-3 .slick-arrow.slick-next, #buy #fullpage .section.page-3 .slick-arrow.slick-next {
     margin-top: 0;
   }
 }
-/* line 574, ../sass/index.scss */
+/* line 575, ../sass/index.scss */
 #index #fullpage .section.page-3 .slick-arrow.slick-next:before, #buy #fullpage .section.page-3 .slick-arrow.slick-next:before {
   content: "\f107";
 }
-/* line 581, ../sass/index.scss */
+/* line 582, ../sass/index.scss */
 #index #fullpage .section.page-4, #buy #fullpage .section.page-4 {
   background-image: url(../img/bg5.jpg);
 }
-/* line 585, ../sass/index.scss */
+/* line 586, ../sass/index.scss */
 #index #fullpage .section.page-4 .page-content ul, #buy #fullpage .section.page-4 .page-content ul {
   display: inline-block;
   margin-bottom: 4rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 585, ../sass/index.scss */
+  /* line 586, ../sass/index.scss */
   #index #fullpage .section.page-4 .page-content ul, #buy #fullpage .section.page-4 .page-content ul {
     margin-bottom: 1rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 585, ../sass/index.scss */
+  /* line 586, ../sass/index.scss */
   #index #fullpage .section.page-4 .page-content ul, #buy #fullpage .section.page-4 .page-content ul {
     margin-bottom: 1rem;
   }
 }
-/* line 597, ../sass/index.scss */
+/* line 598, ../sass/index.scss */
 #index #fullpage .section.page-4 .page-content ul li, #buy #fullpage .section.page-4 .page-content ul li {
   display: inline-block;
   height: 38px;
   margin-bottom: 1rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 602, ../sass/index.scss */
+  /* line 603, ../sass/index.scss */
   #index #fullpage .section.page-4 .page-content ul li span, #buy #fullpage .section.page-4 .page-content ul li span {
     width: 45%;
     display: inline-block;
   }
 }
-/* line 609, ../sass/index.scss */
+/* line 610, ../sass/index.scss */
 #index #fullpage .section.page-4 .page-content ul li img, #buy #fullpage .section.page-4 .page-content ul li img {
   display: inline-block;
   vertical-align: middle;
   margin-right: 0.5rem;
 }
-/* line 615, ../sass/index.scss */
+/* line 616, ../sass/index.scss */
 #index #fullpage .section.page-4 .page-content ul li .fa, #buy #fullpage .section.page-4 .page-content ul li .fa {
   vertical-align: middle;
 }
-/* line 618, ../sass/index.scss */
+/* line 619, ../sass/index.scss */
 #index #fullpage .section.page-4 .page-content ul li .fa.empty, #buy #fullpage .section.page-4 .page-content ul li .fa.empty {
   opacity: .3;
 }
 @media only screen and (max-width: 40em) {
-  /* line 629, ../sass/index.scss */
+  /* line 630, ../sass/index.scss */
   #index #fp-nav, #buy #fp-nav {
     display: none;
   }
 }
-/* line 634, ../sass/index.scss */
+/* line 635, ../sass/index.scss */
 #index #fp-nav.right, #buy #fp-nav.right {
   right: 3.75rem;
 }
 @media only screen and (max-width: 64em) {
-  /* line 634, ../sass/index.scss */
+  /* line 635, ../sass/index.scss */
   #index #fp-nav.right, #buy #fp-nav.right {
     right: 2.5rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 634, ../sass/index.scss */
+  /* line 635, ../sass/index.scss */
   #index #fp-nav.right, #buy #fp-nav.right {
     right: 2.5rem;
   }
 }
-/* line 647, ../sass/index.scss */
+/* line 648, ../sass/index.scss */
 #index #fp-nav ul li, #buy #fp-nav ul li {
   margin: 0 0 1rem;
   width: 12px;
   height: 12px;
 }
-/* line 652, ../sass/index.scss */
+/* line 653, ../sass/index.scss */
 #index #fp-nav ul li a, #buy #fp-nav ul li a {
   text-align: center;
 }
-/* line 655, ../sass/index.scss */
+/* line 656, ../sass/index.scss */
 #index #fp-nav ul li a span, #buy #fp-nav ul li a span {
   height: 8px;
   width: 8px;
@@ -777,11 +781,11 @@
   margin: -4px 0 0 -4px;
   transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out;
 }
-/* line 662, ../sass/index.scss */
+/* line 663, ../sass/index.scss */
 #index #fp-nav ul li a span:hover, #buy #fp-nav ul li a span:hover {
   background: white;
 }
-/* line 668, ../sass/index.scss */
+/* line 669, ../sass/index.scss */
 #index #fp-nav ul li a.active span, #buy #fp-nav ul li a.active span {
   height: 12px;
   width: 12px;
@@ -789,7 +793,7 @@
   margin: -6px 0 0 -6px;
   border: 2px solid white;
 }
-/* line 675, ../sass/index.scss */
+/* line 676, ../sass/index.scss */
 #index #fp-nav ul li a.active span:hover, #buy #fp-nav ul li a.active span:hover {
   background: transparent;
 }

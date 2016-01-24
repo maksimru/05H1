@@ -1,0 +1,345 @@
+/* line 1, ../sass/threats.scss */
+#threats {
+  height: auto;
+  background: #0e1016;
+}
+/* line 5, ../sass/threats.scss */
+#threats header, #threats footer {
+  position: absolute;
+}
+/* line 9, ../sass/threats.scss */
+#threats footer {
+  bottom: 0;
+}
+/* line 13, ../sass/threats.scss */
+#threats .search {
+  background: url(../img/bg.jpg) no-repeat top center;
+  padding-top: 12.5rem;
+}
+@media only screen and (max-height: 50em) {
+  /* line 13, ../sass/threats.scss */
+  #threats .search {
+    padding-top: 8rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 13, ../sass/threats.scss */
+  #threats .search {
+    padding-top: 6rem;
+  }
+}
+/* line 25, ../sass/threats.scss */
+#threats .search h3 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 3rem;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 40em) {
+  /* line 25, ../sass/threats.scss */
+  #threats .search h3 {
+    font-size: 1.8rem;
+  }
+}
+/* line 36, ../sass/threats.scss */
+#threats .search label {
+  margin-bottom: 5rem;
+}
+/* line 39, ../sass/threats.scss */
+#threats .search label:before {
+  font-family: FontAwesome;
+  content: "\f002";
+  text-align: center;
+  font-size: 1.75rem;
+  color: #cbcbcb;
+  width: 4rem;
+  height: 4rem;
+  display: inline-block;
+  position: absolute;
+  padding: 1.15rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 39, ../sass/threats.scss */
+  #threats .search label:before {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.75rem;
+    font-size: 1.5rem;
+  }
+}
+/* line 59, ../sass/threats.scss */
+#threats .search label input[type="text"] {
+  padding-left: 4rem;
+  height: 4rem;
+  border: none;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 40em) {
+  /* line 59, ../sass/threats.scss */
+  #threats .search label input[type="text"] {
+    height: 3rem;
+    padding-left: 3rem;
+  }
+}
+/* line 73, ../sass/threats.scss */
+#threats .tab-box {
+  background: white;
+}
+/* line 78, ../sass/threats.scss */
+#threats .tab-box .tabs li:first-of-type {
+  padding-right: 0;
+}
+@media only screen and (max-width: 64em) {
+  /* line 78, ../sass/threats.scss */
+  #threats .tab-box .tabs li:first-of-type {
+    padding: 0;
+  }
+}
+/* line 86, ../sass/threats.scss */
+#threats .tab-box .tabs li:last-of-type {
+  padding-left: 0;
+}
+@media only screen and (max-width: 64em) {
+  /* line 86, ../sass/threats.scss */
+  #threats .tab-box .tabs li:last-of-type {
+    padding: 0;
+  }
+}
+/* line 94, ../sass/threats.scss */
+#threats .tab-box .tabs li a {
+  padding: 2rem 0;
+  display: block;
+  background: white;
+  color: #4f72cc;
+  font-size: 1.75rem;
+  transition: background 300ms ease-out;
+  font-family: 'Geometria-Light';
+}
+@media only screen and (max-width: 40em) {
+  /* line 94, ../sass/threats.scss */
+  #threats .tab-box .tabs li a {
+    padding: 1rem 0;
+    font-size: 1.25rem;
+  }
+}
+/* line 108, ../sass/threats.scss */
+#threats .tab-box .tabs li a:hover {
+  background: #f2f2f2;
+}
+/* line 114, ../sass/threats.scss */
+#threats .tab-box .tabs li.active a {
+  color: white;
+  background: #4f72cc;
+  cursor: default;
+}
+/* line 119, ../sass/threats.scss */
+#threats .tab-box .tabs li.active a:hover {
+  background: #4f72cc;
+}
+/* line 128, ../sass/threats.scss */
+#threats .tabs-content {
+  margin-bottom: 0;
+}
+/* line 131, ../sass/threats.scss */
+#threats .tabs-content .files, #threats .tabs-content .threats {
+  background: #e6eaf0;
+  margin-bottom: 9rem;
+}
+@media only screen and (max-height: 50em) {
+  /* line 131, ../sass/threats.scss */
+  #threats .tabs-content .files, #threats .tabs-content .threats {
+    margin-bottom: 6.5rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 131, ../sass/threats.scss */
+  #threats .tabs-content .files, #threats .tabs-content .threats {
+    margin-bottom: 7.5rem;
+  }
+}
+/* line 143, ../sass/threats.scss */
+#threats .tabs-content .files h4, #threats .tabs-content .threats h4 {
+  margin: 5rem 0 3rem;
+  font-size: 2rem;
+  color: #2b2a2a;
+}
+@media only screen and (max-width: 64em) {
+  /* line 143, ../sass/threats.scss */
+  #threats .tabs-content .files h4, #threats .tabs-content .threats h4 {
+    margin: 3rem 0 2rem;
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 143, ../sass/threats.scss */
+  #threats .tabs-content .files h4, #threats .tabs-content .threats h4 {
+    text-align: center;
+    margin: 2rem 0 1rem;
+    font-size: 1rem;
+  }
+}
+/* line 160, ../sass/threats.scss */
+#threats .tabs-content .files .left-list, #threats .tabs-content .threats .left-list {
+  padding-left: 0;
+}
+@media only screen and (max-width: 40em) {
+  /* line 160, ../sass/threats.scss */
+  #threats .tabs-content .files .left-list, #threats .tabs-content .threats .left-list {
+    padding: 0;
+  }
+}
+/* line 168, ../sass/threats.scss */
+#threats .tabs-content .files .right-list, #threats .tabs-content .threats .right-list {
+  padding-right: 0;
+}
+@media only screen and (max-width: 40em) {
+  /* line 168, ../sass/threats.scss */
+  #threats .tabs-content .files .right-list, #threats .tabs-content .threats .right-list {
+    padding: 0;
+  }
+}
+/* line 178, ../sass/threats.scss */
+#threats .tabs-content .files .left-list ul li, #threats .tabs-content .files .right-list ul li, #threats .tabs-content .threats .left-list ul li, #threats .tabs-content .threats .right-list ul li {
+  background: white;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 1.5rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 178, ../sass/threats.scss */
+  #threats .tabs-content .files .left-list ul li, #threats .tabs-content .files .right-list ul li, #threats .tabs-content .threats .left-list ul li, #threats .tabs-content .threats .right-list ul li {
+    padding: 1rem 0.75rem;
+  }
+}
+/* line 187, ../sass/threats.scss */
+#threats .tabs-content .files .left-list ul li:last-of-type, #threats .tabs-content .files .right-list ul li:last-of-type, #threats .tabs-content .threats .left-list ul li:last-of-type, #threats .tabs-content .threats .right-list ul li:last-of-type {
+  border: none;
+}
+/* line 191, ../sass/threats.scss */
+#threats .tabs-content .files .left-list ul li .name, #threats .tabs-content .files .right-list ul li .name, #threats .tabs-content .threats .left-list ul li .name, #threats .tabs-content .threats .right-list ul li .name {
+  color: #4f72cc;
+  font-size: 1.188rem;
+  margin-bottom: 1.5rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+@media only screen and (max-width: 40em) {
+  /* line 191, ../sass/threats.scss */
+  #threats .tabs-content .files .left-list ul li .name, #threats .tabs-content .files .right-list ul li .name, #threats .tabs-content .threats .left-list ul li .name, #threats .tabs-content .threats .right-list ul li .name {
+    font-size: 1rem;
+  }
+}
+/* line 211, ../sass/threats.scss */
+#threats .tabs-content .files .top-files .left-list ul li .comment, #threats .tabs-content .files .top-files .right-list ul li .comment, #threats .tabs-content .files .common-popular .left-list ul li .comment, #threats .tabs-content .files .common-popular .right-list ul li .comment, #threats .tabs-content .threats .top-files .left-list ul li .comment, #threats .tabs-content .threats .top-files .right-list ul li .comment, #threats .tabs-content .threats .common-popular .left-list ul li .comment, #threats .tabs-content .threats .common-popular .right-list ul li .comment {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 0.875rem;
+  color: #2b2a2a;
+}
+@media only screen and (max-width: 40em) {
+  /* line 211, ../sass/threats.scss */
+  #threats .tabs-content .files .top-files .left-list ul li .comment, #threats .tabs-content .files .top-files .right-list ul li .comment, #threats .tabs-content .files .common-popular .left-list ul li .comment, #threats .tabs-content .files .common-popular .right-list ul li .comment, #threats .tabs-content .threats .top-files .left-list ul li .comment, #threats .tabs-content .threats .top-files .right-list ul li .comment, #threats .tabs-content .threats .common-popular .left-list ul li .comment, #threats .tabs-content .threats .common-popular .right-list ul li .comment {
+    top: 1rem;
+    right: 0.75rem;
+  }
+}
+/* line 223, ../sass/threats.scss */
+#threats .tabs-content .files .top-files .left-list ul li .comment i, #threats .tabs-content .files .top-files .right-list ul li .comment i, #threats .tabs-content .files .common-popular .left-list ul li .comment i, #threats .tabs-content .files .common-popular .right-list ul li .comment i, #threats .tabs-content .threats .top-files .left-list ul li .comment i, #threats .tabs-content .threats .top-files .right-list ul li .comment i, #threats .tabs-content .threats .common-popular .left-list ul li .comment i, #threats .tabs-content .threats .common-popular .right-list ul li .comment i {
+  color: #c4c4c4;
+  margin-right: 0.25rem;
+}
+/* line 230, ../sass/threats.scss */
+#threats .tabs-content .files .top-files .left-list ul li .location label, #threats .tabs-content .files .top-files .left-list ul li .location span, #threats .tabs-content .files .top-files .left-list ul li .infection label, #threats .tabs-content .files .top-files .left-list ul li .infection span, #threats .tabs-content .files .top-files .left-list ul li .type label, #threats .tabs-content .files .top-files .left-list ul li .type span, #threats .tabs-content .files .top-files .right-list ul li .location label, #threats .tabs-content .files .top-files .right-list ul li .location span, #threats .tabs-content .files .top-files .right-list ul li .infection label, #threats .tabs-content .files .top-files .right-list ul li .infection span, #threats .tabs-content .files .top-files .right-list ul li .type label, #threats .tabs-content .files .top-files .right-list ul li .type span, #threats .tabs-content .files .common-popular .left-list ul li .location label, #threats .tabs-content .files .common-popular .left-list ul li .location span, #threats .tabs-content .files .common-popular .left-list ul li .infection label, #threats .tabs-content .files .common-popular .left-list ul li .infection span, #threats .tabs-content .files .common-popular .left-list ul li .type label, #threats .tabs-content .files .common-popular .left-list ul li .type span, #threats .tabs-content .files .common-popular .right-list ul li .location label, #threats .tabs-content .files .common-popular .right-list ul li .location span, #threats .tabs-content .files .common-popular .right-list ul li .infection label, #threats .tabs-content .files .common-popular .right-list ul li .infection span, #threats .tabs-content .files .common-popular .right-list ul li .type label, #threats .tabs-content .files .common-popular .right-list ul li .type span, #threats .tabs-content .threats .top-files .left-list ul li .location label, #threats .tabs-content .threats .top-files .left-list ul li .location span, #threats .tabs-content .threats .top-files .left-list ul li .infection label, #threats .tabs-content .threats .top-files .left-list ul li .infection span, #threats .tabs-content .threats .top-files .left-list ul li .type label, #threats .tabs-content .threats .top-files .left-list ul li .type span, #threats .tabs-content .threats .top-files .right-list ul li .location label, #threats .tabs-content .threats .top-files .right-list ul li .location span, #threats .tabs-content .threats .top-files .right-list ul li .infection label, #threats .tabs-content .threats .top-files .right-list ul li .infection span, #threats .tabs-content .threats .top-files .right-list ul li .type label, #threats .tabs-content .threats .top-files .right-list ul li .type span, #threats .tabs-content .threats .common-popular .left-list ul li .location label, #threats .tabs-content .threats .common-popular .left-list ul li .location span, #threats .tabs-content .threats .common-popular .left-list ul li .infection label, #threats .tabs-content .threats .common-popular .left-list ul li .infection span, #threats .tabs-content .threats .common-popular .left-list ul li .type label, #threats .tabs-content .threats .common-popular .left-list ul li .type span, #threats .tabs-content .threats .common-popular .right-list ul li .location label, #threats .tabs-content .threats .common-popular .right-list ul li .location span, #threats .tabs-content .threats .common-popular .right-list ul li .infection label, #threats .tabs-content .threats .common-popular .right-list ul li .infection span, #threats .tabs-content .threats .common-popular .right-list ul li .type label, #threats .tabs-content .threats .common-popular .right-list ul li .type span {
+  display: inline-block;
+}
+@media only screen and (max-width: 40em) {
+  /* line 230, ../sass/threats.scss */
+  #threats .tabs-content .files .top-files .left-list ul li .location label, #threats .tabs-content .files .top-files .left-list ul li .location span, #threats .tabs-content .files .top-files .left-list ul li .infection label, #threats .tabs-content .files .top-files .left-list ul li .infection span, #threats .tabs-content .files .top-files .left-list ul li .type label, #threats .tabs-content .files .top-files .left-list ul li .type span, #threats .tabs-content .files .top-files .right-list ul li .location label, #threats .tabs-content .files .top-files .right-list ul li .location span, #threats .tabs-content .files .top-files .right-list ul li .infection label, #threats .tabs-content .files .top-files .right-list ul li .infection span, #threats .tabs-content .files .top-files .right-list ul li .type label, #threats .tabs-content .files .top-files .right-list ul li .type span, #threats .tabs-content .files .common-popular .left-list ul li .location label, #threats .tabs-content .files .common-popular .left-list ul li .location span, #threats .tabs-content .files .common-popular .left-list ul li .infection label, #threats .tabs-content .files .common-popular .left-list ul li .infection span, #threats .tabs-content .files .common-popular .left-list ul li .type label, #threats .tabs-content .files .common-popular .left-list ul li .type span, #threats .tabs-content .files .common-popular .right-list ul li .location label, #threats .tabs-content .files .common-popular .right-list ul li .location span, #threats .tabs-content .files .common-popular .right-list ul li .infection label, #threats .tabs-content .files .common-popular .right-list ul li .infection span, #threats .tabs-content .files .common-popular .right-list ul li .type label, #threats .tabs-content .files .common-popular .right-list ul li .type span, #threats .tabs-content .threats .top-files .left-list ul li .location label, #threats .tabs-content .threats .top-files .left-list ul li .location span, #threats .tabs-content .threats .top-files .left-list ul li .infection label, #threats .tabs-content .threats .top-files .left-list ul li .infection span, #threats .tabs-content .threats .top-files .left-list ul li .type label, #threats .tabs-content .threats .top-files .left-list ul li .type span, #threats .tabs-content .threats .top-files .right-list ul li .location label, #threats .tabs-content .threats .top-files .right-list ul li .location span, #threats .tabs-content .threats .top-files .right-list ul li .infection label, #threats .tabs-content .threats .top-files .right-list ul li .infection span, #threats .tabs-content .threats .top-files .right-list ul li .type label, #threats .tabs-content .threats .top-files .right-list ul li .type span, #threats .tabs-content .threats .common-popular .left-list ul li .location label, #threats .tabs-content .threats .common-popular .left-list ul li .location span, #threats .tabs-content .threats .common-popular .left-list ul li .infection label, #threats .tabs-content .threats .common-popular .left-list ul li .infection span, #threats .tabs-content .threats .common-popular .left-list ul li .type label, #threats .tabs-content .threats .common-popular .left-list ul li .type span, #threats .tabs-content .threats .common-popular .right-list ul li .location label, #threats .tabs-content .threats .common-popular .right-list ul li .location span, #threats .tabs-content .threats .common-popular .right-list ul li .infection label, #threats .tabs-content .threats .common-popular .right-list ul li .infection span, #threats .tabs-content .threats .common-popular .right-list ul li .type label, #threats .tabs-content .threats .common-popular .right-list ul li .type span {
+    font-size: 0.875rem;
+  }
+}
+/* line 238, ../sass/threats.scss */
+#threats .tabs-content .files .top-files .left-list ul li .location label, #threats .tabs-content .files .top-files .left-list ul li .infection label, #threats .tabs-content .files .top-files .left-list ul li .type label, #threats .tabs-content .files .top-files .right-list ul li .location label, #threats .tabs-content .files .top-files .right-list ul li .infection label, #threats .tabs-content .files .top-files .right-list ul li .type label, #threats .tabs-content .files .common-popular .left-list ul li .location label, #threats .tabs-content .files .common-popular .left-list ul li .infection label, #threats .tabs-content .files .common-popular .left-list ul li .type label, #threats .tabs-content .files .common-popular .right-list ul li .location label, #threats .tabs-content .files .common-popular .right-list ul li .infection label, #threats .tabs-content .files .common-popular .right-list ul li .type label, #threats .tabs-content .threats .top-files .left-list ul li .location label, #threats .tabs-content .threats .top-files .left-list ul li .infection label, #threats .tabs-content .threats .top-files .left-list ul li .type label, #threats .tabs-content .threats .top-files .right-list ul li .location label, #threats .tabs-content .threats .top-files .right-list ul li .infection label, #threats .tabs-content .threats .top-files .right-list ul li .type label, #threats .tabs-content .threats .common-popular .left-list ul li .location label, #threats .tabs-content .threats .common-popular .left-list ul li .infection label, #threats .tabs-content .threats .common-popular .left-list ul li .type label, #threats .tabs-content .threats .common-popular .right-list ul li .location label, #threats .tabs-content .threats .common-popular .right-list ul li .infection label, #threats .tabs-content .threats .common-popular .right-list ul li .type label {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+}
+/* line 243, ../sass/threats.scss */
+#threats .tabs-content .files .top-files .left-list ul li .location span, #threats .tabs-content .files .top-files .left-list ul li .infection span, #threats .tabs-content .files .top-files .left-list ul li .type span, #threats .tabs-content .files .top-files .right-list ul li .location span, #threats .tabs-content .files .top-files .right-list ul li .infection span, #threats .tabs-content .files .top-files .right-list ul li .type span, #threats .tabs-content .files .common-popular .left-list ul li .location span, #threats .tabs-content .files .common-popular .left-list ul li .infection span, #threats .tabs-content .files .common-popular .left-list ul li .type span, #threats .tabs-content .files .common-popular .right-list ul li .location span, #threats .tabs-content .files .common-popular .right-list ul li .infection span, #threats .tabs-content .files .common-popular .right-list ul li .type span, #threats .tabs-content .threats .top-files .left-list ul li .location span, #threats .tabs-content .threats .top-files .left-list ul li .infection span, #threats .tabs-content .threats .top-files .left-list ul li .type span, #threats .tabs-content .threats .top-files .right-list ul li .location span, #threats .tabs-content .threats .top-files .right-list ul li .infection span, #threats .tabs-content .threats .top-files .right-list ul li .type span, #threats .tabs-content .threats .common-popular .left-list ul li .location span, #threats .tabs-content .threats .common-popular .left-list ul li .infection span, #threats .tabs-content .threats .common-popular .left-list ul li .type span, #threats .tabs-content .threats .common-popular .right-list ul li .location span, #threats .tabs-content .threats .common-popular .right-list ul li .infection span, #threats .tabs-content .threats .common-popular .right-list ul li .type span {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-radius: 100rem;
+  border: 1px solid #e7ebf1;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  cursor: pointer;
+}
+/* line 254, ../sass/threats.scss */
+#threats .tabs-content .files .top-files .left-list ul li .location, #threats .tabs-content .files .top-files .right-list ul li .location, #threats .tabs-content .files .common-popular .left-list ul li .location, #threats .tabs-content .files .common-popular .right-list ul li .location, #threats .tabs-content .threats .top-files .left-list ul li .location, #threats .tabs-content .threats .top-files .right-list ul li .location, #threats .tabs-content .threats .common-popular .left-list ul li .location, #threats .tabs-content .threats .common-popular .right-list ul li .location {
+  margin-bottom: 0.5rem;
+}
+/* line 256, ../sass/threats.scss */
+#threats .tabs-content .files .top-files .left-list ul li .location span, #threats .tabs-content .files .top-files .right-list ul li .location span, #threats .tabs-content .files .common-popular .left-list ul li .location span, #threats .tabs-content .files .common-popular .right-list ul li .location span, #threats .tabs-content .threats .top-files .left-list ul li .location span, #threats .tabs-content .threats .top-files .right-list ul li .location span, #threats .tabs-content .threats .common-popular .left-list ul li .location span, #threats .tabs-content .threats .common-popular .right-list ul li .location span {
+  background: #e7ebf1;
+}
+/* line 262, ../sass/threats.scss */
+#threats .tabs-content .files .top-files .left-list ul li .infection span, #threats .tabs-content .files .top-files .left-list ul li .type span, #threats .tabs-content .files .top-files .right-list ul li .infection span, #threats .tabs-content .files .top-files .right-list ul li .type span, #threats .tabs-content .files .common-popular .left-list ul li .infection span, #threats .tabs-content .files .common-popular .left-list ul li .type span, #threats .tabs-content .files .common-popular .right-list ul li .infection span, #threats .tabs-content .files .common-popular .right-list ul li .type span, #threats .tabs-content .threats .top-files .left-list ul li .infection span, #threats .tabs-content .threats .top-files .left-list ul li .type span, #threats .tabs-content .threats .top-files .right-list ul li .infection span, #threats .tabs-content .threats .top-files .right-list ul li .type span, #threats .tabs-content .threats .common-popular .left-list ul li .infection span, #threats .tabs-content .threats .common-popular .left-list ul li .type span, #threats .tabs-content .threats .common-popular .right-list ul li .infection span, #threats .tabs-content .threats .common-popular .right-list ul li .type span {
+  color: #4f72cc;
+}
+/* line 268, ../sass/threats.scss */
+#threats .tabs-content .files .top-files .left-list ul li .description p, #threats .tabs-content .files .top-files .right-list ul li .description p, #threats .tabs-content .files .common-popular .left-list ul li .description p, #threats .tabs-content .files .common-popular .right-list ul li .description p, #threats .tabs-content .threats .top-files .left-list ul li .description p, #threats .tabs-content .threats .top-files .right-list ul li .description p, #threats .tabs-content .threats .common-popular .left-list ul li .description p, #threats .tabs-content .threats .common-popular .right-list ul li .description p {
+  color: #969696;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 268, ../sass/threats.scss */
+  #threats .tabs-content .files .top-files .left-list ul li .description p, #threats .tabs-content .files .top-files .right-list ul li .description p, #threats .tabs-content .files .common-popular .left-list ul li .description p, #threats .tabs-content .files .common-popular .right-list ul li .description p, #threats .tabs-content .threats .top-files .left-list ul li .description p, #threats .tabs-content .threats .top-files .right-list ul li .description p, #threats .tabs-content .threats .common-popular .left-list ul li .description p, #threats .tabs-content .threats .common-popular .right-list ul li .description p {
+    font-size: 0.875rem;
+  }
+}
+/* line 277, ../sass/threats.scss */
+#threats .tabs-content .files .top-files .left-list ul li .description p span, #threats .tabs-content .files .top-files .right-list ul li .description p span, #threats .tabs-content .files .common-popular .left-list ul li .description p span, #threats .tabs-content .files .common-popular .right-list ul li .description p span, #threats .tabs-content .threats .top-files .left-list ul li .description p span, #threats .tabs-content .threats .top-files .right-list ul li .description p span, #threats .tabs-content .threats .common-popular .left-list ul li .description p span, #threats .tabs-content .threats .common-popular .right-list ul li .description p span {
+  color: #242424;
+}
+/* line 288, ../sass/threats.scss */
+#threats .tabs-content .files .new-files.new-files, #threats .tabs-content .files .recent.new-files, #threats .tabs-content .threats .new-files.new-files, #threats .tabs-content .threats .recent.new-files {
+  padding-bottom: 5rem;
+}
+/* line 295, ../sass/threats.scss */
+#threats .tabs-content .files .new-files .left-list ul li .name, #threats .tabs-content .files .new-files .right-list ul li .name, #threats .tabs-content .files .recent .left-list ul li .name, #threats .tabs-content .files .recent .right-list ul li .name, #threats .tabs-content .threats .new-files .left-list ul li .name, #threats .tabs-content .threats .new-files .right-list ul li .name, #threats .tabs-content .threats .recent .left-list ul li .name, #threats .tabs-content .threats .recent .right-list ul li .name {
+  margin-bottom: 0;
+}
+/* line 299, ../sass/threats.scss */
+#threats .tabs-content .files .new-files .left-list ul li label, #threats .tabs-content .files .new-files .right-list ul li label, #threats .tabs-content .files .recent .left-list ul li label, #threats .tabs-content .files .recent .right-list ul li label, #threats .tabs-content .threats .new-files .left-list ul li label, #threats .tabs-content .threats .new-files .right-list ul li label, #threats .tabs-content .threats .recent .left-list ul li label, #threats .tabs-content .threats .recent .right-list ul li label {
+  display: table;
+  top: -0.125rem;
+}
+/* line 303, ../sass/threats.scss */
+#threats .tabs-content .files .new-files .left-list ul li label:after, #threats .tabs-content .files .new-files .right-list ul li label:after, #threats .tabs-content .files .recent .left-list ul li label:after, #threats .tabs-content .files .recent .right-list ul li label:after, #threats .tabs-content .threats .new-files .left-list ul li label:after, #threats .tabs-content .threats .new-files .right-list ul li label:after, #threats .tabs-content .threats .recent .left-list ul li label:after, #threats .tabs-content .threats .recent .right-list ul li label:after {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  height: 1.5rem;
+  color: white;
+  border-radius: 100rem;
+}
+/* line 313, ../sass/threats.scss */
+#threats .tabs-content .files .new-files .left-list ul li label.virus:after, #threats .tabs-content .files .new-files .right-list ul li label.virus:after, #threats .tabs-content .files .recent .left-list ul li label.virus:after, #threats .tabs-content .files .recent .right-list ul li label.virus:after, #threats .tabs-content .threats .new-files .left-list ul li label.virus:after, #threats .tabs-content .threats .new-files .right-list ul li label.virus:after, #threats .tabs-content .threats .recent .left-list ul li label.virus:after, #threats .tabs-content .threats .recent .right-list ul li label.virus:after {
+  content: 'Virus';
+  background: #df4045;
+}
+/* line 320, ../sass/threats.scss */
+#threats .tabs-content .files .new-files .left-list ul li label.clean:after, #threats .tabs-content .files .new-files .right-list ul li label.clean:after, #threats .tabs-content .files .recent .left-list ul li label.clean:after, #threats .tabs-content .files .recent .right-list ul li label.clean:after, #threats .tabs-content .threats .new-files .left-list ul li label.clean:after, #threats .tabs-content .threats .new-files .right-list ul li label.clean:after, #threats .tabs-content .threats .recent .left-list ul li label.clean:after, #threats .tabs-content .threats .recent .right-list ul li label.clean:after {
+  content: 'Clean';
+  background: #48d4a5;
+}
+/* line 333, ../sass/threats.scss */
+#threats .tabs-content .files .infographics .geo img, #threats .tabs-content .threats .infographics .geo img {
+  margin-bottom: 5rem;
+}
+/* line 337, ../sass/threats.scss */
+#threats .tabs-content .files .infographics img, #threats .tabs-content .threats .infographics img {
+  width: 100%;
+}
