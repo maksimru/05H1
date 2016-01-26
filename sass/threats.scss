@@ -1,38 +1,5 @@
 #threats {
-  height: auto;
-  background: #0e1016;
-
-  header, footer {
-    position: absolute;
-  }
-
-  footer{
-    bottom: 0;
-  }
-
   .search {
-    background: url(../img/bg.jpg) no-repeat top center;
-    padding-top: 12.5rem;
-
-    @media only screen and (max-height: 50em) {
-      padding-top: 8rem;
-    }
-
-    @media only screen and (max-width: 40em) {
-      padding-top: 6rem;
-    }
-
-    h3 {
-      font-size: 2.5rem;
-      color: white;
-      margin-bottom: 3rem;
-      line-height: 1.5;
-
-      @media only screen and (max-width: 40em) {
-        font-size: 1.8rem;
-      }
-    }
-
     label {
       margin-bottom: 5rem;
 

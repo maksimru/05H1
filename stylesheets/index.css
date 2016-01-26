@@ -560,220 +560,86 @@
   background-image: url(../img/bg4.jpg);
 }
 /* line 468, ../sass/index.scss */
-#index #fullpage .section.page-3 ul li, #buy #fullpage .section.page-3 ul li {
-  display: table;
-  height: 5.3rem;
-  margin: 0.4rem 0;
-  outline: none;
-}
-@media only screen and (max-width: 40em) {
-  /* line 468, ../sass/index.scss */
-  #index #fullpage .section.page-3 ul li, #buy #fullpage .section.page-3 ul li {
-    height: 4rem;
-    margin: 0.25rem 0;
-  }
-}
-@media only screen and (max-height: 50em) {
-  /* line 468, ../sass/index.scss */
-  #index #fullpage .section.page-3 ul li, #buy #fullpage .section.page-3 ul li {
-    height: 4rem;
-    margin: 0.25rem 0;
-  }
-}
-/* line 484, ../sass/index.scss */
-#index #fullpage .section.page-3 ul li p, #buy #fullpage .section.page-3 ul li p {
-  color: #2d2d2d;
-  font-size: 1.188rem;
-  cursor: pointer;
-  background: white;
-  transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
-  padding: .5rem;
-}
-@media only screen and (max-width: 40em) {
-  /* line 484, ../sass/index.scss */
-  #index #fullpage .section.page-3 ul li p, #buy #fullpage .section.page-3 ul li p {
-    font-size: 1rem;
-  }
-}
-@media only screen and (max-height: 50em) {
-  /* line 484, ../sass/index.scss */
-  #index #fullpage .section.page-3 ul li p, #buy #fullpage .section.page-3 ul li p {
-    font-size: 1rem;
-  }
-}
-/* line 500, ../sass/index.scss */
-#index #fullpage .section.page-3 ul li p:hover, #buy #fullpage .section.page-3 ul li p:hover {
-  background: #466fd9;
-  color: white;
-}
-/* line 508, ../sass/index.scss */
-#index #fullpage .section.page-3 .ask, #buy #fullpage .section.page-3 .ask {
-  position: absolute;
-  bottom: 2.72rem;
-  padding: 1.282rem 4rem;
-  left: 50%;
-  margin-left: -150px;
-  z-index: 100;
-}
-@media only screen and (max-width: 64em) {
-  /* line 508, ../sass/index.scss */
-  #index #fullpage .section.page-3 .ask, #buy #fullpage .section.page-3 .ask {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    margin-left: 0;
-  }
-}
-@media only screen and (max-width: 40em) {
-  /* line 508, ../sass/index.scss */
-  #index #fullpage .section.page-3 .ask, #buy #fullpage .section.page-3 .ask {
-    display: none;
-  }
-}
-@media only screen and (max-height: 50em) {
-  /* line 508, ../sass/index.scss */
-  #index #fullpage .section.page-3 .ask, #buy #fullpage .section.page-3 .ask {
-    display: none;
-  }
-}
-/* line 532, ../sass/index.scss */
-#index #fullpage .section.page-3 .slick-arrow, #buy #fullpage .section.page-3 .slick-arrow {
-  font-size: 0px;
-  padding: 0;
-  background: none;
-  transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
-}
-/* line 538, ../sass/index.scss */
-#index #fullpage .section.page-3 .slick-arrow:hover, #buy #fullpage .section.page-3 .slick-arrow:hover {
-  opacity: .4;
-}
-/* line 542, ../sass/index.scss */
-#index #fullpage .section.page-3 .slick-arrow:before, #buy #fullpage .section.page-3 .slick-arrow:before {
-  font-family: FontAwesome;
-  font-size: 2rem;
-  display: block;
-}
-/* line 548, ../sass/index.scss */
-#index #fullpage .section.page-3 .slick-arrow.slick-prev, #buy #fullpage .section.page-3 .slick-arrow.slick-prev {
-  margin-bottom: 2rem;
-}
-@media only screen and (max-width: 40em) {
-  /* line 548, ../sass/index.scss */
-  #index #fullpage .section.page-3 .slick-arrow.slick-prev, #buy #fullpage .section.page-3 .slick-arrow.slick-prev {
-    margin-bottom: 0;
-  }
-}
-@media only screen and (max-height: 50em) {
-  /* line 548, ../sass/index.scss */
-  #index #fullpage .section.page-3 .slick-arrow.slick-prev, #buy #fullpage .section.page-3 .slick-arrow.slick-prev {
-    margin-bottom: 0;
-  }
-}
-/* line 559, ../sass/index.scss */
-#index #fullpage .section.page-3 .slick-arrow.slick-prev:before, #buy #fullpage .section.page-3 .slick-arrow.slick-prev:before {
-  content: "\f106";
-}
-/* line 564, ../sass/index.scss */
-#index #fullpage .section.page-3 .slick-arrow.slick-next, #buy #fullpage .section.page-3 .slick-arrow.slick-next {
-  margin-top: 1.5rem;
-}
-@media only screen and (max-width: 40em) {
-  /* line 564, ../sass/index.scss */
-  #index #fullpage .section.page-3 .slick-arrow.slick-next, #buy #fullpage .section.page-3 .slick-arrow.slick-next {
-    margin-top: 0;
-  }
-}
-@media only screen and (max-height: 50em) {
-  /* line 564, ../sass/index.scss */
-  #index #fullpage .section.page-3 .slick-arrow.slick-next, #buy #fullpage .section.page-3 .slick-arrow.slick-next {
-    margin-top: 0;
-  }
-}
-/* line 575, ../sass/index.scss */
-#index #fullpage .section.page-3 .slick-arrow.slick-next:before, #buy #fullpage .section.page-3 .slick-arrow.slick-next:before {
-  content: "\f107";
-}
-/* line 582, ../sass/index.scss */
 #index #fullpage .section.page-4, #buy #fullpage .section.page-4 {
   background-image: url(../img/bg5.jpg);
 }
-/* line 586, ../sass/index.scss */
+/* line 472, ../sass/index.scss */
 #index #fullpage .section.page-4 .page-content ul, #buy #fullpage .section.page-4 .page-content ul {
   display: inline-block;
   margin-bottom: 4rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 586, ../sass/index.scss */
+  /* line 472, ../sass/index.scss */
   #index #fullpage .section.page-4 .page-content ul, #buy #fullpage .section.page-4 .page-content ul {
     margin-bottom: 1rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 586, ../sass/index.scss */
+  /* line 472, ../sass/index.scss */
   #index #fullpage .section.page-4 .page-content ul, #buy #fullpage .section.page-4 .page-content ul {
     margin-bottom: 1rem;
   }
 }
-/* line 598, ../sass/index.scss */
+/* line 484, ../sass/index.scss */
 #index #fullpage .section.page-4 .page-content ul li, #buy #fullpage .section.page-4 .page-content ul li {
   display: inline-block;
   height: 38px;
   margin-bottom: 1rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 603, ../sass/index.scss */
+  /* line 489, ../sass/index.scss */
   #index #fullpage .section.page-4 .page-content ul li span, #buy #fullpage .section.page-4 .page-content ul li span {
     width: 45%;
     display: inline-block;
   }
 }
-/* line 610, ../sass/index.scss */
+/* line 496, ../sass/index.scss */
 #index #fullpage .section.page-4 .page-content ul li img, #buy #fullpage .section.page-4 .page-content ul li img {
   display: inline-block;
   vertical-align: middle;
   margin-right: 0.5rem;
 }
-/* line 616, ../sass/index.scss */
+/* line 502, ../sass/index.scss */
 #index #fullpage .section.page-4 .page-content ul li .fa, #buy #fullpage .section.page-4 .page-content ul li .fa {
   vertical-align: middle;
 }
-/* line 619, ../sass/index.scss */
+/* line 505, ../sass/index.scss */
 #index #fullpage .section.page-4 .page-content ul li .fa.empty, #buy #fullpage .section.page-4 .page-content ul li .fa.empty {
   opacity: .3;
 }
 @media only screen and (max-width: 40em) {
-  /* line 630, ../sass/index.scss */
+  /* line 516, ../sass/index.scss */
   #index #fp-nav, #buy #fp-nav {
     display: none;
   }
 }
-/* line 635, ../sass/index.scss */
+/* line 521, ../sass/index.scss */
 #index #fp-nav.right, #buy #fp-nav.right {
   right: 3.75rem;
 }
 @media only screen and (max-width: 64em) {
-  /* line 635, ../sass/index.scss */
+  /* line 521, ../sass/index.scss */
   #index #fp-nav.right, #buy #fp-nav.right {
     right: 2.5rem;
   }
 }
 @media only screen and (max-height: 50em) {
-  /* line 635, ../sass/index.scss */
+  /* line 521, ../sass/index.scss */
   #index #fp-nav.right, #buy #fp-nav.right {
     right: 2.5rem;
   }
 }
-/* line 648, ../sass/index.scss */
+/* line 534, ../sass/index.scss */
 #index #fp-nav ul li, #buy #fp-nav ul li {
   margin: 0 0 1rem;
   width: 12px;
   height: 12px;
 }
-/* line 653, ../sass/index.scss */
+/* line 539, ../sass/index.scss */
 #index #fp-nav ul li a, #buy #fp-nav ul li a {
   text-align: center;
 }
-/* line 656, ../sass/index.scss */
+/* line 542, ../sass/index.scss */
 #index #fp-nav ul li a span, #buy #fp-nav ul li a span {
   height: 8px;
   width: 8px;
@@ -781,11 +647,11 @@
   margin: -4px 0 0 -4px;
   transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out;
 }
-/* line 663, ../sass/index.scss */
+/* line 549, ../sass/index.scss */
 #index #fp-nav ul li a span:hover, #buy #fp-nav ul li a span:hover {
   background: white;
 }
-/* line 669, ../sass/index.scss */
+/* line 555, ../sass/index.scss */
 #index #fp-nav ul li a.active span, #buy #fp-nav ul li a.active span {
   height: 12px;
   width: 12px;
@@ -793,7 +659,7 @@
   margin: -6px 0 0 -6px;
   border: 2px solid white;
 }
-/* line 676, ../sass/index.scss */
+/* line 562, ../sass/index.scss */
 #index #fp-nav ul li a.active span:hover, #buy #fp-nav ul li a.active span:hover {
   background: transparent;
 }

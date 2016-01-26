@@ -1,0 +1,117 @@
+#index, #virus, #file {
+  .faq-list {
+    ul {
+      li {
+        display: table;
+        height: 5.3rem;
+        margin: 0.4rem 0;
+        outline: none;
+
+        @media only screen and (max-width: 40em) {
+          height: 4rem;
+          margin: 0.25rem 0;
+        }
+
+        @media only screen and (max-height: 50em) {
+          height: 4rem;
+          margin: 0.25rem 0;
+        }
+
+        p {
+          color: #2d2d2d;
+          font-size: 1.188rem;
+          cursor: pointer;
+          background: white;
+          transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+          padding: .5rem;
+
+          @media only screen and (max-width: 40em) {
+            font-size: 1rem;
+          }
+
+          @media only screen and (max-height: 50em) {
+            font-size: 1rem;
+          }
+
+          &:hover {
+            background: #466fd9;
+            color: white;
+          }
+        }
+      }
+    }
+
+    .ask {
+      position: absolute;
+      bottom: 2.72rem;
+      padding: 1.282rem 4rem;
+      left: 50%;
+      margin-left: -150px;
+      z-index: 100;
+
+      @media only screen and (max-width: 64em) {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        margin-left: 0;
+      }
+
+      @media only screen and (max-width: 40em) {
+        display: none;
+      }
+
+      @media only screen and (max-height: 50em) {
+        display: none;
+      }
+    }
+
+    .slick-arrow {
+      font-size: 0px;
+      padding: 0;
+      background: none;
+      transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+
+      &:hover {
+        opacity: .4;
+      }
+
+      &:before {
+        font-family: FontAwesome;
+        font-size: 2rem;
+        display: block;
+      }
+
+      &.slick-prev {
+        margin-bottom: 2rem;
+
+        @media only screen and (max-width: 40em) {
+          margin-bottom: 0;
+        }
+
+        @media only screen and (max-height: 50em) {
+          margin-bottom: 0;
+        }
+
+        &:before {
+          content: "\f106";
+        }
+      }
+
+      &.slick-next {
+        margin-top: 1.5rem;
+
+        @media only screen and (max-width: 40em) {
+          margin-top: 0;
+        }
+
+        @media only screen and (max-height: 50em) {
+          margin-top: 0;
+        }
+
+        &:before {
+          content: "\f107";
+        }
+      }
+    }
+  }
+}

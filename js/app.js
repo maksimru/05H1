@@ -46,6 +46,8 @@ $(document).ready(function(){
     location.reload();
   });
 
+  autosize(document.querySelectorAll('textarea'));
+
   if($('#fullpage').length>0) {
     $('#fullpage').fullpage({
       verticalCentered: false,
@@ -66,7 +68,6 @@ $(document).ready(function(){
     });
   };
   
-
   $(".feature-list li").click(function(e){
     var slideIndex = $(this).index();
     $(".screen-slider").slick('slickGoTo', parseInt(slideIndex));
