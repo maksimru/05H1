@@ -37,9 +37,7 @@
               max-width: calc(100% - 7.5rem);
 
               @media only screen and (max-height: 50em) {
-                max-width: calc(100% - 2rem);
-                margin-bottom: 0;
-                max-height: calc(100% - 20rem);
+                width: 80%;
               }
             }
           }
