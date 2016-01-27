@@ -369,33 +369,72 @@ html, body {
     }
   }
 
-  header, footer, .exit-off-canvas, #fp-nav {
-    transition: transform 500ms ease 0s;
+  header, footer, .exit-off-canvas, #fp-nav, aside, .inner-wrap {
+    transition: margin-left 500ms ease 0s, right 500ms ease 0s !important;
   }
 
-  .move-left>.inner-wrap, header, footer, .exit-off-canvas, #fp-nav {
-
+  #fp-nav.right {
     &.off-canvas-sidemenu {
-      transform: translate3d(-27rem, 0, 0);
+      right: calc(3.75rem + 27rem) !important;
     }
 
     &.off-canvas-feedback {
-      transform: translate3d(-41rem, 0, 0);
+      right: calc(3.75rem + 41rem) !important;
     }
 
     &.off-canvas-question {
-      transform: translate3d(-48.5rem, 0, 0);
+      right: calc(3.75rem + 48.5rem) !important;
+    }
+
+    @media only screen and (max-width: 64em) {
+      &.off-canvas-sidemenu {
+        right: calc(2.5rem + 27rem) !important;
+      }
+
+      &.off-canvas-feedback, &.off-canvas-question {
+        right: calc(2.5rem + 31rem) !important;
+      }
+    }
+
+    @media only screen and (max-height: 50em) {
+      &.off-canvas-sidemenu {
+        right: calc(2.5rem + 27rem) !important;
+      }
+
+      &.off-canvas-feedback, &.off-canvas-question {
+        right: calc(2.5rem + 31rem)!important;
+      }
+    }
+  }
+
+  .move-left>.inner-wrap, header, footer, .exit-off-canvas, #fp-nav, .right-off-canvas-menu {
+    transform: translate3d(0, 0, 0) !important;
+
+    &.right-off-canvas-menu {
+      transform: translate3d(100%, 0, 0) !important;
+    }
+
+    &.off-canvas-sidemenu {
+      margin-left: -27rem;
+    }
+
+    &.off-canvas-feedback {
+      margin-left: -41rem;
+    }
+
+    &.off-canvas-question {
+      margin-left: -48.5rem;
     }
 
     @media only screen and (max-width: 64em) {
       &.off-canvas-feedback, &.off-canvas-question {
-        transform: translate3d(-31rem, 0, 0);
+        margin-left: -31rem;
       }
     }
 
     @media only screen and (max-width: 40em) {
       &.off-canvas-sidemenu, &.off-canvas-feedback, &.off-canvas-question {
-        transform: translate3d(-15.625rem, 0, 0);
+        margin-left: -15.625rem;
       }
     }
   }
