@@ -172,8 +172,9 @@
 #uninstall-guide .common-information .content .clearing-thumbs li .item a, #terms .common-information .content .clearing-thumbs li .item a, #return-policy .common-information .content .clearing-thumbs li .item a, #cloud .common-information .content .clearing-thumbs li .item a {
   display: inline-block;
   margin-bottom: 2.5rem;
+  width: 100%;
 }
-/* line 147, ../sass/common-information.scss */
+/* line 148, ../sass/common-information.scss */
 #uninstall-guide .common-information .content .clearing-thumbs li .item a:after, #terms .common-information .content .clearing-thumbs li .item a:after, #return-policy .common-information .content .clearing-thumbs li .item a:after, #cloud .common-information .content .clearing-thumbs li .item a:after {
   font-family: FontAwesome;
   content: "\f002";
@@ -189,7 +190,7 @@
   left: 0;
   opacity: .25;
 }
-/* line 164, ../sass/common-information.scss */
+/* line 165, ../sass/common-information.scss */
 #uninstall-guide .common-information .content .clearing-thumbs li .item span, #terms .common-information .content .clearing-thumbs li .item span, #return-policy .common-information .content .clearing-thumbs li .item span, #cloud .common-information .content .clearing-thumbs li .item span {
   font-size: 4rem;
   color: #2b2a2a;
@@ -198,12 +199,12 @@
   margin-bottom: 1.5rem;
 }
 @media only screen and (max-width: 64em) {
-  /* line 164, ../sass/common-information.scss */
+  /* line 165, ../sass/common-information.scss */
   #uninstall-guide .common-information .content .clearing-thumbs li .item span, #terms .common-information .content .clearing-thumbs li .item span, #return-policy .common-information .content .clearing-thumbs li .item span, #cloud .common-information .content .clearing-thumbs li .item span {
     font-size: 3rem;
   }
 }
-/* line 176, ../sass/common-information.scss */
+/* line 177, ../sass/common-information.scss */
 #uninstall-guide .common-information .content .clearing-thumbs li .item p, #terms .common-information .content .clearing-thumbs li .item p, #return-policy .common-information .content .clearing-thumbs li .item p, #cloud .common-information .content .clearing-thumbs li .item p {
   font-size: 1.188rem;
   color: #2b2a2a;
@@ -212,19 +213,19 @@
   margin-bottom: 0;
 }
 @media only screen and (max-width: 64em) {
-  /* line 176, ../sass/common-information.scss */
+  /* line 177, ../sass/common-information.scss */
   #uninstall-guide .common-information .content .clearing-thumbs li .item p, #terms .common-information .content .clearing-thumbs li .item p, #return-policy .common-information .content .clearing-thumbs li .item p, #cloud .common-information .content .clearing-thumbs li .item p {
     font-size: 1rem;
     padding: 0 .5rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 176, ../sass/common-information.scss */
+  /* line 177, ../sass/common-information.scss */
   #uninstall-guide .common-information .content .clearing-thumbs li .item p, #terms .common-information .content .clearing-thumbs li .item p, #return-policy .common-information .content .clearing-thumbs li .item p, #cloud .common-information .content .clearing-thumbs li .item p {
     margin-bottom: 1.5rem;
   }
 }
-/* line 196, ../sass/common-information.scss */
+/* line 197, ../sass/common-information.scss */
 #uninstall-guide .common-information .content .clearing-blackout .carousel, #terms .common-information .content .clearing-blackout .carousel, #return-policy .common-information .content .clearing-blackout .carousel, #cloud .common-information .content .clearing-blackout .carousel {
   display: none;
 }

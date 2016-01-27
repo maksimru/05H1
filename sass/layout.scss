@@ -834,6 +834,7 @@ html, body {
 
   .search, .file-name {
     background: url(../img/bg.jpg) no-repeat top center;
+    background-size: cover;
     padding-top: 12.5rem;
 
     @media only screen and (max-height: 50em) {

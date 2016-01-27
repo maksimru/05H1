@@ -972,6 +972,7 @@ html footer .bottom-panel ul li .panel-element .fa, body footer .bottom-panel ul
 /* line 835, ../sass/layout.scss */
 #threats .search, #threats .file-name, #virus .search, #virus .file-name, #file .search, #file .file-name, #uninstall-guide .search, #uninstall-guide .file-name, #terms .search, #terms .file-name, #cloud .search, #cloud .file-name, #return-policy .search, #return-policy .file-name {
   background: url(../img/bg.jpg) no-repeat top center;
+  background-size: cover;
   padding-top: 12.5rem;
 }
 @media only screen and (max-height: 50em) {
@@ -986,7 +987,7 @@ html footer .bottom-panel ul li .panel-element .fa, body footer .bottom-panel ul
     padding-top: 6rem !important;
   }
 }
-/* line 847, ../sass/layout.scss */
+/* line 848, ../sass/layout.scss */
 #threats .search h3, #threats .file-name h3, #virus .search h3, #virus .file-name h3, #file .search h3, #file .file-name h3, #uninstall-guide .search h3, #uninstall-guide .file-name h3, #terms .search h3, #terms .file-name h3, #cloud .search h3, #cloud .file-name h3, #return-policy .search h3, #return-policy .file-name h3 {
   font-size: 2.5rem;
   color: white;
@@ -994,7 +995,7 @@ html footer .bottom-panel ul li .panel-element .fa, body footer .bottom-panel ul
   line-height: 1.5;
 }
 @media only screen and (max-width: 40em) {
-  /* line 847, ../sass/layout.scss */
+  /* line 848, ../sass/layout.scss */
   #threats .search h3, #threats .file-name h3, #virus .search h3, #virus .file-name h3, #file .search h3, #file .file-name h3, #uninstall-guide .search h3, #uninstall-guide .file-name h3, #terms .search h3, #terms .file-name h3, #cloud .search h3, #cloud .file-name h3, #return-policy .search h3, #return-policy .file-name h3 {
     font-size: 1.8rem;
   }
