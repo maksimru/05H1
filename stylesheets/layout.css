@@ -917,37 +917,37 @@ html footer .bottom-panel ul li .panel-element .fa, body footer .bottom-panel ul
 }
 
 /* line 784, ../sass/layout.scss */
-#threats, #virus, #file {
+#threats, #virus, #file, #uninstall-guide, #terms, #cloud, #return-policy {
   height: auto;
   background: #0e1016;
 }
 /* line 788, ../sass/layout.scss */
-#threats header, #threats footer, #virus header, #virus footer, #file header, #file footer {
+#threats header, #threats footer, #virus header, #virus footer, #file header, #file footer, #uninstall-guide header, #uninstall-guide footer, #terms header, #terms footer, #cloud header, #cloud footer, #return-policy header, #return-policy footer {
   position: absolute;
 }
 /* line 792, ../sass/layout.scss */
-#threats footer, #virus footer, #file footer {
+#threats footer, #virus footer, #file footer, #uninstall-guide footer, #terms footer, #cloud footer, #return-policy footer {
   bottom: 0;
 }
 /* line 796, ../sass/layout.scss */
-#threats .search, #threats .file-name, #virus .search, #virus .file-name, #file .search, #file .file-name {
+#threats .search, #threats .file-name, #virus .search, #virus .file-name, #file .search, #file .file-name, #uninstall-guide .search, #uninstall-guide .file-name, #terms .search, #terms .file-name, #cloud .search, #cloud .file-name, #return-policy .search, #return-policy .file-name {
   background: url(../img/bg.jpg) no-repeat top center;
   padding-top: 12.5rem;
 }
 @media only screen and (max-height: 50em) {
   /* line 796, ../sass/layout.scss */
-  #threats .search, #threats .file-name, #virus .search, #virus .file-name, #file .search, #file .file-name {
+  #threats .search, #threats .file-name, #virus .search, #virus .file-name, #file .search, #file .file-name, #uninstall-guide .search, #uninstall-guide .file-name, #terms .search, #terms .file-name, #cloud .search, #cloud .file-name, #return-policy .search, #return-policy .file-name {
     padding-top: 8rem;
   }
 }
 @media only screen and (max-width: 40em) {
   /* line 796, ../sass/layout.scss */
-  #threats .search, #threats .file-name, #virus .search, #virus .file-name, #file .search, #file .file-name {
+  #threats .search, #threats .file-name, #virus .search, #virus .file-name, #file .search, #file .file-name, #uninstall-guide .search, #uninstall-guide .file-name, #terms .search, #terms .file-name, #cloud .search, #cloud .file-name, #return-policy .search, #return-policy .file-name {
     padding-top: 6rem !important;
   }
 }
 /* line 808, ../sass/layout.scss */
-#threats .search h3, #threats .file-name h3, #virus .search h3, #virus .file-name h3, #file .search h3, #file .file-name h3 {
+#threats .search h3, #threats .file-name h3, #virus .search h3, #virus .file-name h3, #file .search h3, #file .file-name h3, #uninstall-guide .search h3, #uninstall-guide .file-name h3, #terms .search h3, #terms .file-name h3, #cloud .search h3, #cloud .file-name h3, #return-policy .search h3, #return-policy .file-name h3 {
   font-size: 2.5rem;
   color: white;
   margin-bottom: 3rem;
@@ -955,7 +955,7 @@ html footer .bottom-panel ul li .panel-element .fa, body footer .bottom-panel ul
 }
 @media only screen and (max-width: 40em) {
   /* line 808, ../sass/layout.scss */
-  #threats .search h3, #threats .file-name h3, #virus .search h3, #virus .file-name h3, #file .search h3, #file .file-name h3 {
+  #threats .search h3, #threats .file-name h3, #virus .search h3, #virus .file-name h3, #file .search h3, #file .file-name h3, #uninstall-guide .search h3, #uninstall-guide .file-name h3, #terms .search h3, #terms .file-name h3, #cloud .search h3, #cloud .file-name h3, #return-policy .search h3, #return-policy .file-name h3 {
     font-size: 1.8rem;
   }
 }

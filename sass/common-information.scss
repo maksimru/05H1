@@ -1,0 +1,201 @@
+#uninstall-guide, #terms, #return-policy, #cloud {
+  background: url(../img/bg.jpg) no-repeat top center;
+
+  .common-information {
+    background: #e6eaf0;
+    margin: 9rem 0;
+    padding-bottom: 4rem;
+
+    @media only screen and (max-width: 64em) {
+      margin-top: 7rem;
+      margin-bottom: 6.5rem;
+    }
+
+    @media only screen and (max-height: 50em) {
+      margin-top: 7rem;
+      margin-bottom: 6.5rem;
+    }
+
+    @media only screen and (max-width: 40em) {
+      margin-top: 5rem;
+      margin-bottom: 7.5rem;
+    }
+
+    hgroup {
+      h4 {
+        color: #2b2a2a;
+        font-size: 2.375rem;
+        margin: 4rem 0rem 3.5rem;
+        line-height: 1.5;
+
+        @media only screen and (max-width: 40em) {
+          font-size: 1.75rem;
+          margin: 2rem 0rem 2rem;
+        }
+      }
+    }
+
+    h5 {
+      font-size: 1.75rem;
+      color: #2b2a2a;
+      margin-bottom: 3rem;
+      line-height: 1.5;
+
+      @media only screen and (max-width: 40em) {
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+      }
+
+      .fa {
+        color: #e3e3e3;
+        font-size: 2rem;
+        margin-right: 0.875rem;
+      }
+
+      &.return-head {
+        color: white;
+        padding-left: 6.5rem;
+        padding: 2rem 2rem 2rem 6.5rem;
+        margin-bottom: 0;
+        background: url(../img/icon4.png) no-repeat 2.5rem center #3b5fbc;
+
+        @media only screen and (max-width: 40em) {
+          padding: 1rem 1rem 1rem 4.5rem;
+          background-position: 1rem center;
+        }
+
+        span {
+          opacity: .65;
+          display: block;
+          font-size: 1rem;
+
+          @media only screen and (max-width: 40em) {
+            font-size: 0.875rem;
+          }
+        }
+      }
+    }
+
+    .content {
+      background: white;
+      padding: 2.25rem;
+
+      @media only screen and (max-width: 40em) {
+        padding: 1rem;
+      }
+
+      p {
+        line-height: 1.5;
+        margin-bottom: 2rem;
+
+        &.img {
+          margin: 0 -2.25rem 2rem;
+
+          @media only screen and (max-width: 40em) {
+            display: none;
+          }
+        }
+
+        @media only screen and (max-width: 40em) {
+          font-size: 0.875rem;
+          margin-bottom: 1rem;
+        }
+      }
+
+      .return-stages {
+        margin-bottom: 3rem;
+
+        @media only screen and (max-width: 40em) {
+          margin-bottom: 2rem;
+        }
+
+        li {
+          padding: 0 0 0 1.5rem;
+
+          &:before {
+            font-family: FontAwesome;
+            content: "\f10c";
+            color: #3b5fbc;
+            position: absolute;
+            left: 0;
+            top: 0.2rem;
+          }
+        }
+      }
+
+      .clearing-thumbs {
+        li {
+          margin-bottom: 1rem;
+
+          .item {
+            border: 1px solid #e3e3e3;
+            height: 21.5rem;
+
+            @media only screen and (max-width: 64em) {
+              height: auto;
+              min-height: 18rem;
+            }
+
+            @media only screen and (max-width: 40em) {
+              height: auto;
+            }
+
+            a {
+              display: inline-block;
+              margin-bottom: 2.5rem;
+
+              &:after {
+                font-family: FontAwesome;
+                content: "\f002";
+                text-align: center;
+                font-size: 1.75rem;
+                color: #cbcbcb;
+                width: 100%;
+                display: inline-block;
+                position: absolute;
+                text-align: center;
+                top: 50%;
+                margin-top: -0.875rem;
+                left: 0;
+                opacity: .25;
+              }
+            }
+
+            span {
+              font-size: 4rem;
+              color: #2b2a2a;
+              display: block;
+              opacity: .2;
+              margin-bottom: 1.5rem;
+
+              @media only screen and (max-width: 64em) {
+                font-size: 3rem;
+              }
+            }
+
+            p {
+              font-size: 1.188rem;
+              color: #2b2a2a;
+              line-height: 1.5;
+              padding: 0 1rem;
+              margin-bottom: 0;
+
+              @media only screen and (max-width: 64em) {
+                font-size: 1rem;
+                padding: 0 .5rem;
+              }
+
+              @media only screen and (max-width: 40em) {
+                margin-bottom: 1.5rem;
+              }
+            }
+          }   
+        }
+      }
+
+      .clearing-blackout .carousel {
+        display: none;
+      } 
+    }
+  }
+}

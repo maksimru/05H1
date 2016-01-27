@@ -3,6 +3,7 @@ window.sr = new scrollReveal({mobile: false});
 $(document).foundation('offcanvas', 'reflow');
 $(document).foundation('dropdown', 'reflow');
 $(document).foundation('tab', 'reflow');
+$(document).foundation('clearing', 'reflow');
 
 $(document).foundation();
 
