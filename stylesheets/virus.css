@@ -1,0 +1,522 @@
+/* line 3, ../sass/virus.scss */
+#virus hgroup h4, #file hgroup h4 {
+  color: #2b2a2a;
+  font-size: 2.375rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 40em) {
+  /* line 3, ../sass/virus.scss */
+  #virus hgroup h4, #file hgroup h4 {
+    font-size: 1.75rem;
+  }
+}
+/* line 14, ../sass/virus.scss */
+#virus hgroup p, #file hgroup p {
+  color: #969696;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 40em) {
+  /* line 14, ../sass/virus.scss */
+  #virus hgroup p, #file hgroup p {
+    font-size: 0.875rem;
+  }
+}
+/* line 25, ../sass/virus.scss */
+#virus .file-name, #file .file-name {
+  padding-top: 8.5rem;
+}
+/* line 28, ../sass/virus.scss */
+#virus .file-name h3, #file .file-name h3 {
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 28, ../sass/virus.scss */
+  #virus .file-name h3, #file .file-name h3 {
+    margin-bottom: 2.5rem;
+  }
+}
+/* line 36, ../sass/virus.scss */
+#virus .file-name .found, #virus .file-name .removed, #virus .file-name .screen, #virus .file-name .win, #file .file-name .found, #file .file-name .removed, #file .file-name .screen, #file .file-name .win {
+  padding: 0;
+}
+@media only screen and (max-width: 40em) {
+  /* line 36, ../sass/virus.scss */
+  #virus .file-name .found, #virus .file-name .removed, #virus .file-name .screen, #virus .file-name .win, #file .file-name .found, #file .file-name .removed, #file .file-name .screen, #file .file-name .win {
+    display: none;
+  }
+}
+/* line 43, ../sass/virus.scss */
+#virus .file-name .found p, #virus .file-name .removed p, #virus .file-name .screen p, #virus .file-name .win p, #file .file-name .found p, #file .file-name .removed p, #file .file-name .screen p, #file .file-name .win p {
+  color: rgba(255, 255, 255, 0.4);
+  padding-top: 12rem;
+}
+@media only screen and (max-width: 64em) {
+  /* line 43, ../sass/virus.scss */
+  #virus .file-name .found p, #virus .file-name .removed p, #virus .file-name .screen p, #virus .file-name .win p, #file .file-name .found p, #file .file-name .removed p, #file .file-name .screen p, #file .file-name .win p {
+    padding-top: 8rem;
+  }
+}
+/* line 51, ../sass/virus.scss */
+#virus .file-name .found p span, #virus .file-name .removed p span, #virus .file-name .screen p span, #virus .file-name .win p span, #file .file-name .found p span, #file .file-name .removed p span, #file .file-name .screen p span, #file .file-name .win p span {
+  font-size: 2.5rem;
+  color: white;
+  display: block;
+}
+/* line 58, ../sass/virus.scss */
+#virus .file-name .found.screen, #virus .file-name .found.win, #virus .file-name .removed.screen, #virus .file-name .removed.win, #virus .file-name .screen.screen, #virus .file-name .screen.win, #virus .file-name .win.screen, #virus .file-name .win.win, #file .file-name .found.screen, #file .file-name .found.win, #file .file-name .removed.screen, #file .file-name .removed.win, #file .file-name .screen.screen, #file .file-name .screen.win, #file .file-name .win.screen, #file .file-name .win.win {
+  padding: 4rem 2rem 0;
+  margin-bottom: 8.75rem;
+}
+/* line 62, ../sass/virus.scss */
+#virus .file-name .found.screen .lens, #virus .file-name .found.win .lens, #virus .file-name .removed.screen .lens, #virus .file-name .removed.win .lens, #virus .file-name .screen.screen .lens, #virus .file-name .screen.win .lens, #virus .file-name .win.screen .lens, #virus .file-name .win.win .lens, #file .file-name .found.screen .lens, #file .file-name .found.win .lens, #file .file-name .removed.screen .lens, #file .file-name .removed.win .lens, #file .file-name .screen.screen .lens, #file .file-name .screen.win .lens, #file .file-name .win.screen .lens, #file .file-name .win.win .lens {
+  background: url(../img/lens-screen.png) no-repeat center;
+  width: 313px;
+  height: 313px;
+  display: table;
+  top: 0;
+  left: 50%;
+  margin-left: -157px;
+  position: absolute;
+}
+/* line 72, ../sass/virus.scss */
+#virus .file-name .found.screen .lens span, #virus .file-name .found.win .lens span, #virus .file-name .removed.screen .lens span, #virus .file-name .removed.win .lens span, #virus .file-name .screen.screen .lens span, #virus .file-name .screen.win .lens span, #virus .file-name .win.screen .lens span, #virus .file-name .win.win .lens span, #file .file-name .found.screen .lens span, #file .file-name .found.win .lens span, #file .file-name .removed.screen .lens span, #file .file-name .removed.win .lens span, #file .file-name .screen.screen .lens span, #file .file-name .screen.win .lens span, #file .file-name .win.screen .lens span, #file .file-name .win.win .lens span {
+  color: #df4045;
+  width: 100%;
+  padding: 3rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/* line 84, ../sass/virus.scss */
+#virus .file-name .found.win .lens, #virus .file-name .removed.win .lens, #virus .file-name .screen.win .lens, #virus .file-name .win.win .lens, #file .file-name .found.win .lens, #file .file-name .removed.win .lens, #file .file-name .screen.win .lens, #file .file-name .win.win .lens {
+  background: url(../img/lens-win.png) no-repeat center;
+}
+/* line 87, ../sass/virus.scss */
+#virus .file-name .found.win .lens span, #virus .file-name .removed.win .lens span, #virus .file-name .screen.win .lens span, #virus .file-name .win.win .lens span, #file .file-name .found.win .lens span, #file .file-name .removed.win .lens span, #file .file-name .screen.win .lens span, #file .file-name .win.win .lens span {
+  top: 0.5rem;
+}
+/* line 93, ../sass/virus.scss */
+#virus .file-name .found.removed, #virus .file-name .removed.removed, #virus .file-name .screen.removed, #virus .file-name .win.removed, #file .file-name .found.removed, #file .file-name .removed.removed, #file .file-name .screen.removed, #file .file-name .win.removed {
+  text-align: right;
+}
+/* line 99, ../sass/virus.scss */
+#virus .threat-description, #file .threat-description {
+  background: #e6eaf0;
+}
+@media only screen and (max-width: 64em) {
+  /* line 99, ../sass/virus.scss */
+  #virus .threat-description, #file .threat-description {
+    padding: 0 1rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 99, ../sass/virus.scss */
+  #virus .threat-description, #file .threat-description {
+    padding: 0;
+  }
+}
+/* line 110, ../sass/virus.scss */
+#virus .threat-description .desc-block, #file .threat-description .desc-block {
+  margin-bottom: 2.5rem;
+}
+/* line 114, ../sass/virus.scss */
+#virus .threat-description .recommendations, #file .threat-description .recommendations {
+  background: white;
+  padding: 2.5rem 1rem;
+  margin-top: -8.75rem;
+  box-shadow: 0 -6rem 10rem black;
+  display: inline-table;
+  vertical-align: top;
+  width: 100%;
+}
+/* line 123, ../sass/virus.scss */
+#virus .threat-description .recommendations p, #file .threat-description .recommendations p {
+  color: #969696;
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 64em) {
+  /* line 114, ../sass/virus.scss */
+  #virus .threat-description .recommendations, #file .threat-description .recommendations {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-height: 50em) {
+  /* line 114, ../sass/virus.scss */
+  #virus .threat-description .recommendations, #file .threat-description .recommendations {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 114, ../sass/virus.scss */
+  #virus .threat-description .recommendations, #file .threat-description .recommendations {
+    margin-top: 0;
+    box-shadow: none;
+  }
+}
+/* line 142, ../sass/virus.scss */
+#virus .threat-description table, #file .threat-description table {
+  width: 100%;
+  border-collapse: separate;
+}
+/* line 147, ../sass/virus.scss */
+#virus .threat-description table.file td, #file .threat-description table.file td {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+@media only screen and (max-width: 40em) {
+  /* line 152, ../sass/virus.scss */
+  #virus .threat-description table.file ul li, #file .threat-description table.file ul li {
+    width: 11rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+/* line 162, ../sass/virus.scss */
+#virus .threat-description table.file p, #file .threat-description table.file p {
+  color: #2b2a2a;
+}
+/* line 165, ../sass/virus.scss */
+#virus .threat-description table.file p i, #file .threat-description table.file p i {
+  color: #4f72cc;
+}
+/* line 171, ../sass/virus.scss */
+#virus .threat-description table tr, #file .threat-description table tr {
+  background: white;
+  color: #2b2a2a;
+}
+/* line 176, ../sass/virus.scss */
+#virus .threat-description table tr:first-of-type td, #file .threat-description table tr:first-of-type td {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* line 181, ../sass/virus.scss */
+#virus .threat-description table tr:last-of-type, #file .threat-description table tr:last-of-type {
+  border-bottom: none;
+}
+/* line 185, ../sass/virus.scss */
+#virus .threat-description table tr th, #file .threat-description table tr th {
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #E5E5E5;
+  font-size: 1.375rem;
+  line-height: 1.5;
+  width: 20%;
+  padding: 1.75rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 185, ../sass/virus.scss */
+  #virus .threat-description table tr th, #file .threat-description table tr th {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
+/* line 199, ../sass/virus.scss */
+#virus .threat-description table tr td, #file .threat-description table tr td {
+  color: #2b2a2a;
+  border-bottom: 1px solid #E5E5E5;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1.75rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 199, ../sass/virus.scss */
+  #virus .threat-description table tr td, #file .threat-description table tr td {
+    font-size: 0.875rem;
+    padding: 1rem;
+  }
+}
+/* line 211, ../sass/virus.scss */
+#virus .threat-description table tr td span, #file .threat-description table tr td span {
+  display: inline-block;
+  white-space: nowrap;
+  border-radius: 100rem;
+  border: 1px solid #dae2f6;
+  padding: .25rem 1.375rem;
+  color: #4f72cc;
+  margin-bottom: 0.375rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 211, ../sass/virus.scss */
+  #virus .threat-description table tr td span, #file .threat-description table tr td span {
+    width: 10.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+/* line 231, ../sass/virus.scss */
+#virus .threat-description .symptoms ul, #file .threat-description .symptoms ul {
+  margin: 2.5rem 0;
+}
+@media only screen and (max-width: 40em) {
+  /* line 231, ../sass/virus.scss */
+  #virus .threat-description .symptoms ul, #file .threat-description .symptoms ul {
+    margin: 1rem 0;
+  }
+}
+/* line 238, ../sass/virus.scss */
+#virus .threat-description .symptoms ul li, #file .threat-description .symptoms ul li {
+  padding: 0 1rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 238, ../sass/virus.scss */
+  #virus .threat-description .symptoms ul li, #file .threat-description .symptoms ul li {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+/* line 246, ../sass/virus.scss */
+#virus .threat-description .symptoms ul li .wrap, #file .threat-description .symptoms ul li .wrap {
+  background: white;
+  padding: 2.5rem 0;
+}
+/* line 250, ../sass/virus.scss */
+#virus .threat-description .symptoms ul li .wrap p, #file .threat-description .symptoms ul li .wrap p {
+  font-size: 1.5rem;
+}
+/* line 254, ../sass/virus.scss */
+#virus .threat-description .symptoms ul li .wrap img, #file .threat-description .symptoms ul li .wrap img {
+  margin-bottom: 2.5rem;
+  display: inline-block;
+}
+/* line 264, ../sass/virus.scss */
+#virus .faq-list, #file .faq-list {
+  background: url(../img/bg.jpg) no-repeat top center;
+  background-size: cover;
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+@media only screen and (max-width: 64em) {
+  /* line 264, ../sass/virus.scss */
+  #virus .faq-list, #file .faq-list {
+    padding: 2.5rem 1rem;
+  }
+}
+/* line 274, ../sass/virus.scss */
+#virus .faq-list hgroup, #file .faq-list hgroup {
+  margin: 1.5rem 0;
+}
+/* line 277, ../sass/virus.scss */
+#virus .faq-list hgroup h4, #file .faq-list hgroup h4 {
+  color: white;
+}
+/* line 281, ../sass/virus.scss */
+#virus .faq-list hgroup p, #file .faq-list hgroup p {
+  color: #757575;
+}
+/* line 286, ../sass/virus.scss */
+#virus .faq-list .list, #file .faq-list .list {
+  margin-bottom: 4rem;
+}
+@media only screen and (max-width: 64em) {
+  /* line 286, ../sass/virus.scss */
+  #virus .faq-list .list, #file .faq-list .list {
+    margin-bottom: 1rem;
+  }
+}
+/* line 294, ../sass/virus.scss */
+#virus .faq-list .ask, #file .faq-list .ask {
+  position: relative !important;
+  display: inline-block;
+  left: auto !important;
+  margin-left: 0 !important;
+}
+@media only screen and (max-width: 40em) {
+  /* line 294, ../sass/virus.scss */
+  #virus .faq-list .ask, #file .faq-list .ask {
+    display: inline-block !important;
+  }
+}
+/* line 306, ../sass/virus.scss */
+#virus .comments, #file .comments {
+  background: #e6eaf0;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  margin-bottom: 9rem;
+}
+@media only screen and (max-width: 64em) {
+  /* line 306, ../sass/virus.scss */
+  #virus .comments, #file .comments {
+    padding: 2.5rem 1rem;
+  }
+}
+@media only screen and (max-height: 50em) {
+  /* line 306, ../sass/virus.scss */
+  #virus .comments, #file .comments {
+    margin-bottom: 6.5rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 306, ../sass/virus.scss */
+  #virus .comments, #file .comments {
+    margin-bottom: 7.5rem;
+  }
+}
+/* line 324, ../sass/virus.scss */
+#virus .comments hgroup, #file .comments hgroup {
+  margin-bottom: 3rem;
+}
+/* line 328, ../sass/virus.scss */
+#virus .comments .comment-list, #file .comments .comment-list {
+  background: white;
+  padding-top: 2.5rem;
+}
+/* line 332, ../sass/virus.scss */
+#virus .comments .comment-list h5, #file .comments .comment-list h5 {
+  padding: 0 2.5rem;
+  color: #262626;
+  margin-bottom: 2.5rem;
+  font-size: 1.75rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 332, ../sass/virus.scss */
+  #virus .comments .comment-list h5, #file .comments .comment-list h5 {
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+}
+/* line 346, ../sass/virus.scss */
+#virus .comments .comment-list .mask, #file .comments .comment-list .mask {
+  display: inline-block;
+  width: 5.5rem;
+  height: 5.5rem;
+  overflow: hidden;
+  border-radius: 100rem;
+}
+@media only screen and (max-width: 64em) {
+  /* line 346, ../sass/virus.scss */
+  #virus .comments .comment-list .mask, #file .comments .comment-list .mask {
+    margin-bottom: 1.5rem;
+  }
+}
+/* line 357, ../sass/virus.scss */
+#virus .comments .comment-list .mask img, #file .comments .comment-list .mask img {
+  max-width: 100%;
+  position: static;
+}
+/* line 363, ../sass/virus.scss */
+#virus .comments .comment-list form, #file .comments .comment-list form {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* line 367, ../sass/virus.scss */
+#virus .comments .comment-list form .fields, #file .comments .comment-list form .fields {
+  padding: 0 2.5rem 0 0;
+}
+@media only screen and (max-width: 64em) {
+  /* line 367, ../sass/virus.scss */
+  #virus .comments .comment-list form .fields, #file .comments .comment-list form .fields {
+    padding: 0 1rem 0 0;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 367, ../sass/virus.scss */
+  #virus .comments .comment-list form .fields, #file .comments .comment-list form .fields {
+    padding: 0 1rem;
+  }
+}
+/* line 379, ../sass/virus.scss */
+#virus .comments .comment-list form input, #virus .comments .comment-list form textarea, #file .comments .comment-list form input, #file .comments .comment-list form textarea {
+  border: 1px solid #e5e5e5;
+  border-radius: 25px;
+  height: 50px;
+  line-height: 1.5;
+  padding: 0.875rem 1.5rem;
+  box-shadow: none;
+}
+/* line 387, ../sass/virus.scss */
+#virus .comments .comment-list form input::-webkit-input-placeholder, #virus .comments .comment-list form textarea::-webkit-input-placeholder, #file .comments .comment-list form input::-webkit-input-placeholder, #file .comments .comment-list form textarea::-webkit-input-placeholder {
+  color: #b8b8b8;
+}
+/* line 388, ../sass/virus.scss */
+#virus .comments .comment-list form input::-moz-placeholder, #virus .comments .comment-list form textarea::-moz-placeholder, #file .comments .comment-list form input::-moz-placeholder, #file .comments .comment-list form textarea::-moz-placeholder {
+  color: #b8b8b8;
+}
+/* line 389, ../sass/virus.scss */
+#virus .comments .comment-list form input:-moz-placeholder, #virus .comments .comment-list form textarea:-moz-placeholder, #file .comments .comment-list form input:-moz-placeholder, #file .comments .comment-list form textarea:-moz-placeholder {
+  color: #b8b8b8;
+}
+/* line 390, ../sass/virus.scss */
+#virus .comments .comment-list form input:-ms-input-placeholder, #virus .comments .comment-list form textarea:-ms-input-placeholder, #file .comments .comment-list form input:-ms-input-placeholder, #file .comments .comment-list form textarea:-ms-input-placeholder {
+  color: #b8b8b8;
+}
+/* line 393, ../sass/virus.scss */
+#virus .comments .comment-list form .socials, #file .comments .comment-list form .socials {
+  padding: 0.5rem 0;
+}
+@media only screen and (max-width: 40em) {
+  /* line 393, ../sass/virus.scss */
+  #virus .comments .comment-list form .socials, #file .comments .comment-list form .socials {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0;
+  }
+}
+/* line 402, ../sass/virus.scss */
+#virus .comments .comment-list form .socials span, #file .comments .comment-list form .socials span {
+  color: #b8b8b8;
+  vertical-align: middle;
+  margin-right: 0.875rem;
+}
+/* line 408, ../sass/virus.scss */
+#virus .comments .comment-list form .socials a, #file .comments .comment-list form .socials a {
+  display: inline-block;
+  width: 2.125rem;
+  height: 2.125rem;
+  color: white;
+  line-height: 2.125rem;
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: 100rem;
+}
+/* line 418, ../sass/virus.scss */
+#virus .comments .comment-list form .socials a.fb, #file .comments .comment-list form .socials a.fb {
+  background: #4f67a4;
+}
+/* line 422, ../sass/virus.scss */
+#virus .comments .comment-list form .socials a.tw, #file .comments .comment-list form .socials a.tw {
+  background: #1ab2f0;
+}
+/* line 426, ../sass/virus.scss */
+#virus .comments .comment-list form .socials a.gp, #file .comments .comment-list form .socials a.gp {
+  background: #e53343;
+}
+/* line 433, ../sass/virus.scss */
+#virus .comments .comment-list ul, #file .comments .comment-list ul {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+/* line 437, ../sass/virus.scss */
+#virus .comments .comment-list ul li, #file .comments .comment-list ul li {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+/* line 441, ../sass/virus.scss */
+#virus .comments .comment-list ul li .comment-wrap, #file .comments .comment-list ul li .comment-wrap {
+  padding: 0 2.5rem 0 0;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 64em) {
+  /* line 441, ../sass/virus.scss */
+  #virus .comments .comment-list ul li .comment-wrap, #file .comments .comment-list ul li .comment-wrap {
+    padding: 0 1rem 0 0;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 441, ../sass/virus.scss */
+  #virus .comments .comment-list ul li .comment-wrap, #file .comments .comment-list ul li .comment-wrap {
+    padding: 0 1rem;
+  }
+}
+/* line 453, ../sass/virus.scss */
+#virus .comments .comment-list ul li .comment-wrap .user, #file .comments .comment-list ul li .comment-wrap .user {
+  font-family: 'Geometria-Medium';
+  margin-bottom: 0.5rem;
+}
+/* line 457, ../sass/virus.scss */
+#virus .comments .comment-list ul li .comment-wrap .user span, #file .comments .comment-list ul li .comment-wrap .user span {
+  font-size: 0.875rem;
+  font-family: 'Geometria-Light';
+  color: #b8b8b8;
+}

@@ -1,0 +1,134 @@
+/* line 4, ../sass/faq.scss */
+#index .faq-list ul li, #virus .faq-list ul li, #file .faq-list ul li {
+  display: table;
+  height: 5.3rem;
+  margin: 0.4rem 0;
+  outline: none;
+}
+@media only screen and (max-width: 40em) {
+  /* line 4, ../sass/faq.scss */
+  #index .faq-list ul li, #virus .faq-list ul li, #file .faq-list ul li {
+    height: 4rem;
+    margin: 0.25rem 0;
+  }
+}
+@media only screen and (max-height: 50em) {
+  /* line 4, ../sass/faq.scss */
+  #index .faq-list ul li, #virus .faq-list ul li, #file .faq-list ul li {
+    height: 4rem;
+    margin: 0.25rem 0;
+  }
+}
+/* line 20, ../sass/faq.scss */
+#index .faq-list ul li p, #virus .faq-list ul li p, #file .faq-list ul li p {
+  color: #2d2d2d;
+  font-size: 1.188rem;
+  cursor: pointer;
+  background: white;
+  transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+  padding: .5rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 20, ../sass/faq.scss */
+  #index .faq-list ul li p, #virus .faq-list ul li p, #file .faq-list ul li p {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-height: 50em) {
+  /* line 20, ../sass/faq.scss */
+  #index .faq-list ul li p, #virus .faq-list ul li p, #file .faq-list ul li p {
+    font-size: 1rem;
+  }
+}
+/* line 36, ../sass/faq.scss */
+#index .faq-list ul li p:hover, #virus .faq-list ul li p:hover, #file .faq-list ul li p:hover {
+  background: #466fd9;
+  color: white;
+}
+/* line 44, ../sass/faq.scss */
+#index .faq-list .ask, #virus .faq-list .ask, #file .faq-list .ask {
+  position: absolute;
+  bottom: 2.72rem;
+  padding: 1.282rem 4rem;
+  left: 50%;
+  margin-left: -150px;
+  z-index: 100;
+}
+@media only screen and (max-width: 64em) {
+  /* line 44, ../sass/faq.scss */
+  #index .faq-list .ask, #virus .faq-list .ask, #file .faq-list .ask {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 44, ../sass/faq.scss */
+  #index .faq-list .ask, #virus .faq-list .ask, #file .faq-list .ask {
+    display: none;
+  }
+}
+@media only screen and (max-height: 50em) {
+  /* line 44, ../sass/faq.scss */
+  #index .faq-list .ask, #virus .faq-list .ask, #file .faq-list .ask {
+    display: none;
+  }
+}
+/* line 68, ../sass/faq.scss */
+#index .faq-list .slick-arrow, #virus .faq-list .slick-arrow, #file .faq-list .slick-arrow {
+  font-size: 0px;
+  padding: 0;
+  background: none;
+  transition: background 300ms ease-out, border 300ms ease-out, color 300ms ease-out, opacity 300ms ease-out;
+}
+/* line 74, ../sass/faq.scss */
+#index .faq-list .slick-arrow:hover, #virus .faq-list .slick-arrow:hover, #file .faq-list .slick-arrow:hover {
+  opacity: .4;
+}
+/* line 78, ../sass/faq.scss */
+#index .faq-list .slick-arrow:before, #virus .faq-list .slick-arrow:before, #file .faq-list .slick-arrow:before {
+  font-family: FontAwesome;
+  font-size: 2rem;
+  display: block;
+}
+/* line 84, ../sass/faq.scss */
+#index .faq-list .slick-arrow.slick-prev, #virus .faq-list .slick-arrow.slick-prev, #file .faq-list .slick-arrow.slick-prev {
+  margin-bottom: 2rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 84, ../sass/faq.scss */
+  #index .faq-list .slick-arrow.slick-prev, #virus .faq-list .slick-arrow.slick-prev, #file .faq-list .slick-arrow.slick-prev {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-height: 50em) {
+  /* line 84, ../sass/faq.scss */
+  #index .faq-list .slick-arrow.slick-prev, #virus .faq-list .slick-arrow.slick-prev, #file .faq-list .slick-arrow.slick-prev {
+    margin-bottom: 0;
+  }
+}
+/* line 95, ../sass/faq.scss */
+#index .faq-list .slick-arrow.slick-prev:before, #virus .faq-list .slick-arrow.slick-prev:before, #file .faq-list .slick-arrow.slick-prev:before {
+  content: "\f106";
+}
+/* line 100, ../sass/faq.scss */
+#index .faq-list .slick-arrow.slick-next, #virus .faq-list .slick-arrow.slick-next, #file .faq-list .slick-arrow.slick-next {
+  margin-top: 1.5rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 100, ../sass/faq.scss */
+  #index .faq-list .slick-arrow.slick-next, #virus .faq-list .slick-arrow.slick-next, #file .faq-list .slick-arrow.slick-next {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-height: 50em) {
+  /* line 100, ../sass/faq.scss */
+  #index .faq-list .slick-arrow.slick-next, #virus .faq-list .slick-arrow.slick-next, #file .faq-list .slick-arrow.slick-next {
+    margin-top: 0;
+  }
+}
+/* line 111, ../sass/faq.scss */
+#index .faq-list .slick-arrow.slick-next:before, #virus .faq-list .slick-arrow.slick-next:before, #file .faq-list .slick-arrow.slick-next:before {
+  content: "\f107";
+}
