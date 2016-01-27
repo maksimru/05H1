@@ -226,6 +226,10 @@
   }
 }
 /* line 197, ../sass/common-information.scss */
+#uninstall-guide .common-information .content .clearing-caption, #terms .common-information .content .clearing-caption, #return-policy .common-information .content .clearing-caption, #cloud .common-information .content .clearing-caption {
+  margin-bottom: 0;
+}
+/* line 201, ../sass/common-information.scss */
 #uninstall-guide .common-information .content .clearing-blackout .carousel, #terms .common-information .content .clearing-blackout .carousel, #return-policy .common-information .content .clearing-blackout .carousel, #cloud .common-information .content .clearing-blackout .carousel {
   display: none;
 }
