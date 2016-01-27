@@ -961,10 +961,6 @@ html footer .bottom-panel ul li .panel-element .fa, body footer .bottom-panel ul
   height: auto;
   background: #0e1016;
 }
-/* line 827, ../sass/layout.scss */
-#threats header, #threats footer, #virus header, #virus footer, #file header, #file footer, #uninstall-guide header, #uninstall-guide footer, #terms header, #terms footer, #cloud header, #cloud footer, #return-policy header, #return-policy footer {
-  position: absolute;
-}
 /* line 831, ../sass/layout.scss */
 #threats footer, #virus footer, #file footer, #uninstall-guide footer, #terms footer, #cloud footer, #return-policy footer {
   bottom: 0;

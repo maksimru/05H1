@@ -132,38 +132,23 @@ jQuery(document).on('open.fndtn.offcanvas', '[data-offcanvas]', function () {
 });
 
 jQuery(document).on('open.fndtn.offcanvas', '[data-offcanvas]', function () {
-    var active_section = $("#fullpage").find("div.section.active");
-    var wrapper_position = $(".inner-wrap").getAbsolute();
-    //top positioned
-    $("header,#fp-nav").each(function (i, o) {
-        $(o).data('old_top', $(o).position().top);
-        $(o).data('old_left', $(o).position().left);
-        $(o).css('top', $(o).position().top + wrapper_position.top + 'px');
-        $(o).css('left', $(o).position().left + wrapper_position.left + 'px');
-    });
-    //bottom positioned
-    $("footer").each(function (i, o) {
-        $(o).data('old_bottom', $(o).css('bottom'));
-        $(o).data('old_left', $(o).position().left);
-        $(o).css('top', $(o).position().top + wrapper_position.top + 'px');
-        $(o).css('left', $(o).position().left + wrapper_position.left + 'px');
-    });
-    $('aside').css('top', (active_section.prev().length > 0 ? $(window).height() + active_section.prev().offset().top : 0));
+    if($("#fullpage").length>0) {
+        var active_section = $("#fullpage").find("div.section.active");
+        $('aside').css('top', (active_section.prev().length > 0 ? $(window).height() + active_section.prev().offset().top : 0));
+    }
+    else if($("#virus,#threats,#file").length>0)
+    {
+        $('aside').css('top', $(window).scrollTop());
+        $(window).disablescroll();
+
+    }
     $("#fp-nav").hide();
 });
 
 jQuery(document).on('close.fndtn.offcanvas', '[data-offcanvas]', function () {
-    //top positioned
-    $("header,#fp-nav").each(function (i, o) {
-        $(o).css('top', $(o).data('old_top') + 'px');
-        $(o).css('left', $(o).data('old_left') + 'px');
-    });
-    //bottom positioned
-    $("footer").each(function (i, o) {
-        $(o).css('top', 'auto');
-        $(o).css('bottom', $(o).data('old_bottom') + 'px');
-        $(o).css('left', $(o).data('old_left') + 'px');
-    });
+    if($("#virus,#threats,#file").length>0){
+        $(window).disablescroll("undo");
+    }
     $("#fp-nav").show();
 });
 
